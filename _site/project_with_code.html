@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.251">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="안지석">
+<meta name="dcterms.date" content="2023-08-21">
+
+<title>안지석 - KIER기술정책플랫폼</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">안지석</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html">Home</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./project_with_code.html" aria-current="page">Project</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./gcam_transportation.qmd">GCAM-KAIST7</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">KIER기술정책플랫폼</h1>
+                      </div>
+  </div>
+    
+  <div class="quarto-title-meta-author">
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-heading">Affiliation</div>
+    
+      <div class="quarto-title-meta-contents">
+      안지석 
+    </div>
+      <div class="quarto-title-meta-contents">
+          <p class="affiliation">
+              한국에너지기술연구원 정책연구실
+            </p>
+        </div>
+      </div>
+
+  <div class="quarto-title-meta">
+
+        
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">August 21, 2023</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">목차</h2>
+   
+  <ul class="collapse">
+  <li><a href="#첫회의" id="toc-첫회의" class="nav-link active" data-scroll-target="#첫회의">2023-08-17 첫회의</a>
+  <ul class="collapse">
+  <li><a href="#추진-방향" id="toc-추진-방향" class="nav-link" data-scroll-target="#추진-방향">추진 방향</a></li>
+  <li><a href="#참여-방법" id="toc-참여-방법" class="nav-link" data-scroll-target="#참여-방법">참여 방법</a></li>
+  <li><a href="#요청-사항8-22까지" id="toc-요청-사항8-22까지" class="nav-link" data-scroll-target="#요청-사항8-22까지">요청 사항(8-22까지)</a></li>
+  <li><a href="#회의-후-데이터-분석---지역별-산업별-전력소비량-분석" id="toc-회의-후-데이터-분석---지역별-산업별-전력소비량-분석" class="nav-link" data-scroll-target="#회의-후-데이터-분석---지역별-산업별-전력소비량-분석">회의 후 데이터 분석 - 지역별 산업별 전력소비량 분석</a></li>
+  </ul></li>
+  <li><a href="#두번째-회의" id="toc-두번째-회의" class="nav-link" data-scroll-target="#두번째-회의">2023-08-22 두번째 회의</a>
+  <ul class="collapse">
+  <li><a href="#요청-사항-취합" id="toc-요청-사항-취합" class="nav-link" data-scroll-target="#요청-사항-취합">요청 사항 취합</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
+
+
+
+
+<section id="첫회의" class="level1 page-columns page-full">
+<h1>2023-08-17 첫회의</h1>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+참여자
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>KIER 기술정책플랫폼 업무 참여자 : 안지석, 최지영 이화랑</p>
+</div>
+</div>
+<section id="추진-방향" class="level2">
+<h2 class="anchored" data-anchor-id="추진-방향">추진 방향</h2>
+<section id="track.1-외부업체-협업-필요인포그래픽인터랙티브" class="level3">
+<h3 class="anchored" data-anchor-id="track.1-외부업체-협업-필요인포그래픽인터랙티브">Track.1 (외부업체 협업 필요)인포그래픽/인터랙티브</h3>
+<p>기획 -&gt; 데이터 분석/시각화 -&gt; 스토리라인 구상 -&gt; 원고 작성 -&gt; 디자인 -&gt; 퍼블리싱</p>
+<ul>
+<li>외부 업체 지원 필수</li>
+<li>우수 레퍼런스 참고하여 아이디어 얻는 게 중요</li>
+<li><a href="https://www.reuters.com/graphics/">Reuters graphics</a></li>
+<li><a href="https://multimedia.scmp.com/culture/article/SCMP-printed-graphics-memory/">SCMP</a></li>
+<li><a href="https://www.nytimes.com/interactive/2021/12/05/business/economy/supply-chain.html?auth=login-google1tap&amp;campaign_id=29&amp;emc=edit_up_20211209&amp;instance_id=47387&amp;login=google1tap&amp;nl=the-upshot&amp;regi_id=136905000&amp;segment_id=76536&amp;te=1&amp;user_id=0f183908c0e3f8d0f23ed9b81a5aaf71">NYT</a></li>
+<li><a href="https://genderdata.worldbank.org/data-stories/flfp-data-story/">WORLD BANK</a></li>
+<li><a href="https://www.kier.re.kr/tpp/energy/B/view/54?contentsName=k_valance_old&amp;menuId=MENU00961">K-에너지밸런스</a></li>
+</ul>
+</section>
+<section id="track2.-made-in-kier-100energydata" class="level3">
+<h3 class="anchored" data-anchor-id="track2.-made-in-kier-100energydata">Track2. (Made in KIER 100%)<a href="https://www.kier.re.kr/tpp/tppBoard/list?menuId=MENU00962">Energy&amp;Data</a></h3>
+<p>기획 -&gt; 데이터 분석/시각화 -&gt; 스토리라인 구상 -&gt; html로 원고 작성 -&gt; 관리자 모드를 통한 퍼블리싱</p>
+<ul>
+<li>정책연구실 자체적으로 제작 가능</li>
+<li>데이터 시각화, 텍스트 마이닝, 네트워크 분석 등 다양한 시도 가능</li>
+<li>데이터 시각화의 정수 <a href="https://www.economist.com/graphic-detail">Economist - Graphic detail</a></li>
+</ul>
+</section>
+</section>
+<section id="참여-방법" class="level2">
+<h2 class="anchored" data-anchor-id="참여-방법">참여 방법</h2>
+<ul>
+<li>재밌고 자발적으로</li>
+<li>코딩을 배우거나 시도하고 싶다면 <a href="https://coreanjs.github.io/jiseok_KIER/docs/blog/posts/2023-08-24-visualization/">Github을 통한 공유</a> 가능</li>
+<li>새로운 시도
+<ul>
+<li>R</li>
+<li>Python</li>
+<li><a href="https://quarto.org/docs/authoring/markdown-basics.html">Quarto</a>, github 등</li>
+<li><a href="https://gist.github.com/ihoneymon/652be052a0727ad59601">Markdown</a></li>
+</ul></li>
+<li>데이터분석/시각화는 언제든 협조</li>
+</ul>
+</section>
+<section id="요청-사항8-22까지" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="요청-사항8-22까지">요청 사항(8-22까지)</h2>
+<p>어떤 콘텐츠를 기획하고 제작할지 개인당 3개 이상씩 조사</p>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="aside">자세하게 설명해주시면 감사하겠습니다.</span></div></div>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+예시
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>2022년 국가연구개발사업 데이터 분석 및 인포그래픽 제작<br>
+방법:트리맵, 인터랙티브<br>
+자료 출처: KISTEP</p>
+</div>
+</div>
+</section>
+<section id="회의-후-데이터-분석---지역별-산업별-전력소비량-분석" class="level2">
+<h2 class="anchored" data-anchor-id="회의-후-데이터-분석---지역별-산업별-전력소비량-분석">회의 후 데이터 분석 - 지역별 산업별 전력소비량 분석</h2>
+<ul>
+<li>1990-2021 지역별, 산업별 전력소비량 데이터</li>
+<li>데이터 출처: KESIS, KEPCO</li>
+</ul>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>KESIS_elec_consumption_raw<span class="ot">&lt;-</span> <span class="fu">read_excel</span>(<span class="st">"KESIS_지역별_산업분류별_전력소비량_extracted.xlsx"</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_longer</span>( <span class="sc">-</span><span class="fu">c</span>(<span class="st">'region'</span>, <span class="st">'type'</span>), <span class="at">names_to=</span><span class="st">"year"</span>, <span class="at">values_to=</span><span class="st">"GWh"</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">GWh =</span><span class="fu">round</span>(GWh,<span class="dv">1</span>))</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>KESIS_elec_consumption_raw</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 3,264 × 4
+   region type   year    GWh
+   &lt;chr&gt;  &lt;chr&gt;  &lt;chr&gt; &lt;dbl&gt;
+ 1 서울   가정용 1990  5183.
+ 2 서울   가정용 1991  5498.
+ 3 서울   가정용 1992  5976.
+ 4 서울   가정용 1993  6448.
+ 5 서울   가정용 1994  7116 
+ 6 서울   가정용 1995  7299.
+ 7 서울   가정용 1996  7687.
+ 8 서울   가정용 1997  8069.
+ 9 서울   가정용 1998  8041.
+10 서울   가정용 1999  8518.
+# … with 3,254 more rows</code></pre>
+</div>
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 산업분류 어떻게 구분되는지 확인해보면</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">unique</span>(KESIS_elec_consumption_raw<span class="sc">$</span>type)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "가정용"   "공공용"   "서비스업" "농림어업" "광업"     "제조업"  </code></pre>
+</div>
+</div>
+<div class="cell" data-layout-align="center" data-out.wigth="80%">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">max</span>(KESIS_elec_consumption_raw<span class="sc">$</span>year) <span class="ot">-&gt;</span> max_year</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>KESIS_elec_consumption_2021<span class="ot">&lt;-</span> KESIS_elec_consumption_raw <span class="sc">%&gt;%</span> </span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(year <span class="sc">==</span> <span class="dv">2021</span>)</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="do">##지표표기 옵션</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="fu">options</span>(<span class="st">"scipen"</span> <span class="ot">=</span> <span class="dv">100</span>)</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="do">## 폰트</span></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(showtext)</span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(extrafont)</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a><span class="fu">showtext_auto</span>()</span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a><span class="fu">font_add_google</span>(<span class="st">"Nanum Gothic"</span>, <span class="st">"nanumgothic"</span>)</span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a><span class="fu">font_add_google</span>(<span class="st">"Poor Story"</span>, <span class="st">"poorstory"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(knitr)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>table_2021<span class="ot">&lt;-</span>KESIS_elec_consumption_2021<span class="sc">%&gt;%</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">TWh=</span><span class="fu">round</span>(GWh<span class="sc">/</span><span class="dv">1000</span>, <span class="dv">1</span>)) <span class="sc">%&gt;%</span> </span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(region, type, TWh) <span class="sc">%&gt;%</span> </span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_wider</span>(<span class="at">names_from =</span><span class="st">"type"</span>, <span class="at">values_from=</span><span class="st">"TWh"</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="st">`</span><span class="at">합계</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">rowSums</span>(<span class="fu">across</span>(<span class="fu">where</span>(is.numeric)))) <span class="sc">%&gt;%</span> </span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(region, 제조업, 서비스업, 가정용, 공공용, 농림어업, 광업, 합계) <span class="sc">%&gt;%</span> </span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(<span class="st">`</span><span class="at">합계</span><span class="st">`</span>))</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a><span class="fu">kable</span>(table_2021)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<table class="table table-sm table-striped">
+<thead>
+<tr class="header">
+<th style="text-align: left;">region</th>
+<th style="text-align: right;">제조업</th>
+<th style="text-align: right;">서비스업</th>
+<th style="text-align: right;">가정용</th>
+<th style="text-align: right;">공공용</th>
+<th style="text-align: right;">농림어업</th>
+<th style="text-align: right;">광업</th>
+<th style="text-align: right;">합계</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">경기</td>
+<td style="text-align: right;">66.4</td>
+<td style="text-align: right;">37.3</td>
+<td style="text-align: right;">20.8</td>
+<td style="text-align: right;">5.9</td>
+<td style="text-align: right;">2.7</td>
+<td style="text-align: right;">0.3</td>
+<td style="text-align: right;">133.4</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">충남</td>
+<td style="text-align: right;">34.6</td>
+<td style="text-align: right;">7.2</td>
+<td style="text-align: right;">3.2</td>
+<td style="text-align: right;">1.1</td>
+<td style="text-align: right;">2.3</td>
+<td style="text-align: right;">0.3</td>
+<td style="text-align: right;">48.7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">서울</td>
+<td style="text-align: right;">1.5</td>
+<td style="text-align: right;">27.5</td>
+<td style="text-align: right;">14.7</td>
+<td style="text-align: right;">3.6</td>
+<td style="text-align: right;">0.0</td>
+<td style="text-align: right;">0.0</td>
+<td style="text-align: right;">47.3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">경북</td>
+<td style="text-align: right;">27.7</td>
+<td style="text-align: right;">8.8</td>
+<td style="text-align: right;">3.7</td>
+<td style="text-align: right;">1.7</td>
+<td style="text-align: right;">2.1</td>
+<td style="text-align: right;">0.2</td>
+<td style="text-align: right;">44.2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">경남</td>
+<td style="text-align: right;">18.0</td>
+<td style="text-align: right;">9.0</td>
+<td style="text-align: right;">4.8</td>
+<td style="text-align: right;">1.4</td>
+<td style="text-align: right;">2.4</td>
+<td style="text-align: right;">0.1</td>
+<td style="text-align: right;">35.7</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">전남</td>
+<td style="text-align: right;">20.3</td>
+<td style="text-align: right;">5.7</td>
+<td style="text-align: right;">2.6</td>
+<td style="text-align: right;">1.4</td>
+<td style="text-align: right;">3.5</td>
+<td style="text-align: right;">0.1</td>
+<td style="text-align: right;">33.6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">울산</td>
+<td style="text-align: right;">27.8</td>
+<td style="text-align: right;">3.5</td>
+<td style="text-align: right;">1.6</td>
+<td style="text-align: right;">0.5</td>
+<td style="text-align: right;">0.1</td>
+<td style="text-align: right;">0.0</td>
+<td style="text-align: right;">33.5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">충북</td>
+<td style="text-align: right;">18.2</td>
+<td style="text-align: right;">5.4</td>
+<td style="text-align: right;">2.4</td>
+<td style="text-align: right;">1.4</td>
+<td style="text-align: right;">0.9</td>
+<td style="text-align: right;">0.1</td>
+<td style="text-align: right;">28.4</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">인천</td>
+<td style="text-align: right;">11.5</td>
+<td style="text-align: right;">7.6</td>
+<td style="text-align: right;">4.6</td>
+<td style="text-align: right;">0.9</td>
+<td style="text-align: right;">0.2</td>
+<td style="text-align: right;">0.1</td>
+<td style="text-align: right;">24.9</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">전북</td>
+<td style="text-align: right;">10.9</td>
+<td style="text-align: right;">5.1</td>
+<td style="text-align: right;">2.6</td>
+<td style="text-align: right;">1.1</td>
+<td style="text-align: right;">1.7</td>
+<td style="text-align: right;">0.1</td>
+<td style="text-align: right;">21.5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">부산</td>
+<td style="text-align: right;">7.2</td>
+<td style="text-align: right;">7.5</td>
+<td style="text-align: right;">5.0</td>
+<td style="text-align: right;">1.3</td>
+<td style="text-align: right;">0.1</td>
+<td style="text-align: right;">0.0</td>
+<td style="text-align: right;">21.1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">강원</td>
+<td style="text-align: right;">5.4</td>
+<td style="text-align: right;">6.4</td>
+<td style="text-align: right;">2.3</td>
+<td style="text-align: right;">1.5</td>
+<td style="text-align: right;">0.8</td>
+<td style="text-align: right;">0.5</td>
+<td style="text-align: right;">16.9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">대구</td>
+<td style="text-align: right;">5.5</td>
+<td style="text-align: right;">5.6</td>
+<td style="text-align: right;">3.5</td>
+<td style="text-align: right;">0.9</td>
+<td style="text-align: right;">0.1</td>
+<td style="text-align: right;">0.0</td>
+<td style="text-align: right;">15.6</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">대전</td>
+<td style="text-align: right;">2.4</td>
+<td style="text-align: right;">4.1</td>
+<td style="text-align: right;">2.1</td>
+<td style="text-align: right;">1.1</td>
+<td style="text-align: right;">0.0</td>
+<td style="text-align: right;">0.0</td>
+<td style="text-align: right;">9.7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">광주</td>
+<td style="text-align: right;">2.8</td>
+<td style="text-align: right;">3.3</td>
+<td style="text-align: right;">2.2</td>
+<td style="text-align: right;">0.6</td>
+<td style="text-align: right;">0.1</td>
+<td style="text-align: right;">0.0</td>
+<td style="text-align: right;">9.0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">제주</td>
+<td style="text-align: right;">0.3</td>
+<td style="text-align: right;">2.6</td>
+<td style="text-align: right;">1.0</td>
+<td style="text-align: right;">0.3</td>
+<td style="text-align: right;">1.4</td>
+<td style="text-align: right;">0.0</td>
+<td style="text-align: right;">5.6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">세종</td>
+<td style="text-align: right;">1.7</td>
+<td style="text-align: right;">1.5</td>
+<td style="text-align: right;">0.6</td>
+<td style="text-align: right;">0.3</td>
+<td style="text-align: right;">0.1</td>
+<td style="text-align: right;">0.0</td>
+<td style="text-align: right;">4.2</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>KESIS_elec_consumption_2021 <span class="sc">%&gt;%</span> </span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(type) <span class="sc">%&gt;%</span> </span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">GWh =</span> <span class="fu">sum</span>(GWh)) <span class="sc">%&gt;%</span> </span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(GWh)) <span class="sc">%&gt;%</span> </span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pull</span>(type) <span class="ot">-&gt;</span>type_level</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>type_level</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "제조업"   "서비스업" "가정용"   "공공용"   "농림어업" "광업"    </code></pre>
+</div>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="project_with_code_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid figure-img" style="width:60.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="project_with_code_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid figure-img" style="width:60.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell" data-layout-align="center">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>KESIS_elec_consumption_2021 <span class="sc">%&gt;%</span> </span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(region) <span class="sc">%&gt;%</span> </span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">GWh =</span> <span class="fu">sum</span>(GWh)) <span class="sc">%&gt;%</span> </span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(GWh)) <span class="sc">%&gt;%</span> </span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pull</span>(region) <span class="ot">-&gt;</span>region_level</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>region_level</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1] "경기" "충남" "서울" "경북" "경남" "울산" "전남" "충북" "인천" "전북"
+[11] "부산" "강원" "대구" "대전" "광주" "제주" "세종"</code></pre>
+</div>
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggtext)  <span class="do">## element_markdown</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>KESIS_elec_consumption_2021 <span class="sc">%&gt;%</span> </span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(region, type) <span class="sc">%&gt;%</span> </span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">GWh =</span> <span class="fu">sum</span>(GWh),</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">TWh =</span> GWh<span class="sc">/</span><span class="dv">1000</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>  <span class="co">#mutate(color_label =ifelse(type =="제조업", "1", "2")) %&gt;%</span></span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">color_label =</span><span class="fu">case_when</span>(type <span class="sc">==</span><span class="st">"제조업"</span> <span class="sc">~</span> <span class="st">"1"</span>,</span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>                                type <span class="sc">==</span><span class="st">"서비스업"</span> <span class="sc">~</span><span class="st">"2"</span>,</span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>                                <span class="cn">TRUE</span> <span class="sc">~</span> <span class="st">"3"</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">fct_relevel</span>(type, <span class="fu">rev</span>(type_level)), <span class="at">y =</span> TWh, <span class="at">fill =</span> color_label))<span class="sc">+</span></span>
+<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>()<span class="sc">+</span></span>
+<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">limits =</span><span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">80</span>))<span class="sc">+</span></span>
+<span id="cb11-14"><a href="#cb11-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"#ea1117"</span>, <span class="st">"#1f5f97"</span>, <span class="st">'#b3b09e'</span>))<span class="sc">+</span></span>
+<span id="cb11-15"><a href="#cb11-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>()<span class="sc">+</span></span>
+<span id="cb11-16"><a href="#cb11-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_bw</span>()<span class="sc">+</span></span>
+<span id="cb11-17"><a href="#cb11-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()<span class="sc">+</span></span>
+<span id="cb11-18"><a href="#cb11-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="fu">aes</span>(<span class="at">label =</span> <span class="fu">round</span>(TWh, <span class="dv">1</span>)),<span class="at">size =</span> <span class="dv">5</span>, <span class="at">family=</span> <span class="st">'nanumgothic'</span>, <span class="at">hjust =</span> <span class="sc">-</span>.<span class="dv">2</span>)<span class="sc">+</span></span>
+<span id="cb11-19"><a href="#cb11-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span><span class="fu">fct_relevel</span>(region, region_level),<span class="at">ncol =</span> <span class="dv">4</span>)<span class="sc">+</span></span>
+<span id="cb11-20"><a href="#cb11-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">text=</span> <span class="fu">element_text</span>(<span class="at">size=</span> <span class="dv">22</span>, <span class="at">family=</span> <span class="st">'nanumgothic'</span>),</span>
+<span id="cb11-21"><a href="#cb11-21" aria-hidden="true" tabindex="-1"></a>        <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">30</span>),</span>
+<span id="cb11-22"><a href="#cb11-22" aria-hidden="true" tabindex="-1"></a>         <span class="at">strip.text =</span> <span class="fu">element_textbox</span>(</span>
+<span id="cb11-23"><a href="#cb11-23" aria-hidden="true" tabindex="-1"></a>      <span class="at">size =</span> <span class="dv">22</span>,</span>
+<span id="cb11-24"><a href="#cb11-24" aria-hidden="true" tabindex="-1"></a>      <span class="at">color =</span> <span class="st">"white"</span>, <span class="at">fill =</span> <span class="st">"#5D729D"</span>, <span class="at">box.color =</span> <span class="st">"#4A618C"</span>,</span>
+<span id="cb11-25"><a href="#cb11-25" aria-hidden="true" tabindex="-1"></a>      <span class="at">halign =</span> <span class="fl">0.5</span>, <span class="at">linetype =</span> <span class="dv">1</span>, <span class="at">r =</span> <span class="fu">unit</span>(<span class="dv">5</span>, <span class="st">"pt"</span>), <span class="at">width =</span> <span class="fu">unit</span>(<span class="dv">1</span>, <span class="st">"npc"</span>),</span>
+<span id="cb11-26"><a href="#cb11-26" aria-hidden="true" tabindex="-1"></a>      <span class="at">padding =</span> <span class="fu">margin</span>(<span class="dv">2</span>, <span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">0</span>), <span class="at">margin =</span> <span class="fu">margin</span>(<span class="dv">3</span>, <span class="dv">3</span>, <span class="dv">3</span>, <span class="dv">3</span>)),</span>
+<span id="cb11-27"><a href="#cb11-27" aria-hidden="true" tabindex="-1"></a>        <span class="at">plot.title.position =</span> <span class="st">"plot"</span>,</span>
+<span id="cb11-28"><a href="#cb11-28" aria-hidden="true" tabindex="-1"></a>      <span class="at">legend.position =</span><span class="st">"none"</span>)<span class="sc">+</span></span>
+<span id="cb11-29"><a href="#cb11-29" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">""</span>,</span>
+<span id="cb11-30"><a href="#cb11-30" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">""</span>,</span>
+<span id="cb11-31"><a href="#cb11-31" aria-hidden="true" tabindex="-1"></a>       <span class="at">title =</span><span class="st">"2021년 대한민국 지역별 산업분류별 전력소비량"</span>,</span>
+<span id="cb11-32"><a href="#cb11-32" aria-hidden="true" tabindex="-1"></a>       <span class="at">subtitle =</span><span class="st">""</span>,</span>
+<span id="cb11-33"><a href="#cb11-33" aria-hidden="true" tabindex="-1"></a>       <span class="at">caption =</span> <span class="st">"Souce :KESIS, KEPCO, Graphic :Jiseok"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stderr">
+<pre><code>`summarise()` has grouped output by 'region'. You can override using the
+`.groups` argument.</code></pre>
+</div>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="project_with_code_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="두번째-회의" class="level1">
+<h1>2023-08-22 두번째 회의</h1>
+<section id="요청-사항-취합" class="level2">
+<h2 class="anchored" data-anchor-id="요청-사항-취합">요청 사항 취합</h2>
+<p><a href="#참여자">2023-08-17 회의 후 요청사항</a> 정리</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

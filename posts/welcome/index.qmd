@@ -1,0 +1,28 @@
+---
+title: "Global Stocktake: to limit global warming to 1.5°C, continued ratcheting of decarbonization is needed"
+author: "KAIST IAM Group"
+date: last-modified
+categories: [news]
+fig-align: center
+image: "image.png"
+---
+
+Under the 2015 Paris Agreement, countries are mandated to submit Nationally Determined Contributions (NDCs) outlining their climate goals and actions for reducing greenhouse gas emissions by 2025 or 2030.
+
+In a new commentary in One Earth, the international group of researchers from Korea, China, and the U.S. take stock of the current NDCs and assess the need to increase near-term decarbonization ambition to limit global warming to 1.5°C.
+
+KAIST Graduate School of Green Growth & Sustainability visiting professor Haewon McJeon stated that "while the NDCs submitted at COP26 in November 2021 collectively steered us toward limiting global temperature rise to under 2°C by the century's end but fell short of the ambitious 1.5°C goal."
+
+COP28's central focus is on the Global Stocktake (GST), designed to assess countries' progress toward their NDCs and the Agreement's long-term objectives. While evaluating progress remains key, the GST also aims to pinpoint priority areas for enhanced ambition to align with the Paris Agreement's long-term goal of keeping global temperature increase below 1.5°C. Three critical policy areas stand out: non-CO2 gases, carbon dioxide removal (CDR), and deforestation. Decision-makers are urged to concentrate their efforts in these areas during COP28 and the GST to better align countries' commitments with the Paris Agreement's long-term climate objectives.
+
+![](image2.png)
+
+![](image.png)
+
+The initial NDCs submitted after the 2015 Paris Agreement fell short of the 2°C target, with a high risk of exceeding 3°C. COP26 showcased the Agreement's ratcheting mechanism, resulting in updated NDCs and ambitious decarbonization pledges. If countries maintain a 2% decarbonization rate beyond 2030, there's a \>50% chance of limiting end-of-century warming to \<2°C, rising to nearly 70% with a 5% rate. However, achieving the aspirational 1.5°C goal remains unlikely, necessitating further ambition. Even with enhanced ambition, global temperatures may temporarily exceed 1.5°C this century, making near-term collective ambition vital to limit temperature overshooting and incentivize R&D in technologies like carbon dioxide removal, accelerate fossil fuel phase-out, and engage the private sector for cost-effective long-term GHG reductions.
+
+Key gaps persist in climate policy despite progress. Addressing non-CO2 emissions, carbon dioxide removal (CDR), and halting deforestation is crucial. Reducing non-CO2 emissions by 2030 can help curb temperature rise and overshooting the 1.5°C threshold, impacting global temperature change. CDR, essential for achieving net-zero emissions, lacks detailed plans in many countries' commitments. There's a gap between proposed CDR levels and what's needed for Paris goals, and current technologies are not ready or cost-effective. Incentivizing research and development in novel CDR methods is vital. Halting deforestation is paramount, as it contributes significantly to emissions, but despite commitments, deforestation continues, driven by commercial crop expansion. Closing these policy gaps is essential for effective climate action.
+
+Achieving deeper near-term reductions in non-CO2 emissions is feasible through various technological solutions, including end-of-pipe control measures and behavioral changes like dietary shifts. Some post-COP26 efforts, such as the United States Inflation Reduction Act and China's policies addressing methane emissions, demonstrate increased ambition in this regard. However, global ambition in non-CO2 emission reductions should encompass a broader range of gases, account for emissions from all sectors, and prioritize R&D for long-term solutions. Additionally, scaling up carbon dioxide removal (CDR) measures is essential, requiring increased investment in a diverse portfolio of CDR technologies beyond current efforts. Effective emissions trading mechanisms for CDR necessitate robust accounting rules and monitoring frameworks, as well as consideration of synergies and tradeoffs with other sustainability priorities.
+
+Implications for Korea: Korea has set an ambitious goal to achieve carbon neutrality, but to contribute meaningfully to global collective action and achieve the 1.5°C goal, there is a need for strengthening near-term NDCs. Faster coal-fired powerplant retirement and rapid increase in clean power generation will be critical near-term steps.

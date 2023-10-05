@@ -1,0 +1,39 @@
+project:
+  title: "KAIST IAM Group"
+  type: website  ### 이거 빠지면 안됌
+  output-dir: docs
+  
+  
+  
+website:
+  title: "KAIST IAM Group"
+  favicon: "./img/analysis.png"
+  open-graph: true
+  twitter-card: true
+  site-url: https://github.com/GCAM-KAIST
+  repo-url: https://github.com/GCAM-KAIST
+  navbar: 
+    left: 
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About us
+      - href: documentation.qmd
+        text: Documentation
+      - href: gcam_transportation.qmd
+        text: GCAM-KAIST7
+      - href: publications.qmd
+        text: Publications
+        
+    right:
+      - icon: twitter
+        href: https://twitter.com/KAISTIAM
+        aria-label: Twitter
+      - icon: github
+        href: https://github.com/GCAM-KAIST
+        aria-label: GitHub
+      
+  
+  
+editor: visual
+

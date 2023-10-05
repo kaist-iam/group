@@ -1,0 +1,88 @@
+---
+title: "Getting started with GCAM"
+subtitle: "GCAM101 for beginners"
+format:
+  revealjs: 
+    slide-number: true
+  #  chalkboard: 
+  #    buttons: false
+  #  preview-links: auto
+   # logo: fig/quarto.png
+   # css: css/styles.css
+    footer: <https://quarto.org>
+---
+
+# Living Document
+
+## 1. Prerequisites  
+* [Github](https://github.com/GCAM-KAIST/gcam-core): Sign up for github account and email me to give you access to GCAM-KAIST
+* Git client: download a git client of your choice.
+  * [TortoiseGit](https://tortoisegit.org/) : old school client
+  * [Github desktop](https://desktop.github.com/) : standard github client
+  * [git for windows](https://gitforwindows.org/) : command line based professional git client
+* [XML marker 1.1](https://symbolclick.com/xmlmarker_1_1_setup.exe): make sure you get the older 1.1 version
+* [R](https://posit.co/download/rstudio-desktop/)
+
+## 2. Useful Instruction
+* [GCAM tutorial](https://jgcri.github.io/gcam_training/gcam.html)
+* [Git](https://www.jrebel.com/blog/git-cheat-sheet)
+* [GCAM](https://jgcri.github.io/gcam-doc/user-guide.html)
+* [gcamdata](https://jgcri.github.io/gcamdata/articles/getting-started/getting-started.html)
+* Useful guide/PPT slides from [gcam-training](https://github.com/JGCRI/gcam_training/tree/main/presentations) 
+
+## 3. Running GCAM release
+1. [GCAM](https://jgcri.github.io/gcam-doc/user-guide.html)
+2. Download [standard GCAM release](https://github.com/JGCRI/gcam-core/releases/tag/gcam-v7.0)
+3. Set up some prerequisite apps and run!
+
+## 4. Making your own git branch
+:::{.callout-note}
+if anything on github is confusing, just ask chatGPT!
+:::
+1. Go to [GCAM-KAIST](https://github.com/GCAM-KAIST/gcam-core).
+
+2. Pick a branch to start from (currently: hcm/proj/kaist7update).
+
+3. Create your own branch [you own this. No one else will make changes to your own branch].
+
+4. [git clone](https://github.com/GCAM-KAIST/gcam-core.git) [this creates a full repo of GCAM-KAIST].
+
+5. git checkout [your branch name] [this sets your branch on your own computer].
+
+6. Try making a small inconsequential change. Such as adding a small xml file in the input/policy folder.
+
+7. git add [file you added].
+
+8. git commit [this will commit all files you added/changed]. 
+
+9. git push.
+
+10. Confirm that your commit has been correctly pushed to github.
+
+11.  (if you are happy with your development, and would like it to be applied to ALL GCAM-KAIST users) create a pull request (PR) [back into the main GCAM-KAIST repo].
+
+12. Assign me (d3y419) as the reviewer. I’ll review the PR and merge as needed.
+
+# Transition to GCAM-KAIST 7.0: Instructions and Next Steps
+
+As we embark on an exciting and crucial phase of updating our energy assessment model from GCAM-KAIST 2.0 to GCAM-KAIST 7.0, the following instructions and guidelines will ensure a smooth transition. Each one of the team is responsible for a particular XML file which is identified in the following [link](gcam-kaist-upgrade7b.xlsx).
+
+
+## 1. Download the Required Versions
+GCAM 7.0 Official Release by JCRI: You can download this latest version from the following [link](https://github.com/JGCRI/gcam-core/releases/download/gcam-v7.0/gcam-v7.0-Windows-Release-Package.zip).
+
+
+GCAM-KAIST 2.0: This is our specialized version at KAIST. Please download it using the [link](https://o365kaist-my.sharepoint.com/:f:/g/personal/ahmeds_office_kaist_ac_kr/EuCnuJZbojFLjz5o0q3dwaYBQ4QihxB_7z8umGiHIeos8A?e=jnZFqE) .
+
+## 2. Analyze the Differences
+XML File Comparison: Please compare the XML files between the two versions as per your specific task in the google sheet.
+Document the Differences: Note any discrepancies, changes, or new features. This will help us understand what needs to be transferred or adapted.
+
+## 3. Update GCAM 7.0 with GCAM-KAIST 2.0 Data
+Modify the Original GCAM 7.0 XML Files: Replace the necessary data with the corresponding data from GCAM-KAIST 2.0.
+Follow the Evolution Process: This is vital to complete the transformation from GCAM-KAIST 2.0 to GCAM-KAIST 7.0 by checking the "comparison with GCAM-KAIST2" column in google sheet. After running the scenario, you can check if the results are different from GCAM-KAIST2.0 or not.
+
+## 4. Prepare for Tomorrow's Meeting
+Clarification of Differences: Be prepared to discuss the differences you've identified and how you've addressed them.
+
+

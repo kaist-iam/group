@@ -1,0 +1,42 @@
+---
+title: "Digital writing with Quarto"
+subtitle: "Quarto & Create beautiful interactive slide decks with Reveal.js"
+format:
+  revealjs: 
+    slide-number: true
+  #  chalkboard: 
+  #    buttons: false
+  #  preview-links: auto
+   # logo: fig/quarto.png
+   # css: css/styles.css
+    footer: <https://quarto.org>
+---
+
+## 디지털 글쓰기를 위한 페이지
+
+This presentation will show you examples of what you can do with Quarto and [Reveal.js](https://revealjs.com), including:
+
+
+::: incremental
+-   신기한하하
+-   Quarto
+-   revealjs
+-   ...and much more
+:::
+
+## Pretty Code {auto-animate="true"}
+
+-   Over 20 syntax highlighting themes available
+-   Default theme optimized for accessibility
+
+ 
+
+::: footer
+Learn more: [Syntax Highlighting](https://quarto.org/docs/output-formats/html-code.html#highlighting)
+:::
+
+## Code Animations {auto-animate="true"}
+ 
+-   Over 20 syntax highlighting themes available
+-   Default theme optimized for accessibility
+  

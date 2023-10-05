@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "데이터 과학 글쓰기",
+    "section": "",
+    "text": "Original Openscapes artwork by Allison Horst"
+  },
+  {
+    "objectID": "index.html#latex-philosophy",
+    "href": "index.html#latex-philosophy",
+    "title": "데이터 과학 글쓰기",
+    "section": "3.1 \\(\\LaTeX\\) 철학",
+    "text": "3.1 \\(\\LaTeX\\) 철학\n\\(\\LaTeX\\)은 한마디로 정의하게 되면 “논리적인 디자인”이라고 볼 수 있다. 저작물이 만들어지는 과정은 저작자가 원고를 손으로 쓰거나 타자기로 쳐서 출판사에 넘겨주면, 출판사의 편집디자이너는 원고를 보고 세부적인 출력형식을 결정하여 인쇄소에 넘긴다. 인쇄소는 이를 토대로 과거 식자공이 식자판을 만들었다면 현재는 컴퓨터가 파일을 만든다. \\(\\LaTeX\\) 과 \\(\\TeX\\) 이 하는 업무가 다소 차이가 난다. 22 김영록 (2017) “교육 현장에서의 텍의 활용”, \\(\\TeX\\) : 조판, 그 이상의 가능성\n\n\\(\\LaTeX\\) 은 편집디자이너에 해당되는 업무를 수행\n\\(\\TeX\\) 은 식자공에 해당되는 업무를 수행\n\n\n컴퓨터를 활용하여 전자조판을 넘긴 이유는 문서를 좀 더 읽기 쉽게 만들어 독자에게 저작자의 생각을 잘 이해시키는 것이다. 이러한 목적을 달성하기 위해서는 문서의 디자인이 그 문서의 논리적 구조를 잘 반영시켜야 하고, 반대로 문서의 논리적 구조를 잘 반영시키기 위해서는 문서 디자이너가 문서의 논리적 구조를 잘 이해해야만 된다. \\(\\LaTeX\\)의 명령어는 기본적으로 문서의 논리적 구조를 기술하는 것이다. 이렇게 기술된 명령어를 \\(\\TeX\\)으로 전달하여 조판하게 되어 원하는 최종 결과물을 얻게 된다.\n\\(\\LaTeX\\)에서 채택하는 논리적 디자인의 가장 큰 장점은 글을 더 잘 쓰게 된다는 점에 있다. \\(\\LaTeX\\) 으로 글을 작성하게 되면 점점 \\(\\LaTeX\\)이 채택하고 있는 논리적 디자인에 맞추게 되고 이를 통해서 글쓰기 실력이 향상된다.\n아마도 \\(\\LaTeX\\)의 가장 큰 장점은 자동화에 있다. 시각적 디자인(Wysiwig)을 채택하여 작성한 문서를 다른 형식으로 변환하거나 문서의 수식의 일련번호를 로마자에서 아라비아 숫자로 모두 변경시키거나 표나 그래프 번호를 일괄번경하는 등 이러한 사례는 자주 발견된다. 특히, 국내외 저널에 제출할 논문을 \\(\\LaTeX\\) 으로 작성한 경우 템플릿만 바꾸면 쉽게 고품질 논문을 만들 수 있는데 워드를 이용하여 작성할 경우 수작업을 하게 되어 비생산적인 시간낭비도 크고 미려한 문서를 얻을 수도 없다.\n따라서, \\(\\LaTeX\\) 으로 글을 쓰게 되면 글쓰기 본질에 집중할 수 있어 저작자의 생각과 의견을 좀더 진솔하게 가감없이 독자에게 전달시킬 수 있게 된다."
+  },
+  {
+    "objectID": "index.html#wysiwyg",
+    "href": "index.html#wysiwyg",
+    "title": "데이터 과학 글쓰기",
+    "section": "3.2 시각적 디자인",
+    "text": "3.2 시각적 디자인\n문서를 논리적으로 디자인하는 반대 개념으로 있는 것이 위즈윅(WSYIWIG, What You See Is What You Get) 으로 대표적인 것이 아래한글, MS 워드와 같은 워드 프로세서다. 시각적 디자인을 하게 되면 논리적이지 못한 애매한 조판을 하기 쉽다. 또한, PDF 파일로도 출력을 할 때 미세하나마 출력물에 일관성이 실종되기도 한다."
+  },
+  {
+    "objectID": "index.html#latex-engine",
+    "href": "index.html#latex-engine",
+    "title": "데이터 과학 글쓰기",
+    "section": "3.3 \\(\\LaTeX\\) 엔진",
+    "text": "3.3 \\(\\LaTeX\\) 엔진\n\\(\\LaTeX\\) 을 실제 문서작성에 사용하기 위해서는 텍 배포판을 선택해야 하는데 KTUG 한국 \\(\\TeX\\) 사용자 그룹에서 \\(ko.TeX\\) Live를 추천하고 있다. 이유는 다음과 같다. 33 이호재 (2017), “레이텍을 빨리 쓸 수 있는 방법”, \\(\\TeX\\) : 조판, 그 이상의 가능성\n\npdfLaTeX, XeLaTeX, LuaLaTeX 3종 \\(\\LaTeX\\) 엔진이 있는데 XeLaTeX 이 유니코드 텍 엔진이라 CJK 동아시아권 언어를 잘 지원하고 트루타입 및 오픈타입 폰트도 자유롭게 선택할 수 있기 때문에 인기가 많다.\n운영체제에 따라 차이가 나지만 안정적으로 \\(\\LaTeX\\) 을 설치하여 실제 문서작업에 이용하기에는 \\(\\TeX\\) Live 가 MikTeX 보다 안정성이나 여러가지 사용자 지원 측면에서 낫다.\n\\(\\TeX\\) 소스파일에서 PDF 파일로 탐색을 하던가 반대로 PDF 파일에서 \\(\\TeX\\) 소스파일로 탐색을 하게 되는 기능을 TexStudio IDE를 활용하여 바로 가능하게 됨\n\n과거 latex+divps+pspdf 를 활용한 가장 전통적인 작업흐름을 가졌다. 즉, pstricks를 활용하여 PDF 파일을 제작하는 방식으로 시간이 오래 걸리고 이미지로 eps 파일만 사용한다는 한계가 있다. 또 다른 latex+dvipdfmx 작업흐름은 중간에 .dvi 파일을 생성하고 dvipdfmx를 사용하여 PDF 파일을 제작하는 방식이다. 마지막으로 pdfLaTeX, XeLaTeX, LuaLaTeX 을 활용한 작업흐름이 있는데 .tex 소스파일에서 .pdf 파일을 즉시 생성한다는 점에서 인기가 있다.\n이외에도 논문 제작이 아닌 문서를 제작하는 경우 한단계 더 들어가 memoir 혹은 oblivoir 클래스를 이용하는 것이 이미 검증된 문서 템플릿을 바탕으로 PDF 문서를 뽑아내는 신속한 방법이다."
+  },
+  {
+    "objectID": "gcam_tranportation.html",
+    "href": "gcam_tranportation.html",
+    "title": "GCAM-Transportation",
+    "section": "",
+    "text": "Natural Gas Vehicles(NGV)\nLight-duty vehicles\n\n지역별로 LDV의 사이즈를 4개씩 구분하였고, 각각의 배터리 용량(kwh poer vehicle) 제시\nBEV battery pack costs는 2020 BNEF EV Outlook에서 가져옴\ncost mark-up??\nFuel cell stack costs는 NREL, 2020 Transportation Annual Technology Baseline에서 가져옴"
+  },
+  {
+    "objectID": "gcam_tranportation.html#transportation_ucd_core_curpol_korea_dawoon",
+    "href": "gcam_tranportation.html#transportation_ucd_core_curpol_korea_dawoon",
+    "title": "GCAM-Transportation",
+    "section": "2 transportation_UCD_CORE_CurPol_Korea_Dawoon",
+    "text": "2 transportation_UCD_CORE_CurPol_Korea_Dawoon\n\nregion : South Korea\n\nsupplysector :\n\n항공 :\n\naviation_intl\n\n화물 :\n\nfreight\nfreight_road\n\n여객 :\n\npass_road\npass_road_LDV\npass_road_LDV_4W\n\n해운 :\n\nshipping_intl\n\n\nenergy_final_demand\n\n항공:\n\naviation_intl\n\n화물:\n\nfreight\n\n여객:\n\npass\n\n해운:\n\nshipping_intl\n\n\n\n\n\n\ngcam-7의 transportation_UCD_CORE.xml과 비교해보니, supplysector, energy-final-demand의 구성 name은 동일함\nThe most common failure to run GCAM when double clicking the run-gcam executable script typically relate to Java.\nmodel running 테스트\n\n\n\n\n스크린샷\n\n\n\nModel run 결과는 exe - log - main_log.txt 에서 확인 가능\noutput - queries\nModelInterface - run-model-interface.bat\n\n\n\n\nModel interface"
+  },
+  {
+    "objectID": "project.html",
+    "href": "project.html",
+    "title": "KIER기술정책플랫폼",
+    "section": "",
+    "text": "환영합니다.\n\n\n\n\n\n\n\nNote\n\n\n\ncallout-note 테스트입니다. 작동 되나요??\n\n\n\n\n\n\n\n\n시작하기 전에 앞서\n\n\n\n\n\ncallout-note 테스트입니다. 작동 되나요??"
+  },
+  {
+    "objectID": "project.html#참여-방법",
+    "href": "project.html#참여-방법",
+    "title": "KIER기술정책플랫폼",
+    "section": "참여 방법",
+    "text": "참여 방법\n\n기획 -> ‘직접’ 데이터 분석/시각화 -> 스토리라인 구상 -> 원고 작성 -> 디자인 -> 퍼블리싱\n기획 -> 데이터 분석/시각화 의뢰(TO 안지석) -> 스토리라인 구상 -> 자체 퍼블리싱"
+  },
+  {
+    "objectID": "project.html#착수회의",
+    "href": "project.html#착수회의",
+    "title": "KIER기술정책플랫폼",
+    "section": "2023-08-17 착수회의",
+    "text": "2023-08-17 착수회의\n\n위의 주요 내용 설명\n요청사항\n\n\n어떤 콘텐츠를 기획하고 제작할지 개인당 3개 이상씩 조사\n\n자세하게 설명해주시면 감사하겠습니다.\n\n\n\n\n\n\n예시\n\n\n\n2022년 국가연구개발사업 데이터 분석 및 인포그래픽 제작\n방법:트리맵, 인터랙티브\n자료 출처: KISTEP"
+  },
+  {
+    "objectID": "project.html#시작-방법",
+    "href": "project.html#시작-방법",
+    "title": "KIER기술정책플랫폼",
+    "section": "시작 방법",
+    "text": "시작 방법\n\nQuarto에서 직접 이미지 추출하면 해상도 문제 발생\n따라서 Quarto에서 기획 방향, 주요 내용 등 작성하고, R에서 데이터 시각화를 해야 함"
+  },
+  {
+    "objectID": "project_with_code.html",
+    "href": "project_with_code.html",
+    "title": "KIER기술정책플랫폼",
+    "section": "",
+    "text": "참여자\n\n\n\nKIER 기술정책플랫폼 업무 참여자 : 안지석, 최지영 이화랑\n\n\n\n\n\n\n기획 -> 데이터 분석/시각화 -> 스토리라인 구상 -> 원고 작성 -> 디자인 -> 퍼블리싱\n\n외부 업체 지원 필수\n우수 레퍼런스 참고하여 아이디어 얻는 게 중요\nReuters graphics\nSCMP\nNYT\nWORLD BANK\nK-에너지밸런스\n\n\n\n\n기획 -> 데이터 분석/시각화 -> 스토리라인 구상 -> html로 원고 작성 -> 관리자 모드를 통한 퍼블리싱\n\n정책연구실 자체적으로 제작 가능\n데이터 시각화, 텍스트 마이닝, 네트워크 분석 등 다양한 시도 가능\n데이터 시각화의 정수 Economist - Graphic detail\n\n\n\n\n\n\n재밌고 자발적으로\n코딩을 배우거나 시도하고 싶다면 Github을 통한 공유 가능\n새로운 시도\n\nR\nPython\nQuarto, github 등\nMarkdown\n\n데이터분석/시각화는 언제든 협조\n\n\n\n\n어떤 콘텐츠를 기획하고 제작할지 개인당 3개 이상씩 조사\n자세하게 설명해주시면 감사하겠습니다.\n\n\n\n\n\n\n예시\n\n\n\n2022년 국가연구개발사업 데이터 분석 및 인포그래픽 제작\n방법:트리맵, 인터랙티브\n자료 출처: KISTEP\n\n\n\n\n\n\n1990-2021 지역별, 산업별 전력소비량 데이터\n데이터 출처: KESIS, KEPCO\n\n\n\nCode\nlibrary(tidyverse)\nlibrary(readxl)\n\n\nKESIS_elec_consumption_raw<- read_excel(\"KESIS_지역별_산업분류별_전력소비량_extracted.xlsx\") %>% \n  pivot_longer( -c('region', 'type'), names_to=\"year\", values_to=\"GWh\") %>% \n  mutate(GWh =round(GWh,1))\n\nKESIS_elec_consumption_raw\n\n\n# A tibble: 3,264 × 4\n   region type   year    GWh\n   <chr>  <chr>  <chr> <dbl>\n 1 서울   가정용 1990  5183.\n 2 서울   가정용 1991  5498.\n 3 서울   가정용 1992  5976.\n 4 서울   가정용 1993  6448.\n 5 서울   가정용 1994  7116 \n 6 서울   가정용 1995  7299.\n 7 서울   가정용 1996  7687.\n 8 서울   가정용 1997  8069.\n 9 서울   가정용 1998  8041.\n10 서울   가정용 1999  8518.\n# … with 3,254 more rows\n\n\nCode\n# 산업분류 어떻게 구분되는지 확인해보면\nunique(KESIS_elec_consumption_raw$type)\n\n\n[1] \"가정용\"   \"공공용\"   \"서비스업\" \"농림어업\" \"광업\"     \"제조업\"  \n\n\n\n\nCode\nmax(KESIS_elec_consumption_raw$year) -> max_year\n\n\nKESIS_elec_consumption_2021<- KESIS_elec_consumption_raw %>% \n  filter(year == 2021)\n\n##지표표기 옵션\noptions(\"scipen\" = 100)\n\n\n## 폰트\nlibrary(showtext)\nlibrary(extrafont)\n\nshowtext_auto()\n\nfont_add_google(\"Nanum Gothic\", \"nanumgothic\")\nfont_add_google(\"Poor Story\", \"poorstory\")\n\n\n\n\nCode\nlibrary(knitr)\n\ntable_2021<-KESIS_elec_consumption_2021%>%\n  mutate(TWh=round(GWh/1000, 1)) %>% \n  select(region, type, TWh) %>% \n  pivot_wider(names_from =\"type\", values_from=\"TWh\") %>% \n  mutate(`합계` = rowSums(across(where(is.numeric)))) %>% \n  select(region, 제조업, 서비스업, 가정용, 공공용, 농림어업, 광업, 합계) %>% \n  arrange(desc(`합계`))\n\n  \nkable(table_2021)\n\n\n\n\n\nregion\n제조업\n서비스업\n가정용\n공공용\n농림어업\n광업\n합계\n\n\n\n\n경기\n66.4\n37.3\n20.8\n5.9\n2.7\n0.3\n133.4\n\n\n충남\n34.6\n7.2\n3.2\n1.1\n2.3\n0.3\n48.7\n\n\n서울\n1.5\n27.5\n14.7\n3.6\n0.0\n0.0\n47.3\n\n\n경북\n27.7\n8.8\n3.7\n1.7\n2.1\n0.2\n44.2\n\n\n경남\n18.0\n9.0\n4.8\n1.4\n2.4\n0.1\n35.7\n\n\n전남\n20.3\n5.7\n2.6\n1.4\n3.5\n0.1\n33.6\n\n\n울산\n27.8\n3.5\n1.6\n0.5\n0.1\n0.0\n33.5\n\n\n충북\n18.2\n5.4\n2.4\n1.4\n0.9\n0.1\n28.4\n\n\n인천\n11.5\n7.6\n4.6\n0.9\n0.2\n0.1\n24.9\n\n\n전북\n10.9\n5.1\n2.6\n1.1\n1.7\n0.1\n21.5\n\n\n부산\n7.2\n7.5\n5.0\n1.3\n0.1\n0.0\n21.1\n\n\n강원\n5.4\n6.4\n2.3\n1.5\n0.8\n0.5\n16.9\n\n\n대구\n5.5\n5.6\n3.5\n0.9\n0.1\n0.0\n15.6\n\n\n대전\n2.4\n4.1\n2.1\n1.1\n0.0\n0.0\n9.7\n\n\n광주\n2.8\n3.3\n2.2\n0.6\n0.1\n0.0\n9.0\n\n\n제주\n0.3\n2.6\n1.0\n0.3\n1.4\n0.0\n5.6\n\n\n세종\n1.7\n1.5\n0.6\n0.3\n0.1\n0.0\n4.2\n\n\n\n\n\n\n\nCode\nKESIS_elec_consumption_2021 %>% \n  group_by(type) %>% \n  summarise(GWh = sum(GWh)) %>% \n  arrange(desc(GWh)) %>% \n  pull(type) ->type_level\n\ntype_level\n\n\n[1] \"제조업\"   \"서비스업\" \"가정용\"   \"공공용\"   \"농림어업\" \"광업\"    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCode\nKESIS_elec_consumption_2021 %>% \n  group_by(region) %>% \n  summarise(GWh = sum(GWh)) %>% \n  arrange(desc(GWh)) %>% \n  pull(region) ->region_level\n\nregion_level\n\n\n [1] \"경기\" \"충남\" \"서울\" \"경북\" \"경남\" \"울산\" \"전남\" \"충북\" \"인천\" \"전북\"\n[11] \"부산\" \"강원\" \"대구\" \"대전\" \"광주\" \"제주\" \"세종\"\n\n\nCode\nlibrary(ggtext)  ## element_markdown\n\nKESIS_elec_consumption_2021 %>% \n  group_by(region, type) %>% \n  summarise(GWh = sum(GWh),\n            TWh = GWh/1000) %>% \n  #mutate(color_label =ifelse(type ==\"제조업\", \"1\", \"2\")) %>%\n  mutate(color_label =case_when(type ==\"제조업\" ~ \"1\",\n                                type ==\"서비스업\" ~\"2\",\n                                TRUE ~ \"3\")) %>%\n  ggplot(aes(x = fct_relevel(type, rev(type_level)), y = TWh, fill = color_label))+\n  geom_col()+\n  scale_y_continuous(limits =c(0, 80))+\n  scale_fill_manual(values = c(\"#ea1117\", \"#1f5f97\", '#b3b09e'))+\n  coord_flip()+\n  theme_bw()+\n  theme_minimal()+\n  geom_text(aes(label = round(TWh, 1)),size = 5, family= 'nanumgothic', hjust = -.2)+\n  facet_wrap(~fct_relevel(region, region_level),ncol = 4)+\n  theme(text= element_text(size= 22, family= 'nanumgothic'),\n        plot.title = element_text(size = 30),\n         strip.text = element_textbox(\n      size = 22,\n      color = \"white\", fill = \"#5D729D\", box.color = \"#4A618C\",\n      halign = 0.5, linetype = 1, r = unit(5, \"pt\"), width = unit(1, \"npc\"),\n      padding = margin(2, 0, 1, 0), margin = margin(3, 3, 3, 3)),\n        plot.title.position = \"plot\",\n      legend.position =\"none\")+\n  labs(x = \"\",\n       y = \"\",\n       title =\"2021년 대한민국 지역별 산업분류별 전력소비량\",\n       subtitle =\"\",\n       caption = \"Souce :KESIS, KEPCO, Graphic :Jiseok\")\n\n\n`summarise()` has grouped output by 'region'. You can override using the\n`.groups` argument."
+  },
+  {
+    "objectID": "project_with_code.html#요청-사항-취합",
+    "href": "project_with_code.html#요청-사항-취합",
+    "title": "KIER기술정책플랫폼",
+    "section": "요청 사항 취합",
+    "text": "요청 사항 취합\n2023-08-17 회의 후 요청사항 정리"
+  },
+  {
+    "objectID": "project_with_code_test_0817.html",
+    "href": "project_with_code_test_0817.html",
+    "title": "KIER기술정책플랫폼",
+    "section": "",
+    "text": "Code\nknitr::opts_chunk$set(echo = TRUE, fig.width = 10, fig.height = 5)"
+  },
+  {
+    "objectID": "project_with_code_test_0817.html#welcome",
+    "href": "project_with_code_test_0817.html#welcome",
+    "title": "KIER기술정책플랫폼",
+    "section": "WELCOME!!",
+    "text": "WELCOME!!\n\n환영합니다.\n\n\ncallout-note 테스트입니다. 작동 되나요??\n\n\n\n\n\n\n\n시작하기 전에 앞서\n\n\n\n\n\ncallout-note 테스트입니다. 작동 되나요??"
+  },
+  {
+    "objectID": "project_with_code_test_0817.html#지역별-산업별-전력소비량-분석",
+    "href": "project_with_code_test_0817.html#지역별-산업별-전력소비량-분석",
+    "title": "KIER기술정책플랫폼",
+    "section": "지역별 산업별 전력소비량 분석",
+    "text": "지역별 산업별 전력소비량 분석\n\n데이터 출처: KESIS, KEPCO\n\n\n\nCode\nlibrary(tidyverse)\nlibrary(readxl)\n\n\nKESIS_elec_consumption_raw<- read_excel(\"KESIS_지역별_산업분류별_전력소비량_extracted.xlsx\") %>% \n  pivot_longer( -c('region', 'type'), names_to=\"year\", values_to=\"GWh\") %>% \n  mutate(GWh =round(GWh,1))\n\nKESIS_elec_consumption_raw\n\n\n# A tibble: 3,264 × 4\n   region type   year    GWh\n   <chr>  <chr>  <chr> <dbl>\n 1 서울   가정용 1990  5183.\n 2 서울   가정용 1991  5498.\n 3 서울   가정용 1992  5976.\n 4 서울   가정용 1993  6448.\n 5 서울   가정용 1994  7116 \n 6 서울   가정용 1995  7299.\n 7 서울   가정용 1996  7687.\n 8 서울   가정용 1997  8069.\n 9 서울   가정용 1998  8041.\n10 서울   가정용 1999  8518.\n# ℹ 3,254 more rows\n\n\nCode\nunique(KESIS_elec_consumption_raw$type)\n\n\n[1] \"가정용\"   \"공공용\"   \"서비스업\" \"농림어업\" \"광업\"     \"제조업\"  \n\n\n\n\nCode\nmax(KESIS_elec_consumption_raw$year) -> max_year\n\n\nKESIS_elec_consumption_2021<- KESIS_elec_consumption_raw %>% \n  filter(year == 2021)\n\n##지표표기 옵션\noptions(\"scipen\" = 100)\n\n\n## 폰트\nlibrary(showtext)\n\n\nLoading required package: sysfonts\n\n\nLoading required package: showtextdb\n\n\nCode\nlibrary(extrafont)\n\n\nRegistering fonts with R\n\n\n\nAttaching package: 'extrafont'\n\n\nThe following object is masked from 'package:showtextdb':\n\n    font_install\n\n\nCode\nshowtext_auto()\n\nfont_add_google(\"Nanum Gothic\", \"nanumgothic\")\nfont_add_google(\"Poor Story\", \"poorstory\")\n\n\n\n\nCode\nKESIS_elec_consumption_2021 %>% \n  group_by(type) %>% \n  summarise(GWh = sum(GWh)) %>% \n  arrange(desc(GWh)) %>% \n  pull(type) ->type_level\n\ntype_level\n\n\n[1] \"제조업\"   \"서비스업\" \"가정용\"   \"공공용\"   \"농림어업\" \"광업\"    \n\n\n2021년 지역별 산업별 전력소비량을 알아보자."
+  }
+]

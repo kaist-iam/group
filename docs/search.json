@@ -1,0 +1,184 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "KAIST IAM Group",
+    "section": "",
+    "text": "Jiyong Eom is an assistant professor at KAIST Business School’s Graduate School of Green Growth. His research interest includes energy & environmental policy and economics, integrated assessment modeling for technology assessment, climate change mitigation and adaptation, demand-side management of energy, and technological change and innovation. At the school, he teaches Green Technology and Green Industry. He received a BS degree in Chemical Engineering from Yonsei University, a MS degree in Chemical and Biomolecular Engineering from Korea Advanced Institute of Science and Technology, and a PhD degree in Management Science and Engineering with the concentration on policy and strategy from Stanford University.\n\n\n\nHaewon McJeon is a Visiting Professor at the Korea Advanced Institute of Science & Technology (KAIST). He is currently on leave from the Joint Global Change Research Institute and the Center for Global Sustainability, where he played a pivotal role in developing decarbonization pathways with the Global Change Assessment Model (GCAM). His research primarily focuses on the using Integrated Assessment Models (IAM) to formulate low-carbon, carbon-neutral, and carbon-negative pathways for mitigating climate change. While at KAIST Graduate School of Green Growth & Sustainability, he will be teaching the next generation of modelers on the application of quantitative models for evaluating decarbonization strategies in developing Asia.\nHaewon has served as the lead Integrated Assessment Modeler for two White House reports on deep decarbonization pathways (Long-Term Strategy, 2021 and Mid-Century Strategy, 2016). Furthermore, he served as the modeling lead for the America’s Pledge project. Throughout his career, he has maintained close collaboration with research clients from government agencies, foundations, and the private sector.He has published widely encompassing topics such as the impact of fossil fuels on climate change, decarbonization technologies, and decision-making under uncertainties. He has published over 70 papers in peer-reviewed journals, including Nature, Science, Energy Economics, and Climatic Change. Dr. McJeon holds a Ph.D. and a Master’s degree in Environmental Policy from the University of Maryland, as well as a Bachelor’s degree in Economics from Seoul National University."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Publications",
+    "section": "",
+    "text": "news\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nDec 19, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nDec 16, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "documentation.html",
+    "href": "documentation.html",
+    "title": "Documentation",
+    "section": "",
+    "text": "Github: Sign up for github account and email me to give you access to GCAM-KAIST\nGit client: download a git client of your choice.\n\nTortoiseGit : old school client\nGithub desktop : standard github client\ngit for windows : command line based professional git client\n\nXML marker 1.1: make sure you get the older 1.1 version\nR\n\n\n\n\n\nGCAM tutorial\nGit\nGCAM\ngcamdata\nUseful guide/PPT slides from gcam-training\nvideos\n\n\n\n\n\n\nGCAM\nDownload standard GCAM release\nSet up some prerequisite apps and run!\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nif anything on github is confusing, just ask chatGPT!\n\n\n\nGo to GCAM-KAIST.\nPick a branch to start from (currently: hcm/proj/kaist7update).\nCreate your own branch [you own this. No one else will make changes to your own branch].\ngit clone [this creates a full repo of GCAM-KAIST].\ngit checkout [your branch name] [this sets your branch on your own computer].\nTry making a small inconsequential change. Such as adding a small xml file in the input/policy folder.\ngit add [file you added].\ngit commit [this will commit all files you added/changed].\ngit push.\nConfirm that your commit has been correctly pushed to github.\n(if you are happy with your development, and would like it to be applied to ALL GCAM-KAIST users) create a pull request (PR) [back into the main GCAM-KAIST repo].\nAssign me (d3y419) as the reviewer. I’ll review the PR and merge as needed.\n\n\n\n\nAs we embark on an exciting and crucial phase of updating our energy assessment model from GCAM-KAIST 2.0 to GCAM-KAIST 7.0, the following instructions and guidelines will ensure a smooth transition. Each one of the team is responsible for a particular XML file which is identified in the following link.\n\nDownload the Required Versions\n\nGCAM 7.0 Official Release by JCRI: You can download this latest version from the following link.\nGCAM-KAIST 2.0: This is our specialized version at KAIST. Please download it using the link .\n\nAnalyze the Differences\n\nXML File Comparison: Please compare the XML files between the two versions as per your specific task in the google sheet. Document the Differences: Note any discrepancies, changes, or new features. This will help us understand what needs to be transferred or adapted.\n\nUpdate GCAM 7.0 with GCAM-KAIST 2.0 Data\n\nModify the Original GCAM 7.0 XML Files: Replace the necessary data with the corresponding data from GCAM-KAIST 2.0. Follow the Evolution Process: This is vital to complete the transformation from GCAM-KAIST 2.0 to GCAM-KAIST 7.0 by checking the “comparison with GCAM-KAIST2” column in google sheet. After running the scenario, you can check if the results are different from GCAM-KAIST2.0 or not.\n\nPrepare for Tomorrow’s Meeting\n\nClarification of Differences: Be prepared to discuss the differences you’ve identified and how you’ve addressed them."
+  },
+  {
+    "objectID": "gcam_transportation.html",
+    "href": "gcam_transportation.html",
+    "title": "GCAM-KAIST7",
+    "section": "",
+    "text": "Natural Gas Vehicles(NGV)\nLight-duty vehicles\n\n지역별로 LDV의 사이즈를 4개씩 구분하였고, 각각의 배터리 용량(kwh poer vehicle) 제시\nBEV battery pack costs는 2020 BNEF EV Outlook에서 가져옴\ncost mark-up??\nFuel cell stack costs는 NREL, 2020 Transportation Annual Technology Baseline에서 가져옴"
+  },
+  {
+    "objectID": "gcam_transportation.html#transportation_ucd_core_curpol_korea_dawoon",
+    "href": "gcam_transportation.html#transportation_ucd_core_curpol_korea_dawoon",
+    "title": "GCAM-KAIST7",
+    "section": "2 transportation_UCD_CORE_CurPol_Korea_Dawoon",
+    "text": "2 transportation_UCD_CORE_CurPol_Korea_Dawoon\n\nregion : South Korea\n\nsupplysector :\n\n항공 :\n\naviation_intl\n\n화물 :\n\nfreight\nfreight_road\n\n여객 :\n\npass_road\npass_road_LDV\npass_road_LDV_4W\n\n해운 :\n\nshipping_intl\n\n\nenergy_final_demand\n\n항공:\n\naviation_intl\n\n화물:\n\nfreight\n\n여객:\n\npass\n\n해운:\n\nshipping_intl\n\n\n\n\n\n\ngcam-7의 transportation_UCD_CORE.xml과 비교해보니, supplysector, energy-final-demand의 구성 name은 동일함\nThe most common failure to run GCAM when double clicking the run-gcam executable script typically relate to Java.\nmodel running 테스트 -> All model periods solved correctly.\n\n\n\n\n스크린샷\n\n\n\nModel run 결과는 exe - log - main_log.txt 에서 확인 가능\noutput - queries\nModelInterface - run-model-interface.bat\n\n ### transportation"
+  },
+  {
+    "objectID": "gcam_transportation.html#meeting-with-prof.jeon",
+    "href": "gcam_transportation.html#meeting-with-prof.jeon",
+    "title": "GCAM-KAIST7",
+    "section": "3 2023-08-21 meeting with prof.Jeon",
+    "text": "3 2023-08-21 meeting with prof.Jeon\n\nGCAM7에는 trn_freight_road(트럭)에 hybrid 추가됨. Dawoon 파일에는 hybrid 없음\nCreated new xml configuration by adding lines\n\n\n\n\n\n\n\nNote\n\n\n\nfor <Configuration> <Value name = \"transport\">../input/gcamdata/xml/transportation_UCD_SSP1.xml</Value>\n\n\n\n\n\n\n\n\n분석기간을 2100년이 아닌 2050년까지만 보고싶은데;;; 오류남.\n\n\n\nfor stop year <Value name=\"stop-year\">2050</Value> -> DOESN’T WORK!!!\n\n\n\nSaved as configuration_transportation_SSP1.xml for backup\nAgain, saved it as configuration.xlm cause run-batct.cat in exe folder take configuration.xlm(not configuration_transporation_SSP1.xml) as input file\nrun model \nfor checking model results, go to Modelinterface folder, and click run-model-interface.bat and File - Open -DB Open\n\n\n\n\nmodel run result\n\n\n\nconfiguration.xml 파일에 vale name = solver 밑에 새로운 value name = transport 추가"
+  },
+  {
+    "objectID": "gcam_transportation.html#section",
+    "href": "gcam_transportation.html#section",
+    "title": "GCAM-KAIST7",
+    "section": "4 2023-08-22",
+    "text": "4 2023-08-22\n\n4.1 git bash or tortoiseGit?\n\nInstead of using tortoiseGit, I hope to use git bash. Running tortoise git takes quite a long time when targeted .xml files are heavy. For using, CLI(Command line interface) needs to be learned. But, steep learning curve :(\n\n\n\n4.2 git diff\nShow changes between commits, commit and working tree, etc\n\nTried to use git diff to see difference between versions in a file.\n\nmoved transportation_UCD_CORE.xml into a test folder\nmodified a speed in 2020 from 450 to 500 for make a difference. and then saved it.\n\n\n\n\nResult. We can find a difference without add or commit. just typing git diff gives the difference.\n\n\n4.Modified speed in 2030, 2035 and typed git diff again. Same as 2.\n\n\nCommit git commit and track my log using git log\n\n\n\nwhat’s next? reset? revert?\n\n\nDAC file"
+  },
+  {
+    "objectID": "gcam_transportation.html#section-1",
+    "href": "gcam_transportation.html#section-1",
+    "title": "GCAM-KAIST7",
+    "section": "5 2023-08-29",
+    "text": "5 2023-08-29\n\n수송분야 transport.configuration_transportation_dawoon.xml"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "KAIST IAM Group",
+    "section": "",
+    "text": "Integrated assessment modelling (IAM) is a term used for a type of scientific modelling that tries to link main features of society and economy with the biosphere and atmosphere into one modelling framework."
+  },
+  {
+    "objectID": "intro_slide.html#디지털-글쓰기를-위한-페이지",
+    "href": "intro_slide.html#디지털-글쓰기를-위한-페이지",
+    "title": "Digital writing with Quarto",
+    "section": "디지털 글쓰기를 위한 페이지",
+    "text": "디지털 글쓰기를 위한 페이지\nThis presentation will show you examples of what you can do with Quarto and Reveal.js, including:\n\n\n신기한하하\nQuarto\nrevealjs\n…and much more"
+  },
+  {
+    "objectID": "intro_slide.html#pretty-code",
+    "href": "intro_slide.html#pretty-code",
+    "title": "Digital writing with Quarto",
+    "section": "Pretty Code",
+    "text": "Pretty Code\n\nOver 20 syntax highlighting themes available\nDefault theme optimized for accessibility\n\n\nLearn more: Syntax Highlighting"
+  },
+  {
+    "objectID": "intro_slide.html#code-animations",
+    "href": "intro_slide.html#code-animations",
+    "title": "Digital writing with Quarto",
+    "section": "Code Animations",
+    "text": "Code Animations\n\nOver 20 syntax highlighting themes available\nDefault theme optimized for accessibility\n\n\n\nhttps://quarto.org"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Global Stocktake: to limit global warming to 1.5°C, continued ratcheting of decarbonization is needed",
+    "section": "",
+    "text": "In a new commentary in One Earth, the international group of researchers from Korea, China, and the U.S. take stock of the current NDCs and assess the need to increase near-term decarbonization ambition to limit global warming to 1.5°C.\nKAIST Graduate School of Green Growth & Sustainability visiting professor Haewon McJeon stated that “while the NDCs submitted at COP26 in November 2021 collectively steered us toward limiting global temperature rise to under 2°C by the century’s end but fell short of the ambitious 1.5°C goal.”\nCOP28’s central focus is on the Global Stocktake (GST), designed to assess countries’ progress toward their NDCs and the Agreement’s long-term objectives. While evaluating progress remains key, the GST also aims to pinpoint priority areas for enhanced ambition to align with the Paris Agreement’s long-term goal of keeping global temperature increase below 1.5°C. Three critical policy areas stand out: non-CO2 gases, carbon dioxide removal (CDR), and deforestation. Decision-makers are urged to concentrate their efforts in these areas during COP28 and the GST to better align countries’ commitments with the Paris Agreement’s long-term climate objectives.\n\n\nThe initial NDCs submitted after the 2015 Paris Agreement fell short of the 2°C target, with a high risk of exceeding 3°C. COP26 showcased the Agreement’s ratcheting mechanism, resulting in updated NDCs and ambitious decarbonization pledges. If countries maintain a 2% decarbonization rate beyond 2030, there’s a >50% chance of limiting end-of-century warming to <2°C, rising to nearly 70% with a 5% rate. However, achieving the aspirational 1.5°C goal remains unlikely, necessitating further ambition. Even with enhanced ambition, global temperatures may temporarily exceed 1.5°C this century, making near-term collective ambition vital to limit temperature overshooting and incentivize R&D in technologies like carbon dioxide removal, accelerate fossil fuel phase-out, and engage the private sector for cost-effective long-term GHG reductions.\nKey gaps persist in climate policy despite progress. Addressing non-CO2 emissions, carbon dioxide removal (CDR), and halting deforestation is crucial. Reducing non-CO2 emissions by 2030 can help curb temperature rise and overshooting the 1.5°C threshold, impacting global temperature change. CDR, essential for achieving net-zero emissions, lacks detailed plans in many countries’ commitments. There’s a gap between proposed CDR levels and what’s needed for Paris goals, and current technologies are not ready or cost-effective. Incentivizing research and development in novel CDR methods is vital. Halting deforestation is paramount, as it contributes significantly to emissions, but despite commitments, deforestation continues, driven by commercial crop expansion. Closing these policy gaps is essential for effective climate action.\nAchieving deeper near-term reductions in non-CO2 emissions is feasible through various technological solutions, including end-of-pipe control measures and behavioral changes like dietary shifts. Some post-COP26 efforts, such as the United States Inflation Reduction Act and China’s policies addressing methane emissions, demonstrate increased ambition in this regard. However, global ambition in non-CO2 emission reductions should encompass a broader range of gases, account for emissions from all sectors, and prioritize R&D for long-term solutions. Additionally, scaling up carbon dioxide removal (CDR) measures is essential, requiring increased investment in a diverse portfolio of CDR technologies beyond current efforts. Effective emissions trading mechanisms for CDR necessitate robust accounting rules and monitoring frameworks, as well as consideration of synergies and tradeoffs with other sustainability priorities.\nImplications for Korea: Korea has set an ambitious goal to achieve carbon neutrality, but to contribute meaningfully to global collective action and achieve the 1.5°C goal, there is a need for strengthening near-term NDCs. Faster coal-fired powerplant retirement and rapid increase in clean power generation will be critical near-term steps."
+  },
+  {
+    "objectID": "quarto_slideshow.html#prerequisites",
+    "href": "quarto_slideshow.html#prerequisites",
+    "title": "Getting started with GCAM",
+    "section": "1. Prerequisites",
+    "text": "1. Prerequisites\n\nGithub: Sign up for github account and email me to give you access to GCAM-KAIST\nGit client: download a git client of your choice.\n\nTortoiseGit : old school client\nGithub desktop : standard github client\ngit for windows : command line based professional git client\n\nXML marker 1.1: make sure you get the older 1.1 version\nR"
+  },
+  {
+    "objectID": "quarto_slideshow.html#useful-instruction",
+    "href": "quarto_slideshow.html#useful-instruction",
+    "title": "Getting started with GCAM",
+    "section": "2. Useful Instruction",
+    "text": "2. Useful Instruction\n\nGCAM tutorial\nGit\nGCAM\ngcamdata\nUseful guide/PPT slides from gcam-training"
+  },
+  {
+    "objectID": "quarto_slideshow.html#running-gcam-release",
+    "href": "quarto_slideshow.html#running-gcam-release",
+    "title": "Getting started with GCAM",
+    "section": "3. Running GCAM release",
+    "text": "3. Running GCAM release\n\nGCAM\nDownload standard GCAM release\nSet up some prerequisite apps and run!"
+  },
+  {
+    "objectID": "quarto_slideshow.html#making-your-own-git-branch",
+    "href": "quarto_slideshow.html#making-your-own-git-branch",
+    "title": "Getting started with GCAM",
+    "section": "4. Making your own git branch",
+    "text": "4. Making your own git branch\n\n\n\n\n\n\nNote\n\n\nif anything on github is confusing, just ask chatGPT!\n\n\n\n\nGo to GCAM-KAIST.\nPick a branch to start from (currently: hcm/proj/kaist7update).\nCreate your own branch [you own this. No one else will make changes to your own branch].\ngit clone [this creates a full repo of GCAM-KAIST].\ngit checkout [your branch name] [this sets your branch on your own computer].\nTry making a small inconsequential change. Such as adding a small xml file in the input/policy folder.\ngit add [file you added].\ngit commit [this will commit all files you added/changed].\ngit push.\nConfirm that your commit has been correctly pushed to github.\n(if you are happy with your development, and would like it to be applied to ALL GCAM-KAIST users) create a pull request (PR) [back into the main GCAM-KAIST repo].\nAssign me (d3y419) as the reviewer. I’ll review the PR and merge as needed."
+  },
+  {
+    "objectID": "quarto_slideshow.html#download-the-required-versions",
+    "href": "quarto_slideshow.html#download-the-required-versions",
+    "title": "Getting started with GCAM",
+    "section": "1. Download the Required Versions",
+    "text": "1. Download the Required Versions\nGCAM 7.0 Official Release by JCRI: You can download this latest version from the following link.\nGCAM-KAIST 2.0: This is our specialized version at KAIST. Please download it using the link ."
+  },
+  {
+    "objectID": "quarto_slideshow.html#analyze-the-differences",
+    "href": "quarto_slideshow.html#analyze-the-differences",
+    "title": "Getting started with GCAM",
+    "section": "2. Analyze the Differences",
+    "text": "2. Analyze the Differences\nXML File Comparison: Please compare the XML files between the two versions as per your specific task in the google sheet. Document the Differences: Note any discrepancies, changes, or new features. This will help us understand what needs to be transferred or adapted."
+  },
+  {
+    "objectID": "quarto_slideshow.html#update-gcam-7.0-with-gcam-kaist-2.0-data",
+    "href": "quarto_slideshow.html#update-gcam-7.0-with-gcam-kaist-2.0-data",
+    "title": "Getting started with GCAM",
+    "section": "3. Update GCAM 7.0 with GCAM-KAIST 2.0 Data",
+    "text": "3. Update GCAM 7.0 with GCAM-KAIST 2.0 Data\nModify the Original GCAM 7.0 XML Files: Replace the necessary data with the corresponding data from GCAM-KAIST 2.0. Follow the Evolution Process: This is vital to complete the transformation from GCAM-KAIST 2.0 to GCAM-KAIST 7.0 by checking the “comparison with GCAM-KAIST2” column in google sheet. After running the scenario, you can check if the results are different from GCAM-KAIST2.0 or not."
+  },
+  {
+    "objectID": "quarto_slideshow.html#prepare-for-tomorrows-meeting",
+    "href": "quarto_slideshow.html#prepare-for-tomorrows-meeting",
+    "title": "Getting started with GCAM",
+    "section": "4. Prepare for Tomorrow’s Meeting",
+    "text": "4. Prepare for Tomorrow’s Meeting\nClarification of Differences: Be prepared to discuss the differences you’ve identified and how you’ve addressed them.\n\n\nhttps://quarto.org"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "news\n\n\n\n\n\n\n\n\n\n\n\nOct 5, 2023\n\n\nKAIST IAM Group\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 23, 2023\n\n\nKAIST IAM Group\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#model-overview",
+    "href": "index.html#model-overview",
+    "title": "KAIST IAM Group",
+    "section": "2.1 Model Overview",
+    "text": "2.1 Model Overview\nGCAM is a dynamic-recursive model with technology-rich representations of the economy, energy sector, land use and water linked to a climate model that can be used to explore climate change mitigation policies including carbon taxes, carbon trading, regulations and accelerated deployment of energy technology. Regional population and labor productivity growth assumptions drive the energy and land-use systems employing numerous technology options to produce, transform, and provide energy services as well as to produce agriculture and forest products, and to determine land use and land cover. Using a run period extending from 1990 – 2100 at 5 year intervals, GCAM has been used to explore the potential role of emerging energy supply technologies and the greenhouse gas consequences of specific policy measures or energy technology adoption including; CO2 capture and storage, bioenergy, hydrogen systems, nuclear energy, renewable energy technology, and energy use technology in buildings, industry and the transportation sectors. GCAM is an Representative Concentration Pathway (RCP)-class model. This means it can be used to simulate scenarios, policies, and emission targets from various sources including the Intergovernmental Panel on Climate Change (IPCC). Output includes projections of future energy supply and demand and the resulting greenhouse gas emissions, radiative forcing and climate effects of 16 greenhouse gases, aerosols and short-lived species at 0.5×0.5 degree resolution, contingent on assumptions about future population, economy, technology, and climate mitigation policy."
+  },
+  {
+    "objectID": "gcam_transportation.html#representation-of-h2-in-gcam",
+    "href": "gcam_transportation.html#representation-of-h2-in-gcam",
+    "title": "GCAM-KAIST7",
+    "section": "6 Representation of H2 in GCAM",
+    "text": "6 Representation of H2 in GCAM\n\nTried to make a flow chart of hydrogen in GCAM using mermaid\n\n\n\n\n\n\nflowchart TD\n  Electricity --> H2centralproduction\n  Electricity --> H2wholesaledispensing\n  Electricity --> H2industrial\n  Wind --> H2centralproduction\n  Solar --> H2centralproduction\n  Coal --> H2centralproduction\n  Nuclear --> H2centralproduction\n  Gas --> H2centralproduction\n  Gas --> H2wholesaledispensing\n  H2centralproduction --> H2deliverytrack\n  H2centralproduction --> H2pipeline\n  H2deliverytrack --> H2wholesaledelivery\n  H2deliverytrack --> H2wholesaledispensing\n  H2pipeline --> H2wholesaledelivery \n  H2pipeline --> H2wholesaledispensing\n  H2wholesaledelivery --> H2rentaldelivery\n  H2wholesaledelivery --> H2industrial\n  H2rentaldelivery --> CommercialBuildings\n  H2rentaldelivery --> ResidentialBuildings\n  H2industrial --> AmmoniaProduction\n  H2industrial --> IronandSteelProduction\n  H2industrial --> IndustrialEnergyUse\n  H2wholesaledispensing --> AgriculturalMachinery\n  H2wholesaledispensing --> ConstruntionEquipment\n  H2wholesaledispensing --> MiningEquipment\n  H2wholesaledispensing --> H2rentaldispensing\n  H2rentaldispensing --> HeavyDutyTrucks\n  H2rentaldispensing --> LightDutyVehicles\n  H2rentaldispensing --> AirTransport\n  H2rentaldispensing --> RailTransport\n  H2rentaldispensing --> ShipTransport"
+  },
+  {
+    "objectID": "posts/post2/index.html",
+    "href": "posts/post2/index.html",
+    "title": "How to Slow Global Warming: Three Widescale Efforts Could Make the Difference",
+    "section": "",
+    "text": "RICHLAND, Wash.—With the 2023 United Nations Climate Change Conference just 10 weeks  away, countries will soon take stock of their progress in the worldwide effort to slow and adapt to global warming. Better known as COP28, the conference offers the chance for countries to meet and coordinate their climate-mitigating pledges, like achieving carbon neutrality by 2050 or peak emissions by 2030. \nPast research suggests that, if current pledges are upheld, the world is roughly enroute to keep warming below 2 degrees Celsius. But the original goal of the Paris Agreement – the 2015 climate change treaty in which 196 countries aspired to cap global warming at 1.5 degrees by the end of this century – remains stubbornly out of reach. \n\"There's the bad news,\" said Haewon McJeon, visiting professor at the Korea Advanced Institute of Science & Technology, whose research often focuses on assessing climate pledges. \"We took stock of the current climate pledges around the world, and it all falls far short of the 1.5-degree goal. It's not enough.\"\nWhat can countries do to bring the goal back within reach? In new commentary published in the journal One Earth, researchers highlight that the biggest climate mitigation gains stand to be realized through three global efforts: reigning in non-CO2 emissions like methane and fluorinated gasses, ramping up carbon dioxide removal, and halting deforestation. Make sufficient progress in these areas, the authors said, and the 1.5-degree goal may inch back within our crosshairs.\n“Mitigating emissions from all sources will be critical to limiting warming to less than 1.5 degrees Celsius,” said Earth scientist Gokul Iyer, lead author on the commentary. “While most efforts to date have focused on carbon dioxide emissions in the energy sector, those three areas present opportunities for further ratcheting of ambition.”\nAn opportunity to adjust course is fast-approaching. The Paris Agreement holds a built-in \"ratcheting\" mechanism; a course-correcting process where countries can regularly revise their climate pledges in five-year increments. Its purpose is to bring about more bold and ambitious action within the push to curb warming. COP28 marks the first time participating countries will undergo this \"progress review,\" known as the Global Stocktake. \nRatchet up ambition to dial down emissions: Beyond carbon dioxide\nCarbon dioxide is the most well-known greenhouse gas, yet it is one of several. Though less prevalent, other gasses like methane and nitrous oxide can trap even more heat. The latter can linger in Earth's troposphere for well over a century, before ultimately moving to the stratosphere, where it chips away at the ozone layer.\nDialing down non-CO2 emissions sooner rather than later, the authors said, could help curb peak warming this century.\n\"Doing so could \"flatten the curve\" of a temperature overshoot, where global temperatures exceed 1.5 degrees and eventually cool back down\", said Yang Ou, a co-author on the study and researcher at the College of Environmental Sciences and Engineering at Peking University.\nSome progress here has already been made, notably the Global Methane Pledge, in which over 150 countries voluntarily pledged to reduce methane emissions. Yet more detailed actions are needed, the authors said. \nFortunately, many of the technologies needed to reduce non-CO2 emissions already exist. Substituting climate-friendly cooling agents, detecting and repairing natural gas leaks, and recovering refrigerants when disposing of air conditioning or refrigeration equipment all could help in diminishing those emissions. Widespread dietary changes, like eating less meat, could also help dial down emissions within the agricultural sector. \nStill, the authors said, more progress is needed. Countries could address a wider range of non-CO2 emissions. Currently, methane takes a large focus, whereas nitrous oxide and fluorinated gasses are equally if not more important, according to the new work.\nAnd as new mitigation measures around these long-unaddressed emissions come into existence, countries could benefit from considering all sectors and sources from which they flow, from livestock to energy production.\nRamping up carbon dioxide removal\nRemoving carbon dioxide from Earth's atmosphere is essential, the authors said. They highlight an important gap between the amount of carbon dioxide countries have pledged to remove versus the amount that must be removed to meet the goals of the Paris Agreement.\nCurrent pledges are insufficient; we must pull an additional 1-3 gigatons of carbon dioxide from Earth's atmosphere annually by 2030, and 2-7 gigatons annually by 2050. Otherwise, the 1.5-degree goal will likely remain out of reach.\nMany carbon dioxide removal technologies remain nascent and expensive. Yet, to meet the warming goal, they must be made cost-effective and deployed at wide scales. The next decade, the authors said, is key.\nThe authors call for incentives to drum up research, development, demonstration, and the deployment of novel and alternative carbon dioxide removal methods. A wide-ranging approach to carbon removal offers the surest course, from afforestation and reforestation to the use of biofuels paired with carbon capture and storage.\nThe authors note some progress: investments in carbon dioxide removal technology have swelled in recent years, totaling $4 billion in publicly funded research. Yet only a few countries have made such investments, which have mostly focused on a limited number of removal methods. \n\"More widespread participation could ultimately drive down costs\", said McJeon, a coauthor of the new commentary. \"And it could demonstrate an important point: that carbon dioxide removal can be carried out around the world in a variety of ways, as each region is better suited for some removal methods over others\". \nHalting deforestation\nThe authors of the new commentary point to 4.1 million hectares of tropical forest lost to deforestation in 2022 alone. A significant chunk of global emissions – 16 percent – flowed from deforestation and other forms of land use change between 2012 and 2021. In some regions, forests that were once carbon sinks have turned into sources. What could greater ambition in this area look like?\nThe authors suggest several courses of action. Putting caps on climbing deforestation rates could help. Ceasing or reducing consumption of products like palm oil or soy, too, could protect forests in important regions like South America. \nBetter monitoring of illegal mining and hunting, creating new incentives to protect fire-prone forests from severe wildfire, and financing commitments to protect forests are all examples of worthwhile efforts, the authors said. \nThe team pays kudos to the European Union, the United Kingdom and Brazil, whose governments recently reported significant declines in deforestation rates since July 2022. The Forests and Climate Leaders’ Partnership – a joint declaration to halt and reverse forest loss and land degradation by 2030 – was signed by over 100 countries at COP27. If we are to meet the warming goal, however, similar progress must be made at a wider scale.\n“While the upcoming global stocktake process will likely focus on assessing climate actions and progress made to date,\" said Iyer, \"it will be important to focus negotiations and discussions on initiatives to ratchet ambition in hitherto ignored areas. Progress in those areas could greatly shape the trajectory of global emissions in the coming decades and improve our chances of staying below 1.5 degrees Celsius.”\nThis work stems from the Joint Global Change Research Institute, a partnership between the University of Maryland and Pacific Northwest National Laboratory. There, researchers from a wide range of disciplines collaborate to model human and Earth systems, from those that harness and deliver energy into our homes to the ones that govern extreme weather. Their findings help policymakers to make informed decisions about the wide range of potential consequences that flow from societal action.\nIn addition to Iyer, Jae Edmonds is also a PNNL author of this work. Alongside McJeon and Ou, their coauthors include Ryna Cui and Nathan Hultman of the Center for Global Sustainability at the University of Maryland, and Allen Fawcett of the U.S. Environmental Protection Agency."
+  }
+]
