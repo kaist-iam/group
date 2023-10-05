@@ -20,8 +20,6 @@ website:
         text: About us
       - href: documentation.qmd
         text: Documentation
-      - href: gcam_transportation.qmd
-        text: GCAM-KAIST7
       - href: publications.qmd
         text: Publications
         
