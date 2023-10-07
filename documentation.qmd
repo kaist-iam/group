@@ -16,7 +16,6 @@ format:
     #number-depth: 2
     highlight-style: github
     self-contained: false
-   
 ---
 
 # Living Document
@@ -48,7 +47,6 @@ format:
 2.  Download [standard GCAM release](https://github.com/JGCRI/gcam-core/releases/tag/gcam-v7.0)
 3.  Set up some prerequisite apps and run!
 
-
 ## Making your own git branch
 
 ::: callout-tip
@@ -79,26 +77,24 @@ if anything on github is confusing, just ask chatGPT!
 
 12. Assign me (d3y419) as the reviewer. I'll review the PR and merge as needed.
 
-
-
 ## Transition to GCAM-KAIST 7.0: Instructions and Next Steps
 
 As we embark on an exciting and crucial phase of updating our energy assessment model from GCAM-KAIST 2.0 to GCAM-KAIST 7.0, the following instructions and guidelines will ensure a smooth transition. Each one of the team is responsible for a particular XML file which is identified in the following [link](gcam-kaist-upgrade7b.xlsx).
 
-1. Download the Required Versions
+1.  Download the Required Versions
 
 GCAM 7.0 Official Release by JCRI: You can download this latest version from the following [link](https://github.com/JGCRI/gcam-core/releases/download/gcam-v7.0/gcam-v7.0-Windows-Release-Package.zip).
 
 GCAM-KAIST 2.0: This is our specialized version at KAIST. Please download it using the [link](https://o365kaist-my.sharepoint.com/:f:/g/personal/ahmeds_office_kaist_ac_kr/EuCnuJZbojFLjz5o0q3dwaYBQ4QihxB_7z8umGiHIeos8A?e=jnZFqE) .
 
-2. Analyze the Differences
+2.  Analyze the Differences
 
 XML File Comparison: Please compare the XML files between the two versions as per your specific task in the google sheet. Document the Differences: Note any discrepancies, changes, or new features. This will help us understand what needs to be transferred or adapted.
 
-3. Update GCAM 7.0 with GCAM-KAIST 2.0 Data
+3.  Update GCAM 7.0 with GCAM-KAIST 2.0 Data
 
 Modify the Original GCAM 7.0 XML Files: Replace the necessary data with the corresponding data from GCAM-KAIST 2.0. Follow the Evolution Process: This is vital to complete the transformation from GCAM-KAIST 2.0 to GCAM-KAIST 7.0 by checking the "comparison with GCAM-KAIST2" column in google sheet. After running the scenario, you can check if the results are different from GCAM-KAIST2.0 or not.
 
-4. Prepare for Tomorrow's Meeting
+4.  Prepare for Tomorrow's Meeting
 
 Clarification of Differences: Be prepared to discuss the differences you've identified and how you've addressed them.

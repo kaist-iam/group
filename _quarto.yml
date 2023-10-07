@@ -22,7 +22,7 @@ website:
         text: Models
       - href: publications.qmd
         text: Publications
-        
+         
     right:
       - icon: twitter
         href: https://twitter.com/KAISTIAM
@@ -33,7 +33,7 @@ website:
       
 
 margin-header: |
-  ![KAIST IAM group logo](./img/iam_kaist_logo.png)  
+  ![KAIST IAM roup logo](./img/iam_kaist_logo.png)  
   
 editor: visual
 

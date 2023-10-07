@@ -10,7 +10,6 @@ about:
 
 # Professors
 
-
 ### Jiyong Eom
 
 Jiyong Eom is an assistant professor at KAIST Business School's Graduate School of Green Growth. His research interest includes energy & environmental policy and economics, integrated assessment modeling for technology assessment, climate change mitigation and adaptation, demand-side management of energy, and technological change and innovation. At the school, he teaches Green Technology and Green Industry. He received a BS degree in Chemical Engineering from Yonsei University, a MS degree in Chemical and Biomolecular Engineering from Korea Advanced Institute of Science and Technology, and a PhD degree in Management Science and Engineering with the concentration on policy and strategy from Stanford University.
@@ -136,3 +135,5 @@ B.S. Stony Brook University, Technological System Management
 B.S. Stony Brook University, Applied Mathematics & Statistics
 
 **Email** **:** jiwonkwun\@kaist.ac.kr
+ 
+
