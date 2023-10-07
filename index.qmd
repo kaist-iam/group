@@ -23,39 +23,16 @@ csl: apa-single-spaced.csl
 reference-location: margin
 ---
 
-# Integrated Assessmenent Model(IAM)
+In the heart of the Korea Advanced Institute of Science and Technology (KAIST), a dedicated group of researchers is pioneering the way forward in understanding and shaping the transition to a carbon-neutral future. Meet the KAIST IAM group, a dynamic team at the forefront of innovation in the realm of Integrated Assessment Modeling.
 
-Integrated assessment modelling (IAM) is a term used for a type of scientific modelling that tries to link main features of society and economy with the biosphere and atmosphere into one modelling framework.
+As the world grapples with the urgent need to combat climate change, the KAIST IAM group stands as a beacon of hope, armed with sophisticated tools that go beyond conventional approaches. Their journey begins with the realization that solving the complex puzzle of achieving a carbon-neutral economy requires a holistic understanding of interconnected systems --- economics, energy, environment, and policy.
 
-# Global Change Assessment Model(GCAM)
+The IAM tools crafted by the KAIST team serve as a powerful lens, allowing researchers to peer into the future through the prism of various scenarios. With every simulation, they explore the intricate dance between economic growth, technological innovation, and environmental sustainability. Picture a virtual landscape where policymakers can test the impact of different strategies, from renewable energy adoption to carbon pricing policies, on a global and regional scale.
 
-The Joint Global Change Research Institute (JGCRI) is the home and primary development institution for GCAM, an integrated assessment tool for exploring consequences and responses to global change. Climate change is a global issue that impacts all regions of the world and all sectors of the global economy. Thus, any responses to the threat of climate change, such as policies or international agreements to limit greenhouse gas emissions, can have wide ranging consequences throughout the energy system as well as on land use and land cover. Integrated assessment models endeavor to represent all world regions and all sectors of the economy in an economic framework in order to explore interactions between sectors and understand the potential ramifications of climate mitigation actions.
+One of the group's key strengths lies in its commitment to an interdisciplinary approach. Collaborating across fields of expertise, the KAIST IAM researchers bridge the gaps between economists, environmental scientists, and policy analysts. This synergy enables them to unravel the complexities inherent in the transition to a carbon-neutral economy and propose solutions that are not only effective but also socially and economically viable.
 
-GCAM has been developed at PNNL for over 20 years and is now a freely available community model and documented online (See below). The team at JGCRI is comprised of economists, engineers, energy experts, forest ecologists, agricultural scientists, and climate system scientists who develop the model and apply it to a range of science and policy questions and work closely with Earth system and ecosystem modelers to integrate the human decision components of GCAM into their analyses.
+Imagine a scenario where policymakers are grappling with tough decisions about the future energy mix. The KAIST IAM group steps in, offering a detailed analysis of how different technological pathways, such as advanced solar and wind technologies or breakthroughs in energy storage, can pave the way for a sustainable tomorrow.
 
-## Model Overview
+The journey of the KAIST IAM group is not just about crunching numbers and running simulations; it's about creating a narrative for change. Their work extends beyond academic walls, influencing policy discussions, and empowering decision-makers to choose pathways that lead to a resilient and low-carbon future.
 
-GCAM is a dynamic-recursive model with technology-rich representations of the economy, energy sector, land use and water linked to a climate model that can be used to explore climate change mitigation policies including carbon taxes, carbon trading, regulations and accelerated deployment of energy technology. Regional population and labor productivity growth assumptions drive the energy and land-use systems employing numerous technology options to produce, transform, and provide energy services as well as to produce agriculture and forest products, and to determine land use and land cover. Using a run period extending from 1990 -- 2100 at 5 year intervals, GCAM has been used to explore the potential role of emerging energy supply technologies and the greenhouse gas consequences of specific policy measures or energy technology adoption including; CO2 capture and storage, bioenergy, hydrogen systems, nuclear energy, renewable energy technology, and energy use technology in buildings, industry and the transportation sectors. GCAM is an Representative Concentration Pathway (RCP)-class model. This means it can be used to simulate scenarios, policies, and emission targets from various sources including the Intergovernmental Panel on Climate Change (IPCC). Output includes projections of future energy supply and demand and the resulting greenhouse gas emissions, radiative forcing and climate effects of 16 greenhouse gases, aerosols and short-lived species at 0.5×0.5 degree resolution, contingent on assumptions about future population, economy, technology, and climate mitigation policy.
-
-# This webpage is made with Quarto.
-
-```{mermaid}
-%%| label: fig-mermaid
-%%| fig-width: 6
-%%| fig-cap: |
-%%|   How Quarto orchestrates rendering of documents: start with 
-%%|   a qmd file, use the Knitr or Jupyter engine to perform the 
-%%|   computations and convert it to an md file, then use Pandoc 
-%%|   to convert to various file formats including HTML, PDF, 
-%%|   and Word.
-flowchart LR
-  A[qmd] --> B(Knitr)
-  A[qmd] --> C(Jupyter)
-  B(Knitr) --> D[md]
-  C(Jupyter) --> D[md]
-  D[md] --> E(pandoc)
-  E(pandoc) --> F(HTML)
-  E(pandoc) --> G(PDF)
-  E(pandoc) --> H(Word)
-  E(pandoc) --> I{and more}
-```
+In the halls of KAIST, where innovation meets vision, the IAM group is not just a research team; they are architects of change. With IAM tools as their compass, they navigate the complexities of our interconnected world, charting a course towards a future where carbon neutrality is not just an aspiration but a tangible reality. The KAIST IAM group: where innovation meets impact, and the carbon-neutral dream becomes a shared vision for a sustainable planet.

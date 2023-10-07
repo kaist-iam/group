@@ -4,7 +4,7 @@ author: "KAIST IAM Group"
 date: last-modified
 categories: [news]
 fig-align: center
-image: "image.png"
+image: "image.jpg"
 ---
 
 *With COP28 and a looming temperature overshoot on the horizon, scientists point to three major efforts that could curb global warming.*

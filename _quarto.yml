@@ -18,8 +18,8 @@ website:
         text: Home
       - href: about.qmd
         text: About us
-      - href: documentation.qmd
-        text: Documentation
+      - href: https://github.com/JGCRI/gcam-core
+        text: Models
       - href: publications.qmd
         text: Publications
         
