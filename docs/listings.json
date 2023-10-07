@@ -2,8 +2,8 @@
   {
     "listing": "/publications.html",
     "items": [
-      "/posts/post2/index.html",
-      "/posts/welcome/index.html"
+      "/posts/welcome/index.html",
+      "/posts/post2/index.html"
     ]
   }
 ]
