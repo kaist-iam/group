@@ -7,7 +7,7 @@ project:
   
 website:
   title: "KAIST IAM Group"
-  favicon: "./img/analysis.png"
+  favicon: "./img/iam_kaist_logo.png"
   open-graph: true
   twitter-card: true
   site-url: https://github.com/GCAM-KAIST
@@ -31,7 +31,9 @@ website:
         href: https://github.com/GCAM-KAIST
         aria-label: GitHub
       
-  
+
+margin-header: |
+  ![KAIST IAM group logo](./img/iam_kaist_logo.png)  
   
 editor: visual
 
