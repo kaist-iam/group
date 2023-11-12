@@ -1,8 +1,8 @@
 ---
 title: "How to Slow Global Warming: Three Widescale Efforts Could Make the Difference"
-author: "KAIST IAM Group"
-date: last-modified
-categories: [news]
+author: "Brendan Bane"
+date: "2023-10-10"
+categories: [News]
 fig-align: center
 image: "image.jpg"
 ---
@@ -66,3 +66,5 @@ The team pays kudos to the European Union, the United Kingdom and Brazil, whose 
 This work stems from the Joint Global Change Research Institute, a partnership between the University of Maryland and Pacific Northwest National Laboratory. There, researchers from a wide range of disciplines collaborate to model human and Earth systems, from those that harness and deliver energy into our homes to the ones that govern extreme weather. Their findings help policymakers to make informed decisions about the wide range of potential consequences that flow from societal action.
 
 In addition to Iyer, Jae Edmonds is also a PNNL author of this work. Alongside McJeon and Ou, their coauthors include Ryna Cui and Nathan Hultman of the Center for Global Sustainability at the University of Maryland, and Allen Fawcett of the U.S. Environmental Protection Agency.
+
+[Link](https://www.pnnl.gov/news-media/how-slow-global-warming-three-widescale-efforts-could-make-difference)

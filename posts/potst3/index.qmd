@@ -1,15 +1,15 @@
 ---
 title: "State-by-state energy-water-land-health impacts of the US net-zero emissions goal"
 author: "KAIST IAM Group"
-date: last-modified
+date: "2023-11-04"
 categories: [news]
 fig-align: center
 image: "image.png"
 ---
 
-![](image.png)
-
 Decision-makers working on strategies to achieve the US net-zero emission goal need to have a broader understanding of the economic and sustainability impacts. In a new paper published in Energy and Climate Change journal, international team of researchers from X, Y, and Z used an integrated assessment model to investigate four approaches to achieving the U.S. net-zero emission goal and analyzed their impacts on energy, water, land, and public health within each state. \"This research serves as a foundation for gaining a deeper understanding of the effects of the U.S. net-zero emission goal and aims to lead this goal towards cost-effective and environmentally sustainable change,\" said Haewon McJeon, visiting professor at KAIST Graduate School of Green Growth & Sustainability. 
+
+![](image.png)
 
 This study utilizes GCAM v6.0 USA version, focusing on modeling various elements of the U.S., including its economy, energy system, agriculture, land use, water, and more, at the state level. The model incorporates consistent assumptions regarding population and economic growth and includes estimates for past and future greenhouse gas emissions and air pollutant levels. The research presents four distinct pathways to achieve net-zero emissions in the U.S. These pathways include the existing net-zero pathway, along with three additional alternative net-zero pathways designed to account for uncertainties in low-carbon technologies, carbon removal methods, and carbon reduction. GCAM-USA takes into account price adjustment for non-CO2 greenhouse gases, as well as considers the impact of technology lifespan tracking and mortality rates related to particulate matter exposure. 
 
@@ -19,4 +19,4 @@ This study provides a comprehensive analysis to evaluate the US net-zero emissio
 
 Korea also has a 2050 carbon neutrality goal. The lessons learned from this research can also be expanded to better understanding the economically sustainable transition towards achieving net-zero emissions in Korea. An in-depth research is needed for the comprehensive assessment of Korea\'s net-zero transitions. 
 
-[[paper link]{.underline}](https://doi.org/10.1016/j.egycc.2023.100117)
+<https://doi.org/10.1016/j.oneear.2023.08.019>

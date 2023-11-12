@@ -1,13 +1,11 @@
 ---
 title: "Global Stocktake: to limit global warming to 1.5°C, continued ratcheting of decarbonization is needed"
 author: "KAIST IAM Group"
-date: last-modified
+date: "2023-11-04"
 categories: [Publication]
 fig-align: center
 image: "image.png"
 ---
-
-<https://doi.org/10.1016/j.oneear.2023.08.019>
 
 Under the 2015 Paris Agreement, countries are mandated to submit Nationally Determined Contributions (NDCs) outlining their climate goals and actions for reducing greenhouse gas emissions by 2025 or 2030.
 
@@ -28,3 +26,5 @@ Key gaps persist in climate policy despite progress. Addressing non-CO2 emission
 Achieving deeper near-term reductions in non-CO2 emissions is feasible through various technological solutions, including end-of-pipe control measures and behavioral changes like dietary shifts. Some post-COP26 efforts, such as the United States Inflation Reduction Act and China's policies addressing methane emissions, demonstrate increased ambition in this regard. However, global ambition in non-CO2 emission reductions should encompass a broader range of gases, account for emissions from all sectors, and prioritize R&D for long-term solutions. Additionally, scaling up carbon dioxide removal (CDR) measures is essential, requiring increased investment in a diverse portfolio of CDR technologies beyond current efforts. Effective emissions trading mechanisms for CDR necessitate robust accounting rules and monitoring frameworks, as well as consideration of synergies and tradeoffs with other sustainability priorities.
 
 Implications for Korea: Korea has set an ambitious goal to achieve carbon neutrality, but to contribute meaningfully to global collective action and achieve the 1.5°C goal, there is a need for strengthening near-term NDCs. Faster coal-fired powerplant retirement and rapid increase in clean power generation will be critical near-term steps.
+
+<https://doi.org/10.1016/j.oneear.2023.08.019>
