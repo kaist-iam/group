@@ -18,7 +18,7 @@ website:
         text: Home
       - href: about.qmd
         text: About us
-      - href: https://github.com/JGCRI/gcam-core
+      - href: models.qmd  # https://github.com/JGCRI/gcam-core
         text: Models
       - href: publications.qmd
         text: Publications
@@ -33,7 +33,7 @@ website:
       
 
 margin-header: |
-  ![KAIST IAM group logo](./img/iam_kaist_logo.png)  
+  ![](./img/iam_kaist_logo.png)  
   
 editor: visual
 

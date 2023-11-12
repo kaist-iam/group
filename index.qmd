@@ -1,11 +1,11 @@
 ---
 title: "KAIST IAM Group"
-description: "IAM KAIST"
+#description: "IAM KAIST"
 date: today # 날짜 설정: now, last-modified
 author:
-  - name: IAM KAIST team 
+  - name: KAIST IAM Group
   #  url: 
-    affiliation: KAIST
+    affiliation: Korea Advanced Institute of Science and Technology
     #affiliation-url: 
 title-block-banner: false
 #title-block-banner: "#562457"
