@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/GCAM-KAIST/about.html</loc>
-    <lastmod>2023-11-14T09:57:29.236Z</lastmod>
+    <lastmod>2023-11-15T11:28:07.345Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/GCAM-KAIST/documentation.html</loc>
@@ -51,5 +51,9 @@
   <url>
     <loc>https://github.com/GCAM-KAIST/models - Copy.html</loc>
     <lastmod>2023-11-12T09:44:23.505Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/GCAM-KAIST/hmcjeon.html</loc>
+    <lastmod>2023-11-15T11:27:35.085Z</lastmod>
   </url>
 </urlset>
