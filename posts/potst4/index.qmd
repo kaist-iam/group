@@ -1,0 +1,40 @@
+---
+title: "Supply and Demand Drivers of Global Hydrogen Deployment in the Transition towards a Decarbonized Energy System"
+author: "KAIST IAM Group"
+date: "2023-12-02"
+categories: [Publication]
+fig-align: center
+image: "image.jpg"
+---
+
+*A new paper published today in Environmental Science and Technology addresses global hydrogen deployment's supply and demand drivers in the transition toward a decarbonized energy system.*
+
+An international team of authors from Pacific Northwest National Laboratory, University of Maryland, ExxonMobil Technology and Engineering Company, and Korea Advanced Institute of Science and Technology (KAIST) researched the potential of hydrogen as a low-carbon energy carrier. The paper evaluated hydrogen\'s deployment using the Global Change Analysis Model (GCAM). It comprehensively analyzes the supply and demand drivers of global hydrogen deployment in the transition towards a decarbonized energy system.
+
+\"The actual amount of hydrogen use may be small compared to the total energy use, but hydrogen provides important decarbonization options in several keys \"hard-to-abate sectors,\" said the corresponding author, Haewon McJeon, a visiting professor at KAIST Graduate School of Green Growth and Sustainability.
+
+Hydrogen's role in reducing global energy emissions is gaining policymaker\'s attention, especially in the industrial and transportation sectors. Although integrated assessment models (IAMs) have delved into hydrogen's potential, few have assessed the impact of hydrogen delivery infrastructure---a critical factor given the expected substantial costs of hydrogen transmission and distribution (T&D). This study broadens the scope of prior research, highlighting the significance of hydrogen T&D in determining hydrogen supply chain decisions.
+
+In core scenarios, global hydrogen production remains under 2.5 EJ until 2030 and reaches 10 EJ to 22 EJ across scenarios by 2050, accounting for about 9 to 20% of 2015's total transportation energy consumption. Green hydrogen will become the predominant source by 2050, with 36 to 69% of total production. Most green hydrogen is produced onsite due to cost advantages, even when considering economies of scale for central production. By 2050, onsite hydrogen production will comprise over half of the total, with blue hydrogen making up 24 to 29%. Introducing dedicated hydrogen T&D allows for diverse hydrogen sources, including natural gas with carbon capture and storage (CCS) and bioenergy with CCS (BECCS). The study's findings align with the IPCC AR6 database scenarios for 2°C warming limits.
+
+By 2050, under both Reference and High Demand scenarios, industrial hydrogen consumption is projected to be on par with or surpass transportation hydrogen demand, making up 40 to 76% of total hydrogen use, which translates to approximately 7 to 11 EJ (or up to 12.5 EJ when factoring in hydrogen blended with gas). Rapid cost reductions in hydrogen-based transportation can bring about a large increase in hydrogen use in this sector. In the High Demand scenarios, total hydrogen consumption outpaces the Reference Demand scenarios by 8 to 9 EJ (or 70 to 84%) in 2050. Despite these numbers, hydrogen only constitutes a minor fraction (2- 4%) of total final energy by mid-century but has the potential for significant deployment post-2050, especially under stricter climate objectives. In industry, hydrogen's primary application is anticipated for high-temperature heat processes, with its role in sectors like cement expected to grow considerably in the latter half of the century.​
+
+Hydrogen consumption patterns reveal significant roles for both truck and pipeline transport. However, pipelines are generally preferred over trucks when both options are feasible, primarily due to cost considerations. Despite these delivery methods, onsite hydrogen production remains dominant, consistently surpassing amounts delivered by either trucks or pipelines. Additionally, hydrogen consumption in the industrial sector is often on par with, if not exceeding, that in the transportation sector. This data is crucial when assessing potential hydrogen leakage, especially given the emerging concerns regarding hydrogen's indirect climate impacts.
+
+This study delved into hydrogen's potential role in decarbonization, examining factors like hydrogen transmission & distribution (T&D) infrastructure, end-use technology costs, and climate policy stringency using GCAM. "While hydrogen T&D may impact the production mix, it does not appear to meaningfully impact the scale of supply." said the lead author Patrick O\'Rourke, a PhD candidate at the University of Maryland. \"Especially when accounting for distributed production options, onsite production becomes a dominant method, primarily from green hydrogen.\" The study found that on the demand side, hydrogen's use in industries, especially for high-temperature heat, surpasses its transportation uses in most scenarios. However, end-use technology costs influence hydrogen's role in the energy transition more than T&D infrastructure assumptions. In addition, the hydrogen deployment is sensitive to increased climate policy stringency. Future research should consider the potential leakage in the hydrogen supply chain and further explore hydrogen's applications in the power sector and hydrogen-derived fuel production.​
+
+Implications for Korea: Major energy-importing countries like Korea face a dual challenge where they need to decarbonize the energy supply while expanding the international transmission and distribution system. Reducing the cost and leakage of hydrogen imports will be the key to the successful development of the hydrogen economy. 
+
+Read the full paper here: <https://doi.org/10.1021/acs.est.3c03751>
+
+**한국어 요약**
+
+수소경제 전송과 배전의 중요성 연구
+
+탄소중립을 달성하기 위해 핵심적인 기술 중의 하나인 수소에너지의 이송과 분배(T&D)의 중요성이 부각되고 있다.
+
+우리 대학 녹색성장지속가능대학원 전해원 방문교수를 포함한 한국과 미국 국제 연구진은 미래 수소에너지 공급과 수요에 이송과 분배(T&D)가 미치는 영향을 분석한 논문을  Environmental Science and Technology에 출간하였다.
+
+통합평가모형을 활용한 이번 연구는 기존연구가 수소의 공급과 수요에만 국한되었던 관점을 극복하여 이송과 분배(T&D)의 방식에 따른 미래 수소에너지원의 총량과 비중을 예측했다는 점에 큰 의미가 있다. 미래에 다가올 탄소중립을 대비하여 이송과 분배(T&D) 인프라를 최적화할 수 있는 방법론을 제시한 것에 의미가 있다.
+
+논문바로가기: <https://doi.org/10.1021/acs.est.3c03751>
