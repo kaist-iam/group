@@ -5,6 +5,7 @@ date: "2023-12-02"
 categories: [Publication]
 fig-align: center
 image: "image.jpg"
+favicon: "image.jpg"
 ---
 
 *A new paper published today in Environmental Science and Technology addresses global hydrogen deployment's supply and demand drivers in the transition toward a decarbonized energy system.*
