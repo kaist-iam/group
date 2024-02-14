@@ -1,0 +1,35 @@
+---
+title: "The role of bioenergy in Brazil’s low-carbon future"
+author: "KAIST IAM Group"
+date: "2024-02-14"
+categories: [Publication]
+fig-align: center
+image: "image_main.png"
+favicon: "image_main.png"
+---
+
+*A new study explains that various strategies are compatible with Brazil's mid-century net-zero carbon goal but differ in cost and the country's competitive advantages.*
+
+Brazil, along with all major nations around the world, committed to net-zero. The paper discusses the need for global emissions reduction outlined by the IPCC and the challenges associated with achieving these goals. It emphasizes the importance of Brazil's biofuel production potential and explores scenarios involving electrification and biofuels in the transportation sector. The study compares various pathways using the BLUES Integrated Assessment Model, considering both international and national trends.
+
+![](image_main.png){fig-align="center"}
+
+This study explains that various strategies are compatible with Brazil's mid-century net-zero carbon goal but differ in cost and the country's competitive advantages. Most technological components of the IEA's net-zero trajectory assume almost complete compatibility with Brazil's electrification strategy, contingent on significant research and development investments. The recent budget cuts in Brazil's public research and development resources make the realization of this scenario challenging, as outlined in the research.
+
+Moreover, the study anticipates that negative emissions will play a crucial role in Brazil achieving net-zero carbon by 2050 in all scenarios, especially impacting changes in the energy sector. Afforestation and pasture recovery are highlighted as important CDR options for Brazil. Comparing the four scenarios, a biofuels-based strategy is expected to provide more room for negative emissions from bioenergy integrated with carbon capture and storage (BECCS). This implies that a phase-out of internal combustion engines (ICEs) could have an impact, leading to an increased dependence on the use of biofuels. However, biofuels remain relevant in all scenarios, even when used in hard-to-abate sectors through cellulosic fuels.
+
+In conclusion, the importance of negative emissions, the impact of different strategies on achieving net-zero, and the continued relevance of biofuels in Brazil's decarbonization efforts are emphasized in the study. The paper concludes with insights for shaping mid-century strategies in Brazil, highlighting the significance of stakeholder engagement and the need for realistic milestones in achieving net-zero targets. The challenges posed by budget constraints on research and development underscore the need for careful consideration of the country's unique circumstances in pursuing sustainable and cost-effective pathways.
+
+"Each and every country needs to develop their own science-based pathways to achieve carbon-neutrality," said KAIST visiting professor Haewon McJeon, who coauthored the study. "But there's no one-size-fits-all carbon neutrality policy, each pathway needs to be based on region-specific circumstances. That's what this study demonstrates."
+
+Paper link: <https://doi.org/10.1016/j.egycc.2023.100123>
+
+**한국어 요약**
+
+브라질의 저탄소 미래에서의 바이오에너지 역할
+
+IPCC 에서 제시한 세계적인 배출 감소의 필요와 이러한 목표를 달성하는데 관련한 도전의 논의가 필요한 가운데 카이스트 녹색성장지속가능대학원 전해원 방문 교수를 포함한 연구진은 2050년까지 탄소중립을 달성하기 위한 브라질에서의 바이오에너지 역할 분석을 Energy and Climate Change 저널에 출간하였다.
+
+이 연구는 교통 부문에서의 전기화 및 바이오연료를 포함한 시나리오 분석을 통해 브라질이 가진 바이오연료 생산의 잠재력의 중요성을 강조한다. 또한 브라질의 탄소 감축 노력에서 탄소 포집의 중요성, 탄소중립 달성에 대한 다양한 전략의 영향에 대해 설명하며 그 중심에는 바이오연료가 중요하다는 것을 시사한다.
+
+논문 링크: <https://doi.org/10.1016/j.egycc.2023.100123>

@@ -20,7 +20,7 @@ A notable feature of this model is its detailed parameterization of both traditi
 
 This research represents a substantial step forward in mitigating the impact of the organic chemical sector on climate change. It suggests a more integrated approach to explore various carbon mitigation strategies and calls for further research in different industries for more significant carbon reduction in the future.
 
-\"Petrochemicals industry is inherently fossil fuel driven,\" said KAIST Visiting Professor Haewon McJeon, who coauthored the paper. \"Decarbonizing chemical production emissions will be difficult but crucial contribution to achieving net-zero emissions.\"
+"Petrochemicals industry is inherently fossil fuel driven," said KAIST Visiting Professor Haewon McJeon, who coauthored the paper. "Decarbonizing chemical production emissions will be difficult but crucial contribution to achieving net-zero emissions."
 
 Read the full paper here : <https://doi.org/10.1021/acs.est.3c05202>
 
