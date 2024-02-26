@@ -1,0 +1,37 @@
+---
+title: "Equity Implications of Net-Zero Emissions: A Multi-Model Analysis of Energy Expenditures Across Income Classes Under Economy-Wide Deep Decarbonization Policies"
+author: "KAIST IAM Group"
+date: "2024-02-26"
+categories: [Publication]
+fig-align: center
+image: "image_main.png"
+favicon: "image_main.png"
+---
+
+*Achieving net-zero emissions will have heterogeneous impacts on different income groups. The design of policies impacts the pricing of carbon-intensive goods and consumer behavior, leading to changes in household welfare and emissions.*
+
+International team of researchers, including KAIST Graduate School of Green Growth and Sustainable Development Visiting Professor Haewon McJeon, published a multi-model study in the Energy and Climate Change journal on the distributive impact of carbon-neutral policies focusing on direct energy expenditure changes among income classes.
+
+![](image_main.png){fig-align="center"}
+
+This study assesses how policies aiming to achieve net-zero CO2 emissions by 2050 will affect different income groups in the United States. It utilizes a variety of energy-economy models under harmonized scenarios to analyze the distributional dimensions of technology transitions and net-zero policies, mainly focusing on their impact on household welfare across different income levels. The analysis combines outputs from detailed energy system models with survey data on energy expenditures, offering a detailed look at the distributional effects of net-zero policies.
+
+The study finds that direct energy expenditures for households will likely decrease over time with reference and net-zero policies. However, there are variations in the extent of these changes. The models used in the study generally agree that lower-income households face relatively higher energy burdens than higher-income households. A key aspect of the study is the emphasis on policy design, particularly using revenues generated from climate policies. Recycling these revenues can mitigate higher energy burdens, potentially leading to progressive outcomes where lower-income groups benefit more proportionally.
+
+Another important finding is that employing an expenditure-based analysis rather than an income-based one provides a more accurate estimation of the distributional impacts, offering a clearer picture of the progressivity of emissions policies. The study also introduces the concept of carbon Laffer curves in the context of net-zero policies, where the revenues from these policies initially increase but then decrease as policy stringencies heighten. This dynamic can influence the progressive nature of climate policies.
+
+The research underscores the importance of policy design in shaping the distributional outcomes of net-zero emissions policies and suggests areas for future research. This includes exploring alternative policy designs, assessing the impact of the Inflation Reduction Act, and examining the horizontal equity dimensions of net-zero policies. Overall, the study provides a comprehensive analysis of how net-zero emissions policies can affect different income groups and highlights the critical role of policy design in ensuring equitable outcomes.
+
+Read the full paper here: <https://doi.org/10.1016/j.egycc.2023.100118>
+
+**한국어 요약**
+
+탄소중립의 영향 공정성: 탈탄소화 정책에 따른 소득 계층별 에너지 지출에 대한 다중모델분석
+
+21세기 중반기까지 탄소 중립 목표를 추구하는 기업, 국가, 지역들이 증가함에 따라, 이러한 목표가 가구들의 복지에 어떠한 영향을 미치는지에 대한 질문이 제기되고 있다. 
+
+우리 대학 녹색성장지속가능대학원 전해원 방문교수를 포함한 국제 연구진은 소득계층 간의 직접적인 에너지 지출 변화에 초점을 맞춘 탄소 중립 정책의 분배적 영향에 관한 최초의 다중 모델 연구를 Energy and Climate change 저널에 출간하였다. 
+
+다중모델을 활용한 이번 연구는 탄소 중립을 향한 전환 과정에서 경제적, 사회적 형평성을 달성하기 위한 중요한 지침을 제공하는 것에 큰 의미가 있다. 
+
+논문 링크: <https://doi.org/10.1016/j.egycc.2023.100118>
