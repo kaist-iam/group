@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.251">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="KAIST IAM Group">
+<meta name="dcterms.date" content="2024-03-23">
+
+<title>KAIST IAM Group - Trade-Offs in Land-Based Carbon Removal Measures under 1.5°C and 2°C Futures</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../.././img/iam_kaist_logo.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<meta property="og:title" content="KAIST IAM Group - Trade-Offs in Land-Based Carbon Removal Measures under 1.5°C and 2°C Futures">
+<meta property="og:description" content="The IPCC’s AR6 emphasizes the importance of land-based carbon dioxide removal (CDR) measures, such as reforestation and bioenergy with carbon capture and storage (BECCS), to meet the Paris Agreement…">
+<meta property="og:image" content="https://github.com/GCAM-KAIST/posts\potst10\image_main.png">
+<meta property="og:site-name" content="KAIST IAM Group">
+<meta property="og:image:height" content="1102">
+<meta property="og:image:width" content="1300">
+<meta name="twitter:title" content="KAIST IAM Group - Trade-Offs in Land-Based Carbon Removal Measures under 1.5°C and 2°C Futures">
+<meta name="twitter:description" content="The IPCC’s AR6 emphasizes the importance of land-based carbon dioxide removal (CDR) measures, such as reforestation and bioenergy with carbon capture and storage (BECCS), to meet the Paris Agreement…">
+<meta name="twitter:image" content="https://github.com/GCAM-KAIST/posts\potst10\image_main.png">
+<meta name="twitter:image-height" content="1102">
+<meta name="twitter:image-width" content="1300">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">KAIST IAM Group</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html">Home</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html">About us</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../models.html">Models</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../publications.html">Publications</a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/KAISTIAM"><i class="bi bi-twitter" role="img" aria-label="Twitter">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/GCAM-KAIST"><i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+ </a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Trade-Offs in Land-Based Carbon Removal Measures under 1.5°C and 2°C Futures</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">Publication</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>KAIST IAM Group </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">March 23, 2024</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
+<p><img src="./img/iam_kaist_logo.png" class="img-fluid"></p>
+</div></div>
+        
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<p>The IPCC’s AR6 emphasizes the importance of land-based carbon dioxide removal (CDR) measures, such as reforestation and bioenergy with carbon capture and storage (BECCS), to meet the Paris Agreement goals. The suggested carbon budgets for limiting global warming to well below 2°C and 1.5°C are 1150 and 500 GtCO2, respectively. The AR6 scenario database indicates a cumulative land-based CDR of 460 (350–560) GtCO2 between 2020 and 2100, with BECCS and reforestation playing significant roles. Challenges include potential trade-offs between BECCS and land-use change, land-use change, and forestry (LULUCF) removals, suggesting leakage issues. Land-intensive BECCS and reforestation face challenges related to advanced technologies and expanding forests, respectively.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image_main.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Impact of land carbon pricing strength on key outcomes under 2 °C scenarios.</figcaption><p></p>
+</figure>
+</div>
+<p>Variability among models in considering land-system mitigation policies makes it challenging to understand drivers and trade-offs fully. A new study published in Nature Communications used the Global Change Analysis Model (GCAM) to highlight the policy effects on land-based CDR, trade-offs, and global market-mediated responses. Different scenarios with varied carbon pricing and mitigation policies provide insights into policy effectiveness and implications for agricultural commodity prices. However, uncertainties related to sustainability, resource use, and institutional challenges in large-scale land-based CDR deployment require careful consideration by decision-makers.</p>
+<p>The exploration centers on the uncertainty in predicting land-based carbon dioxide removal (CDR) and its economic and environmental impacts. Analyzing various scenarios with land-based mitigation policies, a range of 100 to 700 GtCO2 for cumulative land-based CDR by the end of the century is revealed.</p>
+<p>The deployment of bioenergy with carbon capture and storage (BECCS) is influenced by land-system mitigation policies, and valuing soil carbon storage reduces emissions leakage, lowering mitigation costs. The examination emphasizes the inverse relationship between cumulative BECCS and land-use, land-use change, and forestry (LULUCF) removals, highlighting the contribution of BECCS and reforestation to 1.5°C and 2°C scenarios.</p>
+<p>Insights include the higher removal intensity of BECCS over time, sensitivity of BECCS to feedstock and technology choices, and the importance of soil management and policy choices for reforestation. Tradeoffs between removal effectiveness and agricultural price responses are emphasized, underscoring the need for careful design of land-based mitigation policies considering food security and sustainability. The research suggests improvements in Integrated Assessment Models (IAMs) by harmonizing land-based mitigation policies and assumptions, providing information for future model comparison efforts in the context of climate change mitigation.</p>
+<p>"Korea, with limited land area, will face difficult time scaling up land-based natural climate solutions," said KAIST visiting professor Haewon McJeon, who coauthored the study. "As such, they will need to focus more heavily on innovation to reduce hard-to-abate sectors."</p>
+<p>Read the full paper here: <a href="https://doi.org/10.1038/s41467-024-46575-3" class="uri">https://doi.org/10.1038/s41467-024-46575-3</a></p>
+<p><strong>한국어 요약</strong></p>
+<p>1.5도 및 2도 미래에서의 육상 기반 탄소 제거 수단의 트레이드오프</p>
+<p>파리 협정 목표를 달성하기 위해 산림을 포함한 이산화탄소 제거 (CDR) 방안의 중요성이 커지고 있는 가운데 카이스트 녹색성장지속가능대학원 전해원 방문교수를 포함한 연구진은 토지 기반 탄소제거 예측의 불확실성과 경제 및 환경적 영향에 대해 분석한 논문을 국제 학술지 네이처 커뮤니케이션에 출간하였다.</p>
+<p>이 연구는 육지 기반 완화 정책을 활용하여 다양한 시나리오를 분석을 통해 BECCS의 높은 제거 강도, BECCS의 원료 및 기술 선택에 대한 민감성, 그리고 토양 관리 및 정책 선택의 중요성을 제시한다. 또한 세계 각국이 탄소중립을 위해 노력하는 가운데, 난감축 부문의 배출량을 오프셋할 천연 기후 솔루션의 역할이 대두됨을 시사하며, 다양한 토지 기반 기후 솔루션의 장단점에 대해 체계적으로 분석한 것에 의의가 있다.</p>
+<p>논문 링크: <a href="https://doi.org/10.1038/s41467-024-46575-3" class="uri">https://doi.org/10.1038/s41467-024-46575-3</a></p>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
