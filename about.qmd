@@ -12,13 +12,13 @@ about:
 
 ------------------------------------------------------------------------
 
-### Jiyong Eom
+### [Jiyong Eom](https://kaist-iam.github.io/group/hmcjeon.html)
 
 Jiyong Eom is an associate professor at KAIST College of Business and the head of KAIST Graduate School of Green Growth. His research interest includes energy & environmental economics and management, integrated assessment modeling for climate policy analysis, demand-side management of electricity with ICT, and green information systems & energy informatics. His research appeared in Nature Energy, Global Environmental Change, Energy Economics, Energy Policy, Energy, Technology Forecasting & Social Change, and Climatic Change. He served as a contributing author for Chapters 6 and 9 of the IPCC Fifth Assessment Report of Working Group III (Mitigation of Climate Change) and is a 2019 Highly Cited Researcher in the social science area. He received a BS degree in Chemical Engineering from Yonsei University, a MS degree in Chemical and Biomolecular Engineering from KAIST, and a PhD degree in Management Science & Engineering with the concentration on Policy & Strategy from Stanford University.
 
 ------------------------------------------------------------------------
 
-### Haewon McJeon
+### [Haewon McJeon](https://kaist-iam.github.io/group/hmcjeon.html)
 
 Haewon McJeon is a Visiting Professor at the Korea Advanced Institute of Science & Technology (KAIST). He is currently on leave from the Joint Global Change Research Institute and the Center for Global Sustainability, where he played a pivotal role in developing decarbonization pathways with the Global Change Assessment Model (GCAM). His research primarily focuses on the using Integrated Assessment Models (IAM) to formulate low-carbon, carbon-neutral, and carbon-negative pathways for mitigating climate change. While at KAIST Graduate School of Green Growth & Sustainability, he will be teaching the next generation of modelers on the application of quantitative models for evaluating decarbonization strategies in developing Asia.
 
