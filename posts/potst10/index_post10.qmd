@@ -22,7 +22,7 @@ The deployment of bioenergy with carbon capture and storage (BECCS) is influence
 
 Insights include the higher removal intensity of BECCS over time, sensitivity of BECCS to feedstock and technology choices, and the importance of soil management and policy choices for reforestation. Tradeoffs between removal effectiveness and agricultural price responses are emphasized, underscoring the need for careful design of land-based mitigation policies considering food security and sustainability. The research suggests improvements in Integrated Assessment Models (IAMs) by harmonizing land-based mitigation policies and assumptions, providing information for future model comparison efforts in the context of climate change mitigation.
 
-\"Korea, with limited land area, will face difficult time scaling up land-based natural climate solutions,\" said KAIST visiting professor Haewon McJeon, who coauthored the study. \"As such, they will need to focus more heavily on innovation to reduce hard-to-abate sectors.\"
+"Korea, with limited land area, will face difficult time scaling up land-based natural climate solutions," said KAIST visiting professor Haewon McJeon, who coauthored the study. "As such, they will need to focus more heavily on innovation to reduce hard-to-abate sectors."
 
 Read the full paper here: <https://doi.org/10.1038/s41467-024-46575-3>
 
