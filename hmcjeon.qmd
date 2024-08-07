@@ -8,11 +8,11 @@ about:
       href: https://github.com/GCAM-KAIST
 ---
 
-# Haewon McJeon
+# Haewon C. McJeon
 
 ------------------------------------------------------------------------
 
-Haewon McJeon is a Visiting Professor at the Korea Advanced Institute of Science & Technology (KAIST). He is currently on leave from the Joint Global Change Research Institute and the Center for Global Sustainability, where he played a pivotal role in developing decarbonization pathways with the Global Change Assessment Model (GCAM). His research primarily focuses on the using Integrated Assessment Models (IAM) to formulate low-carbon, carbon-neutral, and carbon-negative pathways for mitigating climate change. While at KAIST Graduate School of Green Growth & Sustainability, he will be teaching the next generation of modelers on the application of quantitative models for evaluating decarbonization strategies in developing Asia.
+Haewon McJeon is a associate professor at the Korea Advanced Institute of Science & Technology (KAIST). He is currently on leave from the Joint Global Change Research Institute and the Center for Global Sustainability, where he played a pivotal role in developing decarbonization pathways with the Global Change Assessment Model (GCAM). His research primarily focuses on the using Integrated Assessment Models (IAM) to formulate low-carbon, carbon-neutral, and carbon-negative pathways for mitigating climate change. While at KAIST Graduate School of Green Growth & Sustainability, he will be teaching the next generation of modelers on the application of quantitative models for evaluating decarbonization strategies in developing Asia.
 
 Haewon has served as the lead Integrated Assessment Modeler for two White House reports on deep decarbonization pathways (Long-Term Strategy, 2021 and Mid-Century Strategy, 2016). Furthermore, he served as the modeling lead for the America's Pledge project. Throughout his career, he has maintained close collaboration with research clients from government agencies, foundations, and the private sector.He has published widely encompassing topics such as the impact of fossil fuels on climate change, decarbonization technologies, and decision-making under uncertainties. He has published over 70 papers in peer-reviewed journals, including Nature, Science, Energy Economics, and Climatic Change. Dr. McJeon holds a Ph.D. and a Master's degree in Environmental Policy from the University of Maryland, as well as a Bachelor's degree in Economics from Seoul National University.
 
@@ -26,7 +26,8 @@ Haewon has served as the lead Integrated Assessment Modeler for two White House 
 
 -   Graduate School of Green Growth & Sustainability, Korea Advanced Institute of Science and Technology
 
-    -   Visiting Professor (2023 -- Present)
+    -   Associate Professot (2024 – Present)
+    -   Visiting Professor (2023 -- 2024)
 
 -   Joint Global Change Research Institute, Pacific Northwest National Laboratory
 
@@ -34,6 +35,6 @@ Haewon has served as the lead Integrated Assessment Modeler for two White House 
 
 -   Center for Global Sustainability, University of Maryland
 
-    -   Associate Research Scholar, Joint Appointment (2020 -- Present)
+    -   Associate Research Scholar, Joint Appointment (2020 -- 2024)
 
 ------------------------------------------------------------------------
