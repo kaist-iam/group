@@ -18,7 +18,7 @@ Jiyong Eom is an associate professor at KAIST College of Business and the head o
 
 ------------------------------------------------------------------------
 
-### [Haewon McJeon](https://kaist-iam.github.io/group/hmcjeon.html)
+### [Haewon C. McJeon](https://kaist-iam.github.io/group/hmcjeon.html)
 
 Haewon McJeon is a associate professor at the Korea Advanced Institute of Science & Technology (KAIST). He is currently on leave from the Joint Global Change Research Institute and the Center for Global Sustainability, where he played a pivotal role in developing decarbonization pathways with the Global Change Assessment Model (GCAM). His research primarily focuses on the using Integrated Assessment Models (IAM) to formulate low-carbon, carbon-neutral, and carbon-negative pathways for mitigating climate change. While at KAIST Graduate School of Green Growth & Sustainability, he will be teaching the next generation of modelers on the application of quantitative models for evaluating decarbonization strategies in developing Asia.
 
