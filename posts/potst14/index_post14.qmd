@@ -1,0 +1,33 @@
+---
+title: "The hydrogen economy can reduce costs of climate change mitigation by up to 22%"
+author: "KAIST IAM Group"
+date: "2024-08-26"
+categories: [Publication]
+fig-align: center
+image: "image_main.png"
+favicon: "image_main.png"
+---
+
+*A new study published by researchers at the Joint Global Change Research Institute and KAIST Graduate School of Green Growth & Sustainability has revealed that the hydrogen economy has the potential to significantly reduce the costs associated with mitigating climate change.* *The study shows that incorporating hydrogen into the global energy system could decrease climate change mitigation costs by up to 22% by mid-century.*
+
+![](image_main.png){fig-align="center"}
+
+The research, which utilizes an advanced version of the Global Change Analysis Model (GCAM), indicates that hydrogen will play a crucial role in achieving net-zero carbon emissions by 2050. By integrating hydrogen, the cost of reducing CO2 emissions could be reduced by 15% to 22%, making hydrogen a valuable tool in global decarbonization efforts.
+
+"Hydrogen's versatility and potential to address key energy challenges make it an indispensable component of our climate strategy," said Prof. Haewon McJeon of KAIST Graduate School of Green Growth & Sustainability who coauthored the study. "Our findings emphasize the need for continued innovation and investment in hydrogen technologies to realize their full potential in mitigating climate change."
+
+The study also explores various hydrogen scenarios, providing insights into the most cost-effective strategies for deploying hydrogen technologies. The results suggest that while hydrogen's share of global final energy use may remain moderate, its impact on reducing mitigation costs is substantial, especially in sectors with limited alternatives.
+
+Read the full paper here: <https://doi.org/10.1016/j.oneear.2024.04.012>
+
+**수소 경제는 기후 변화 완화 비용을 최대 22%까지 줄일 수 있다.**
+
+JGCRI와 KAIST 녹색성장지속가능대학원의 연구진이 국제 학술지 One Earth에 출간한 연구에 따르면 수소경제가 기후변화 완화에 따른 비용을 크게 줄일 가능성이 있음이 밝혀졌다. 이 연구는 수소를 세계 에너지 시스템에 포함시킴으로써 기후 변화 완화 비용을 21세기 중반까지 최대 22% 절감할 수 있음을 보여준다.
+
+이 연구는 Global Change Analysis Model (GCAM)을 이용하여 수소가 2050년까지 탄소중립을 이루는데 중요한 역할을 한다는 것을 보여주고 있다. 수소의 투입으로 CO2 감축 비용을 15%에서 22% 삭감할 수 있다는 것을 보여주면서 수소가 세계적인 탈탄소화의 대처에 있어서 중요한 대안이 된다는 것을 시사하고 있다.
+
+연구에 참여한 KAIST 녹색성장지속가능대학원 전해원 교수는 "수소의 다양성과 잠재력은 기후변화 감축전략에 필수적인 요소로 활용된다. 이번 연구 결과는 기후 변화를 완화하기 위해 수소 기술에 대한 지속적인 혁신과 투자가 필요하다는 것을 강조하고 있다."고 말한다.
+
+또한 이 연구는 다양한 수소 시나리오를 정립하고 수소 기술을 도입하기 위한 가장 비용 효율적인 전략에 대한 통찰력을 제공한다. 이는 수소가 전세계의 최종 에너지 사용량에서 차지하는 비중은 크지 않을지라도, 대체에너지가 제한된 난감축 분야에서 완화 비용을 줄이는데 미치는 영향은 클 수 있다는 것을 시사하고 있다.
+
+논문 링크: <https://doi.org/10.1016/j.oneear.2024.04.012>
