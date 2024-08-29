@@ -54,8 +54,6 @@ Project Manager, Elsewedy Electric Transmission and Distribution
 
 Project Manager, Gulf of Suez Petroleum Company JV British Petroleum
 
-**Email :** ahmed\@kaist.ac.kr
-
 ------------------------------------------------------------------------
 
 ### Jiseok Ahn
@@ -74,29 +72,7 @@ B.S. Inha University, Industrial Engineering
 
 **Work Experience**
 
-Seneior Enginer, Energy Policy Research Team, Korea Institute of Energy Research
-
-**Email :** jiseok.ahn\@kaist.ac.kr
-
-------------------------------------------------------------------------
-
-### Jeongho Jo
-
-M.S. Student of Green Business of Policy Program
-
-**Research Interest**
-
-Energy & environmental policy and management, demand-side management, energy mix, consumer behavior, ESG strategy, green business model
-
-**Education**
-
-B.A. Yokohama National University, Department of Business Administration (Magma Cum Laude)
-
-**Work Experience**
-
-Central Research Institute of Electric Power Industry(CRIEPI)
-
-**Email :** jeonghojo\@kaist.ac.kr
+Senior Enginer, Energy Policy Research Team, Korea Institute of Energy Research
 
 ------------------------------------------------------------------------
 
@@ -114,8 +90,6 @@ B.S. EHWA WOMANS University, Climate and Energy System Engineering
 
 B.S. EHWA WOMANS University, Management for Science and Technology
 
-**Email :** leejmii\@kaist.ac.kr
-
 ------------------------------------------------------------------------
 
 ### Jiwon Kwun
@@ -132,4 +106,24 @@ B.S. Stony Brook University, Technological System Management
 
 B.S. Stony Brook University, Applied Mathematics & Statistics
 
-**Email** **:** jiwonkwun\@kaist.ac.kr
+------------------------------------------------------------------------
+
+# Alumni
+
+------------------------------------------------------------------------
+
+### Jeongho Jo
+
+M.S. Green Business of Policy Program
+
+**Research Interest**
+
+Energy & environmental policy and management, demand-side management, energy mix, consumer behavior, ESG strategy, green business model
+
+**Education**
+
+B.A. Yokohama National University, Department of Business Administration (Magma Cum Laude)
+
+**Work Experience**
+
+Central Research Institute of Electric Power Industry (CRIEPI)
