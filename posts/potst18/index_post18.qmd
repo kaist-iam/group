@@ -8,7 +8,9 @@ image: "image_main.png"
 favicon: "image_main.png"
 ---
 
-A new study published in the Energy and Climate Change highlights the transformative role of advanced electrification in achieving net-zero greenhouse gas emissions. "Our research underscores the critical role of advanced electrification in achieving net-zero goals," said Prof. Haewon McJeon of KAIST Graduate School of Green Growth and Sustainability, who co-authored the study. "Combining carbon-free electricity with electrification of vehicles, building heating, and industrial applications, we can significantly reduce greenhouse gas emissions and accelerate the shift to a cleaner energy future."
+*A new study published in the Energy and Climate Change highlights the transformative role of advanced electrification in achieving net-zero greenhouse gas emissions.*
+
+"Our research underscores the critical role of advanced electrification in achieving net-zero goals," said Prof. Haewon McJeon of KAIST Graduate School of Green Growth and Sustainability, who co-authored the study. "Combining carbon-free electricity with electrification of vehicles, building heating, and industrial applications, we can significantly reduce greenhouse gas emissions and accelerate the shift to a cleaner energy future."
 
 ![](image_main.png){fig-align="center"}
 
