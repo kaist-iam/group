@@ -1,0 +1,35 @@
+---
+title: "High-ambition climate action in all sectors can achieve 65% greenhouse gas emissions reduction in the United States by 2035"
+author: "KAIST IAM Group"
+date: "2024-10-01"
+categories: [Publication]
+fig-align: center
+image: "image_main.png"
+favicon: "image_main.png"
+---
+
+*A new study published in Nature Partner Journal – Climate Action explores ambitious and achievable 2035 NDCs for the United States through specific policies from both federal and non-federal actors.* *Building on previous work, they analyze various policy options through 2035 to meet the 2030 NDC and establish a pathway toward net-zero emissions by 2050.*
+
+The Paris Agreement sets global goals to limit global warming to 1.5°C above pre-industrial levels through the reduction of greenhouse gas emissions. To support this goal, each country submits its climate targets through regularly updated Nationally Determined Contributions (NDCs). However, the current 2030 NDCs are insufficient to achieve long-term goals, necessitating the strengthening and acceleration of near-term climate targets. The United States aims to reduce emissions by 50-52% below 2005 levels by 2030 and achieve net-zero emissions by 2050.
+
+![](image_main.png){fig-align="center"}
+
+Using an Integrated Assessment Model (IAM), they account for climate actions in all states and quantify the impacts of major climate policies and existing measures. They then develop new policy actions, finding that a comprehensive platform of federal, state, and other policies can achieve a 65% reduction in net greenhouse gas emissions below 2005 levels by 2035.
+
+This study suggests that the period from 2030 to 2035 is crucial for the U.S. to achieve net-zero emissions. Initial reductions are expected from low-cost renewable energy and increased electric vehicle (EV) use. However, significant reductions are needed in other sectors, including buildings, industry, methane mitigation, and land sinks. Electrification in transportation and buildings faces challenges due to infrastructure and cost issues. Increasing low-carbon electricity production requires updates in permitting and transmission systems. Also, demand-side management can help manage electricity demand. Emerging technologies and Carbon Capture and Storage (CCS) are vital but face deployment challenges. Based on these research findings, this study argues that the United States needs ambitious and realistic 2035 climate targets supported by comprehensive policies at both federal and non-federal levels. While uncertainties exist, the study suggests that establishing a durable climate strategy across multiple levels of government can mitigate political risks and ensure progress toward achieving the goals of the Paris Agreement.
+
+These research findings will provide a foundation for continued progress toward the United States' 2050 net-zero emissions goal. "Ahead of submitting enhanced climate commitments to the UN next year, these studies offer valuable quantitative analyses," said Professor Haewon McJeon of KAIST Graduate School of Green Growth and Sustainability, who coauthored the study. "This research demonstrates that the scientific community can help the formation of the 2035 national climate commitments by providing quantitative support for achievable high-ambition targets." Through this paper, he presents deep insights and practical solutions for climate change response, significantly contributing to elevating global efforts to combat climate change. 
+
+Read the full paper: <https://www.nature.com/articles/s44168-024-00145-x>
+
+한국어 요약
+
+**모든 부문에서의 의욕적인 기후변화 감축은 2035년까지 미국의 온실가스 배출을 65% 줄일 수 있다.**
+
+파리 협정은 산업화 이전 수준대비 지구 온난화 상승을 1.5°C 이하로 제한하기 위해 온실가스 배출 감소를 목표로 하고 있으며, 각국은 이를 위해 정기적으로 국가별 기여 방안(NDC)을 제출한다. 미국은 2030년까지 2005년 대비 50-52% 배출 감소와 2050년까지 순 배출 제로를 목표로 하고 있다. 그러나 현재의 2030 NDC는 장기 목표를 달성하기에 부족하므로 NDC의 강화가 요구된다. 네이처 파트너 저널 – 기후행동에 출간된 이번 논문은 연방정부 및 주정부 정책을 통해 미국의 2035년 의욕적인 NDC를 탐구하고, 통합 평가 모델(IAM)을 사용하여 다양한 정책 옵션의 영향을 평가한다. 연구 결과, 연방 및 주의 종합 정책이 2035년까지 2005년 대비 온실가스 배출량을 65% 줄일 수 있음을 보여준다.
+
+2030년부터 2035년까지가 순 배출 제로 달성에 중요하며, 저비용 재생 에너지와 전기차 사용 증가 외에도 건물, 산업, 메탄 완화 등 다른 부문에서도 큰 감소가 필요함을 제시한다. 새로운 기술과 탄소 포집 및 저장(CCS)도 중요하지만 배치상 어려움에 직면해 있다. 미국은 연방정부 및 주정부에서의 포괄적인 정책을 통해 의욕적이며 동시에 현실적인 2035년 기후 목표를 설정해야 하며, 이는 파리 협정 목표를 달성하는 데 중요한 역할을 할 것이다.
+
+이 논문을 공저한 KAIST 녹색성장지속가능대학원의 전해원 교수는 "내년 UN에 강화된 기후 공약을 제출하기에 앞서, 이 연구들은 중요한 정책적 시사점을 제공한다." 라고 하였으며, "이번 논문은 기후연구자들이 실현 가능한 감축 목표에 대한 정량적 분석을 제공함으로써 2035년 국가 기후 목표를 설정하는데 기반을 제시할 수 있음을 보여준다."라고 말하였다. 이번 논문을 통해 기후 변화 대응에 대한 깊이 있는 통찰과 실질적인 방안을 제시함으로써, 전 세계적으로 기후 변화 대응 노력을 한 단계 끌어올리는 데 큰 기여를 할 것으로 기대가 되는 바이다.
+
+논문 링크 :  <https://www.nature.com/articles/s44168-024-00145-x>
