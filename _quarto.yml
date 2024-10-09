@@ -22,6 +22,8 @@ website:
         text: Models
       - href: publications.qmd
         text: Publications
+      - href: opportunities.qmd
+        text: Opportunities
          
     right:
       - icon: twitter

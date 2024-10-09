@@ -1,0 +1,29 @@
+---
+title: "Documentation"
+date : last-modified # now
+author: 
+ - name: "IAM team"
+   affiliation: "KAIST"
+title-block-banner: true
+format: 
+  html:
+    theme: flatly
+    code-fold: true
+    toc: false
+   # toc-depth: 2
+    toc-title: 목차
+    number-sections : false
+    #number-depth: 2
+    highlight-style: github
+    self-contained: false
+---
+
+# **Opportunities**
+
+The KAIST IAM Group is actively recruiting talented PhD and master's students who are interested in Integrated Assessment Modeling (IAM) for a sustainable future. Our lab is located in the beautiful city of Daejeon, Korea, and offers graduate student opportunities that generally focus on developing IAM models, building decarbonization scenarios, and processing data to integrate new technologies into these models.
+
+We are particularly interested in working with students who have a demonstrated passion for sustainability, especially those focused on the quantitative assessment of decarbonization pathways. While we do not expect incoming students to have prior experience with IAM models, we do expect candidates to have some experience in data processing or simulation using R, Python, or similar scientific programming languages.
+
+If you’re interested, please send your CV to
+
+![](email.png){fig-align="center"}

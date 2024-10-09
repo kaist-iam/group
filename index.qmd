@@ -12,10 +12,10 @@ title-block-banner: false
 format:
   html:
     code-fold: true
-    toc: true
+    toc: false
     toc-depth: 2
     toc-title: 목차
-    number-sections: true
+    number-sections: false
     highlight-style: github    
     self-contained: false
 link-citation: true
@@ -26,3 +26,13 @@ reference-location: margin
 The KAIST IAM group, within the Korea Advanced Institute of Science and Technology, employs state-of-the-art Integrated Assessment Modeling (IAM) tools to analyze and guide the transition to a carbon-neutral future. Their interdisciplinary approach combines environmental science, energy system engineering, economics, and policy expertise to simulate scenarios and propose effective solutions for achieving a sustainable, low-carbon economy.
 
 Through detailed analyses, they assist policymakers in making informed decisions on energy decarbonization pathways, contributing to a climate resilient and environmentally sustainable global future. The KAIST IAM group's impact extends far beyond academia, as they establish global partnerships with prominent institutions, resonating in national and global policy deliberations, and contributing to the formation of a collective vision for a sustainable world.
+
+# **Opportunities**
+
+The KAIST IAM Group is actively recruiting talented PhD and master's students who are interested in Integrated Assessment Modeling (IAM) for a sustainable future. Our lab is located in the beautiful city of Daejeon, Korea, and offers graduate student opportunities that generally focus on developing IAM models, building decarbonization scenarios, and processing data to integrate new technologies into these models.
+
+We are particularly interested in working with students who have a demonstrated passion for sustainability, especially those focused on the quantitative assessment of decarbonization pathways. While we do not expect incoming students to have prior experience with IAM models, we do expect candidates to have some experience in data processing or simulation using R, Python, or similar scientific programming languages.
+
+If you’re interested, please send your CV to
+
+![](email.png){fig-align="center"}
