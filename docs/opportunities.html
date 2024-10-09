@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.1.251">
+<meta name="generator" content="quarto-1.2.335">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -64,10 +64,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta property="og:title" content="KAIST IAM Group - Opportunities">
-<meta property="og:description" content="The KAIST IAM Group is actively recruiting talented PhD and master’s students who are interested in Integrated Assessment Modeling (IAM) for a sustainable future.">
+<meta property="og:description" content="Fully Funded PhD/M.S. Position in National Decarbonization Strategies">
 <meta property="og:site-name" content="KAIST IAM Group">
 <meta name="twitter:title" content="KAIST IAM Group - Opportunities">
-<meta name="twitter:description" content="The KAIST IAM Group is actively recruiting talented PhD and master’s students who are interested in Integrated Assessment Modeling (IAM) for a sustainable future.">
+<meta name="twitter:description" content="Fully Funded PhD/M.S. Position in National Decarbonization Strategies">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -88,31 +88,36 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">Home</a>
+    <a class="nav-link" href="./index.html">
+ <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html">About us</a>
+    <a class="nav-link" href="./about.html">
+ <span class="menu-text">About us</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./models.html">Models</a>
+    <a class="nav-link" href="./models.html">
+ <span class="menu-text">Models</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html">Publications</a>
+    <a class="nav-link" href="./publications.html">
+ <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./opportunities.html" aria-current="page">Opportunities</a>
+    <a class="nav-link active" href="./opportunities.html" aria-current="page">
+ <span class="menu-text">Opportunities</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/KAISTIAM"><i class="bi bi-twitter" role="img" aria-label="Twitter">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/GCAM-KAIST"><i class="bi bi-github" role="img" aria-label="GitHub">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -151,6 +156,7 @@ ul.task-list li input[type="checkbox"] {
         <p class="date">October 9, 2024</p>
       </div>
     </div>
+    
       
     </div>
     
@@ -170,8 +176,9 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="opportunities" class="level1">
 <h1><strong>Opportunities</strong></h1>
-<p>The KAIST IAM Group is actively recruiting talented PhD and master’s students who are interested in Integrated Assessment Modeling (IAM) for a sustainable future. Our lab is located in the beautiful city of Daejeon, Korea, and offers graduate student opportunities that generally focus on developing IAM models, building decarbonization scenarios, and processing data to integrate new technologies into these models.</p>
-<p>We are particularly interested in working with students who have a demonstrated passion for sustainability, especially those focused on the quantitative assessment of decarbonization pathways. While we do not expect incoming students to have prior experience with IAM models, we do expect candidates to have some experience in data processing or simulation using R, Python, or similar scientific programming languages.</p>
+<p><strong>Fully Funded PhD/M.S. Position in National Decarbonization Strategies</strong></p>
+<p>The KAIST IAM Group is seeking highly motivated and talented students to join our fully funded research project on national decarbonization strategies. This position offers the opportunity to contribute to cutting-edge research and collaborate with global experts.</p>
+<p>The successful candidate will be responsible for developing robust decarbonization strategies for Korea using the GCAM-KAIST model and working with international partners to create global climate neutrality scenarios. Background in sustainability and climate change, experience with optimization or simulation modeling, and computational skills using R or Python are ideal.</p>
 <p>If you’re interested, please send your CV to</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -224,7 +231,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -260,24 +284,42 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>
