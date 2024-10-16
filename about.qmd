@@ -18,13 +18,21 @@ Jiyong Eom is an associate professor at KAIST College of Business and the head o
 
 ------------------------------------------------------------------------
 
-### [Haewon C. McJeon](https://kaist-iam.github.io/group/hmcjeon.html)
+### [Haewon C. McJeon](https://kaist-iam.github.io/group/hmcjeon.html) <!--#  -->
 
 Haewon McJeon is an associate professor at KAIST Graduate School of Green Growth and Sustainability. His research primarily focuses on using Integrated Assessment Models (IAM) to formulate low-carbon, carbon-neutral, and carbon-negative pathways for mitigating climate change. At KAIST Graduate School of Green Growth & Sustainability, he is teaching the next generation of modelers how to use quantitative models to evaluate decarbonization strategies in Korea and developing Asia.
 
 Previously, he held positions at the Joint Global Change Research Institute and the Center for Global Sustainability, where he played a pivotal role in developing the Global Change Assessment Model (GCAM). In that role, he has served as the lead Integrated Assessment Modeler for two White House reports on deep decarbonization pathways (Long-Term Strategy, 2021 and Mid-Century Strategy, 2016). He has published widely on topics such as the impact of fossil fuels on climate change, decarbonization technologies, and decision-making under uncertainties. He has published over 80 papers in peer-reviewed journals, including Nature, Science, Energy Economics, and Climatic Change.
 
 Dr. McJeon holds a Ph.D. and a Master's degree in Environmental Policy from the University of Maryland, as well as a Bachelor's degree in Economics from Seoul National University.
+
+------------------------------------------------------------------------
+
+### [Son H. Kim](https://kaist-iam.github.io/group/sonhkim.html)
+
+
+Dr. Son H. Kim is a visiting professor at the Korea Advanced Institute of Science and Technology’s (KAIST) Graduate School of Green Growth and Sustainability (GGGS). He is on leave from the Pacific Northwest National Laboratory's (PNNL) Joint Global Change Research Institute. As a senior Earth Scientist at PNNL, he has 30 years of experience in developing and utilizing integrated assessment models that bridge the gap between the human system and the Earth's natural systems. Notably, Dr. Kim is the creator of the modeling architecture of the widely-utilized Global Change Analysis Model. Holding a PhD in nuclear engineering from the Massachusetts Institute of Technology, Dr. Kim is deeply committed to addressing global challenges, such as the energy crisis and climate change. He employs Integrated Assessment Models to analyze the multifaceted impacts of various scenarios on energy systems and the environment, seeking sustainable solutions for these pressing issues.
+
 
 ------------------------------------------------------------------------
 
