@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/GCAM-KAIST/about.html</loc>
-    <lastmod>2024-10-16T01:06:12.781Z</lastmod>
+    <lastmod>2024-10-16T01:13:13.203Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/GCAM-KAIST/documentation.html</loc>
@@ -14,7 +14,7 @@
   </url>
   <url>
     <loc>https://github.com/GCAM-KAIST/index.html</loc>
-    <lastmod>2024-10-09T07:58:28.675Z</lastmod>
+    <lastmod>2024-10-16T01:11:41.124Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/GCAM-KAIST/intro_slide.html</loc>
@@ -118,7 +118,7 @@
   </url>
   <url>
     <loc>https://github.com/GCAM-KAIST/opportunities.html</loc>
-    <lastmod>2024-10-09T08:30:13.343Z</lastmod>
+    <lastmod>2024-10-16T01:11:42.608Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/GCAM-KAIST/posts/potst19/index_post18.html</loc>
@@ -135,5 +135,9 @@
   <url>
     <loc>https://github.com/GCAM-KAIST/posts/potst19/index_post19.html</loc>
     <lastmod>2024-10-09T03:50:29.933Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/GCAM-KAIST/sonhkim.html</loc>
+    <lastmod>2024-10-16T01:11:46.536Z</lastmod>
   </url>
 </urlset>
