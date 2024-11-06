@@ -28,6 +28,10 @@ This research is expected to be a crucial milestone in achieving carbon neutrali
 
 Read the paper here: <https://doi.org/10.1016/j.jclepro.2024.143749>
 
+\[1\] GCAM: A global integrated assessment model that links energy systems, water, land, and climate to project the impact of various climate policies and decarbonization strategies.
+
+\[2\] CCS technology: A process that captures carbon dioxide emissions from industrial operations or power plants and prevents their release into the atmosphere by storing them underground or utilizing them in other ways to reduce greenhouse gas emissions.
+
 **한국어 요약** 
 
 **카이스트 연구진, 2050년 탄소중립 목표 달성을 위한 한국 산업의 온실가스 배출량 감축경로 제시**
