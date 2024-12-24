@@ -2,10 +2,10 @@
 title: "KAIST IAM Group at the 2024 IAMC Annual Meeting"
 author: "KAIST IAM Group"
 date: "2024-11-08"
-categories: [News]
+categories: [News ]
 fig-align: center
-image: "image_main.png"
-favicon: "image_main.png"
+image: "image_main.jpg"
+favicon: "image_main.jpg"
 ---
 
 *KAIST-IAM 그룹 멤버 8명이 11월 4일부터 3일간 열린 2024 IAMC Annual Meeting에 참가하였다. The KAIST-IAM team, comprisingeight members, participated in the **2024 IAMC Annual Meeting**, held from November 4 to 6.*
@@ -24,7 +24,7 @@ favicon: "image_main.png"
 
 ![](images/clipboard-1654560930.png)
 
-![](images/clipboard-1007717777.png){width="410"}
+![](images/clipboard-1007717777.png){width="410" height="364"}
 
 **안지석 박사과정**은 IPCC 데이터를 활용한 한국의 COP28(신재생 및 원전 3배 확대) 선언 전망을 발표하며, 한국의 기후 목표를 데이터 기반으로 분석하였다.
 
