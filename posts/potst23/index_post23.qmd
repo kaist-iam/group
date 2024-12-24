@@ -8,7 +8,7 @@ image: "image_main.jpg"
 favicon: "image_main.jpg"
 ---
 
-*KAIST-IAM 그룹 멤버 8명이 11월 4일부터 3일간 열린 2024 IAMC Annual Meeting에 참가하였다. The KAIST-IAM team, comprisingeight members, participated in the **2024 IAMC Annual Meeting**, held from November 4 to 6.*
+*KAIST-IAM 그룹 멤버 8명이 11월 4일부터 3일간 열린 2024 IAMC Annual Meeting에 참가하였다. The KAIST-IAM team, comprising eight members, participated in the **2024 IAMC Annual Meeting**, held from November 4 to 6.*
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfmzUoTG27sHAOEPnJTXpPxvpjCpf3MybNisUgd36yCzpfgT1zGQDdYgF7jeiLV-zgGsL7tcgDTAw0kjEdQNXM9S7qaNQkK4wb1anDuMyiZRQnoZCVFU3CVobs5-zd_iATy9Axneg?key=2pVIDgKJNPFwEdzIzaARf_8P)
 
