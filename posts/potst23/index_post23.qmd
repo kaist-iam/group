@@ -10,7 +10,7 @@ favicon: "image_main.jpg"
 
 *KAIST-IAM 그룹 멤버 8명이 11월 4일부터 3일간 열린 2024 IAMC Annual Meeting에 참가하였다. The KAIST-IAM team, comprising eight members, participated in the **2024 IAMC Annual Meeting**, held from November 4 to 6.*
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfmzUoTG27sHAOEPnJTXpPxvpjCpf3MybNisUgd36yCzpfgT1zGQDdYgF7jeiLV-zgGsL7tcgDTAw0kjEdQNXM9S7qaNQkK4wb1anDuMyiZRQnoZCVFU3CVobs5-zd_iATy9Axneg?key=2pVIDgKJNPFwEdzIzaARf_8P)
+![](images/clipboard-3010879061.png)
 
 **엄지용 교수는** 첫날 플레너리 세션에서 *녹*색 성장을 향한 실증적 GDP-배출 분리 및 IPCC AR6 경로의 비교분석에 대해 발표하였다.
 
