@@ -8,7 +8,9 @@ image: "image_main.jpg"
 favicon: "image_main.jpg"
 ---
 
-As the global society grapples with the urgent need to transition to a low-carbon energy future, a new study led by Jacob Wessel and an international team of researchers sheds light on the critical factors shaping this transformation. Published in the journal *Earth’s Future*, the study leverages cutting-edge large-ensemble modeling to explore global energy transitions under the framework of national emissions pledges, offering valuable insights for policymakers.
+As the global society grapples with the urgent need to transition to a low-carbon energy future, a new study with an international team of researchers sheds light on the critical factors shaping this transformation.
+
+Published in the journal *Earth’s Future*, the study leverages cutting-edge large-ensemble modeling to explore global energy transitions under the framework of national emissions pledges, offering valuable insights for policymakers.
 
 ![](image_main.jpg){fig-align="center" width="400"}
 
