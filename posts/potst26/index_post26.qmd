@@ -1,0 +1,37 @@
+---
+title: "Substantial air quality and health co-benefits from combined federal and subnational climate actions in the United States "
+author: "KAIST IAM Group"
+date: "2025-03-13"
+categories: [Publication]
+fig-align: center
+image: "image_main.jpg"
+favicon: "image_main.jpg"
+---
+
+*Climate change mitigation policies can also substantially improve air quality and human health, according to a new KAIST study.*
+
+![](image_main.jpg){fig-align="center"}
+
+As climate policies increasingly incorporate air quality and public health considerations, understanding the co-benefits of greenhouse gas mitigation becomes essential. A new study, published in the journal One Earth, evaluates the impact of comprehensive climate actions-integrating federal, state, and local efforts-on air pollution and public health outcomes across the United States.
+
+Using a coupled energy-pollution-health modeling framework, the study assesses how different policy strategies interact with socio-economic trends and air-quality control measures. The results indicate that an all-in climate policy approach, which combines federal regulations with actions from states, cities, businesses, and communities, could reduce PM2.5-related premature deaths by up to 6,600 cases in 2030 relative to a "baseline" scenario. In the most affected states, this translates to a reduction of up to 21% in air pollution-related mortality, with health benefits observed in over 99% of U.S. counties.
+
+"Ambitious emission reduction policies not only address climate change but also deliver the added benefit of reducing air pollution," said Prof. Haewon McJeon of KAIST Graduate School of Green Growth and Sustainability. "This study holds significant implications for countries like Korea, which are grappling with unprecedented air pollution levels. It demonstrates a pathway to simultaneously tackling both air pollution and climate change."  
+
+These findings highlight the synergies between climate action and public health, emphasizing the importance of integrated policy approaches to maximize environmental and health benefits.
+
+\[paper link\]: <https://doi.org/10.1016/j.oneear.2025.101232>
+
+한국어 요약
+
+**미국 연방 및 지역 기후 정책의 대기 질 개선과 건강 이점**
+
+기후 정책을 통한 온실가스 감축이 대기질과 공중보건에 미치는 영향을 분석한 연구가 One Earth에 게재되었다. 이번 연구는 미국에서 연방 정부뿐만 아니라 주정부, 도시, 기업, 지역사회가 함께하는 기후 변화 감축 활동이 대기오염과 공중보건에 어떤 변화를 불러오는지 평가했다.  
+
+연구진은 에너지-오염-건강 연계 모델링 기법을 활용해 사회·경제적 변화와 다양한 정책 시나리오, 대기오염 저감 조치가 어떻게 상호작용을 하며 영향을 미치는지를 분석했다. 그 결과, "전 사회적 기후 정책"을 통해 2030년까지 초미세먼지(PM2.5)로 인한 조기 사망을 최대 6,600건 줄일 수 있는 것으로 나타났다. 배출량 감축 효과가 큰 주에서는 대기오염으로 인한 사망률이 최대 21% 감소했으며, 미국 내 거의 모든 지역에서 건강 개선 효과가 확인됐다.  
+
+KAIST 녹색성장지속가능대학원의 전해원 교수는 "강화된 온실가스 감축 정책은 기후변화 대응뿐만 아니라 대기오염을 줄이는 효과도 보여준다. 이번 연구는 심각한 수준의 대기오염 문제를 직면한 한국에도 중요한 시사점을 제공하고, 기후변화와 대기오염 문제를 동시에 해결할 수 있는 구체적인 방향을 제시한다."라고 말했다.  
+
+이번 연구는 기후변화 감축 활동과 공중보건이 긴밀하게 연결되어 있으며, 대기질 개선과 국민 건강의 이점을 극대화하려면 통합적 정책 접근이 필수적이라는 점을 보여준다.  
+
+\[논문링크\]: <https://doi.org/10.1016/j.oneear.2025.101232>
