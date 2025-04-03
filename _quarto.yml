@@ -26,9 +26,9 @@ website:
         text: Opportunities
          
     right:
-      - icon: twitter
-        href: https://twitter.com/KAISTIAM
-        aria-label: Twitter
+      - icon: linkedin
+        href: https://www.linkedin.com/company/kaist-iam-group/
+        aria-label: Linkedin
       - icon: github
         href: https://github.com/GCAM-KAIST
         aria-label: GitHub
