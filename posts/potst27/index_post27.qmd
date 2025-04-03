@@ -8,9 +8,9 @@ image: "image_main.jpg"
 favicon: "image_main.jpg"
 ---
 
-KAIST and International Research Team Publish Landmark Study in *Nature Climate Change*
+KAIST and International Research Team Publish Landmark Study in *Nature Climate Change.*
 
-![](image_main.jpg){fig-align="center"}
+![\<Figure 1. Global land-system map for 2100 and land-system-type transformations from 2015 to 2100 under the 1.5 °C scenario.\>](image_main.jpg){fig-align="center"}
 
 Daejeon, South Korea — In collaboration with an international team of researchers from China, Korea, and the United States, Professor Haewon McJeon from KAIST's Graduate School of Green Growth & Sustainability has published a landmark study in *Nature Climate Change* that underscores the need to integrate sustainability into global decarbonization strategies.
 
