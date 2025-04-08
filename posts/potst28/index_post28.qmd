@@ -8,7 +8,9 @@ image: "image_main.jpg"
 favicon: "image_main.jpg"
 ---
 
-The KAIST IAM Group is proud to announce that three abstracts from our talented students have been accepted for presentation at the upcoming **International Energy Workshop (IEW) 2025**, scheduled for **June 10–13, 2025, in Nara, Japan**. This achievement highlights the dedication and innovative research conducted the students.​
+*The KAIST IAM Group is proud to announce that three abstracts from our talented students have been accepted for presentation at the upcoming International Energy Workshop (IEW) 2025, scheduled for June 10–13, 2025, in Nara, Japan.*
+
+This achievement highlights the dedication and innovative research conducted the students.​
 
 ![](image_main.jpg){fig-align="center"}
 
