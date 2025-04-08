@@ -1,0 +1,29 @@
+---
+title: "KAIST IAM Group Celebrates Three Accepted Abstracts at IEW 2025!"
+author: "KAIST IAM Group"
+date: "2025-04-08"
+categories: [News]
+fig-align: center
+image: "image_main.jpg"
+favicon: "image_main.jpg"
+---
+
+The KAIST IAM Group is proud to announce that three abstracts from our talented students have been accepted for presentation at the upcoming **International Energy Workshop (IEW) 2025**, scheduled for **June 10–13, 2025, in Nara, Japan**. This achievement highlights the dedication and innovative research conducted the students.​
+
+![](image_main.jpg){fig-align="center"}
+
+**Accepted Abstracts:**
+
+-   Lead Author: Jiseok Ahn
+
+    Title: Simultaneous Tripling of Renewable and Nuclear Energy: Assessing Korea’s Ambitious Clean Energy Goal using IPCC Scenario Database (#130)
+
+-   Lead Author: Ahmed S.S. Mahmoud
+
+    Title: Steering Toward Net-Zero: An Integrated Assessment Modeling of Autonomous Vehicles and their Impact on Energy and Emissions (#133)
+
+-   Lead Author: Jiwon Kwun
+
+    Title: Integrated Assessment of Korea’s Future Hydrogen Trade for the 2050 Carbon Neutrality Target (#87)
+
+We extend our congratulations to all authors and contributors whose hard work has been recognized. Their research will contribute to the global discussion on energy, sustainability, and technological advancements. We look forward to seeing their presentations at IEW 2025 in Nara, Japan!​
