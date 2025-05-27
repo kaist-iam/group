@@ -22,4 +22,4 @@ This finding suggests that assumptions about large-scale CCS deployment may be o
 
 The study highlights the need for a reassessment of mitigation strategies in integrated assessment models. Realistic deployment limits on CCS call for stronger early action on emissions reductions and greater investment in scalable low-carbon technologies like renewables and energy efficiency, rather than waiting for uncertain future solutions.
 
-\[paper link\]:  <https://doi.org/10.1016/j.egycc.2025.100191>
+\[paper link\]:  [https://doi.org/10.1016/j.egycc.2025.100191](https://doi.org/10.1088/1748-9326/add9af){.uri}
