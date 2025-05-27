@@ -1,0 +1,25 @@
+---
+title: "Rate and growth limits for carbon capture and storage"
+author: "KAIST IAM Group"
+date: "2025-05-28"
+categories: [Publication]
+fig-align: center
+image: "image_main.jpg"
+favicon: "image_main.jpg"
+---
+
+*A new KAIST study shows that many global climate scenarios may overestimate the future potential of carbon capture and storage (CCS) due to unrealistic assumptions about how fast these technologies can scale up.*
+
+![\<Figure\> a) Global positive and negative CO2 emissions by source. The solid black lines indicate net CO2 emissions; land-use change emissions are not included. b) Global geological carbon storage by CO2 source at the point of capture; c) regional geological CO2 storage. All subpanels report results for below 2 °C scenarios with Unlimited CCS Rate (1), Slow CCS Growth Rate (2a), and CCS Breakthrough (2b). BECCS = Bioenergy with Carbon Capture and Storage. DACCS = direct air CO2 capture and storage.](image_main.jpg){fig-align="center"}
+
+As carbon capture and storage (CCS) technologies take a more prominent role in global 1.5°C climate scenarios, a key question remains: how fast can CCS realistically grow? A new paper published today in Environmental Research Letters addresses this issue by introducing physical and economic rate constraints into an integrated assessment modeling framework, highlighting the risks of relying too heavily on CCS deployment for meeting climate goals.
+
+The study implements a set of regionally specific limits on annual CCS deployment and long-term growth potential, based on real-world observations such as historical energy infrastructure development, financing challenges, and engineering constraints. Using the Global Change Assessment Model (GCAM), the researchers find that applying these realistic growth limits could reduce projected global CCS deployment by up to sevenfold by 2050, compared to scenarios that do not account for such barriers.
+
+This finding suggests that assumptions about large-scale CCS deployment may be overly optimistic and that immediate near-term emission reductions should be prioritized rather than relying on future breakthroughs.
+
+"For far too long, global 1.5-degree scenarios have relied heavily on the rapid scale-up of carbon capture and storage technology in the distant future," said Prof. Haewon McJeon of the KAIST Graduate School of Green Growth and Sustainability. "However, new evidence is emerging that such rapid scale-up may not be feasible. This emphasizes the need to reduce near-term emissions more rapidly, rather than waiting for a miraculous savior technology to rescue us in the far future."
+
+The study highlights the need for a reassessment of mitigation strategies in integrated assessment models. Realistic deployment limits on CCS call for stronger early action on emissions reductions and greater investment in scalable low-carbon technologies like renewables and energy efficiency, rather than waiting for uncertain future solutions.
+
+\[paper link\]:  <https://doi.org/10.1016/j.egycc.2025.100191>
