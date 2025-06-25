@@ -1,0 +1,26 @@
+---
+title: "Scaling carbon removal without delaying emission reductions"
+author: "KAIST IAM Group"
+date: "2025-06-26"
+categories: [Publication]
+fig-align: center
+image: "image_main.jpg"
+favicon: "image_main.jpg"
+---
+
+*A new international study shows that carbon dioxide removal (CDR) can help achieve net-zero emissions—but only if climate policies require both rapid emission cuts and near-term CDR deployment. Designing policies with separate, parallel targets for reductions and removals is key to scaling CDR without slowing urgent climate action.*
+
+![](image_main.jpg){fig-align="center" width="506"}
+
+As CDR becomes central to national and global climate strategies, a crucial question emerges: can scaling up CDR undermine efforts to cut emissions now?\
+A new Commentary  in *Nature Reviews Clean Technology* explores how smart policy design can prevent CDR from becoming a loophole for delay—and instead help accelerate progress toward net zero.
+
+The Commentary highlights how relying too heavily on future carbon removal can cause mitigation deterrence—a slowdown in current emissions cuts. It identifies three key risks: failed CDR deployment, indirect emissions from some CDR methods, and reduced political ambition due to moral hazard.
+
+To address this, the authors recommend setting separate, parallel targets for emissions reductions and carbon removals. They also suggest policy tools such as split carbon markets and regulatory oversight to ensure CDR supports, rather than delays, climate action.
+
+“Over-reliance on CO2 removal to offset ongoing unabated emissions can lead to greenwashing,” said Prof. Haewon McJeon of KAIST Graduate School of Green Growth and Sustainability. “Having a clear set of goals for both immediate emission cuts and longer-term CO2 removal scale-up must go hand in hand to achieve carbon neutrality and bring global temperatures back down to the 1.5°C limit.”
+
+The study emphasizes that the success of net-zero strategies depends not only on how much carbon is removed, but on how climate policies coordinate removals with decisive near-term action. Clear, separate goals and strong governance are essential to ensure that CDR supports—rather than delays—climate progress.
+
+Paper link: <https://doi.org/10.1038/s44359-025-00081-x>
