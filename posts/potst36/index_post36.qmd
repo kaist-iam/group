@@ -1,0 +1,19 @@
+---
+title: "KAIST IAM Prof. Haewon McJeon Selected as a Lead Author for IPCC 7th Assessment Report"
+author: "KAIST IAM Group"
+date: "2025-08-20"
+categories: [News]
+fig-align: center
+image: "image_main.jpg"
+favicon: "image_main.jpg"
+---
+
+*KAIST IAM Group is proud to announce that Prof. Haewon McJeon have been selected as a Lead Author for the Intergovernmental Panel on Climate Change (IPCC) Seventh Assessment Report (AR7), the world’s most influential scientific assessment of climate change.*
+
+![](image_main.jpg){fig-align="center" width="700"}
+
+Prof. Haewon McJeon will serve as a Lead Author for Working Group III Chapter 11 (WG3 Ch11), addressing climate change mitigation in transport and mobility.
+
+The appointments follow a competitive international selection process coordinated by the IPCC, recognizing the professors’ significant contributions to climate science and policy research. The KAIST IAM Group reaffirms its commitment to advancing sustainable solutions for climate change and will fully support Prof. McJeon as they contribute their expertise to the Seventh Assessment Report. Their participation reflects the institution’s dedication to collaborative international research and informed climate action.
+
+“These appointments reflect both individual excellence and KAIST’s continued leadership in global climate research,” said Prof. Jiyong Eom, Dean of KAIST Graduate School of Global Green Growth. “We look forward to the impact of their scholarship on informing science-based policy worldwide.”
