@@ -10,7 +10,7 @@ favicon: "image_main.jpg"
 
 *Current policies fall short of achieving the 2030 NDC.*
 
-![](image_main.jpg){fig-align="center" width="500" height="333"}
+![](image_main.jpg){fig-align="center" width="650" height="420"}
 
 Seoul National University (SNU) and KAIST have jointly released new research findings that provide a pathway for Korea’s 2035 nationally determined contribution (NDC). The study, conducted by Hyuntae Choi and Professor Sangin Park of SNU together with Professor Haewon McJeon of KAIST, concludes that while current policies make it unlikely to achieve the 2030 NDC, stronger measures could enable a 60 percent reduction in greenhouse gas emissions by 2035 compared to 2018 levels.
 
