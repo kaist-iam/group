@@ -10,7 +10,7 @@ favicon: "image_main.jpg"
 
 *The launch of Net-Zero Korea (NZK), which aims to accelerate the Republic of Korea’s energy and industrial decarbonization in the near term and strengthen policy decision support over the longer term, was announced.*
 
-![](image_main.jpg){fig-align="center" width="500" height="333"}
+![](image_main.jpg){fig-align="center" width="400" height="333"}
 
 NZK will increase Korean capacity for energy-system transition modeling through collaboration between the [Graduate School of Green Growth and Sustainability](https://gggs.kaist.ac.kr/english) at the Korea Advanced Institute of Science and Technology (KAIST) and the [Andlinger Center for Energy and the Environment](https://acee.princeton.edu/) at Princeton University. “KAIST researchers are excited to be collaborating with Princeton University to create more effective means to inform decision-making on Korea’s sustainable energy and industrial future,” said Haewon McJeon, the NZK leader at KAIST.
 
