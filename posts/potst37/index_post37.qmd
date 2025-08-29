@@ -8,7 +8,7 @@ image: "image_main.jpg"
 favicon: "image_main.jpg"
 ---
 
-*The launch of **Net-Zero Korea** (NZK), which aims to accelerate the Republic of Korea’s energy and industrial decarbonization in the near term and strengthen policy decision support over the longer term, was announced.*
+*The launch of Net-Zero Korea (NZK), which aims to accelerate the Republic of Korea’s energy and industrial decarbonization in the near term and strengthen policy decision support over the longer term, was announced.*
 
 ![](image_main.jpg){fig-align="center" width="500" height="333"}
 
