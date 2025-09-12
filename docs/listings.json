@@ -41,11 +41,12 @@
   {
     "listing": "/news.html",
     "items": [
-      "/posts_news/potst40/index_post40.html",
-      "/posts_news/potst37/index_post37.html",
-      "/posts_news/potst36/index_post36.html",
-      "/posts_news/potst28/index_post28.html",
-      "/posts_news/potst23/index_post23.html"
+      "/posts_news/post40/index_post40.html",
+      "/posts_news/post37/index_post37.html",
+      "/posts_news/post36/index_post36.html",
+      "/posts_news/post28/index_post28.html",
+      "/posts_news/post23/index_post23.html",
+      "/posts_news/post2/index.html"
     ]
   }
 ]
