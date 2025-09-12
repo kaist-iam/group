@@ -22,6 +22,8 @@ website:
         text: Models
       - href: publications.qmd
         text: Publications
+      - href: news.qmd
+        text: News
       - href: opportunities.qmd
         text: Opportunities
          

@@ -2,7 +2,7 @@
 title: "State-by-state energy-water-land-health impacts of the US net-zero emissions goal"
 author: "KAIST IAM Group"
 date: "2023-11-04"
-categories: [News]
+categories: [Publication]
 fig-align: center
 image: "image.png"
 ---

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.251">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="KAIST IAM Group">
+<meta name="dcterms.date" content="2024-05-07">
+
+<title>KAIST IAM Group - Modeling direct air carbon capture and storage in a 1.5°C climate future using historical analogues</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../.././img/iam_kaist_logo.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<meta property="og:title" content="KAIST IAM Group - Modeling direct air carbon capture and storage in a 1.5°C climate future using historical analogues">
+<meta property="og:description" content="A new paper presents a novel modeling approach to predict the adoption of carbon dioxide removal technologies like DACCS, outlining their potential impacts on meeting the 1.">
+<meta property="og:image" content="https://github.com/GCAM-KAIST/posts_publications\potst12\image_main.png">
+<meta property="og:site-name" content="KAIST IAM Group">
+<meta property="og:image:height" content="392">
+<meta property="og:image:width" content="624">
+<meta name="twitter:title" content="KAIST IAM Group - Modeling direct air carbon capture and storage in a 1.5°C climate future using historical analogues">
+<meta name="twitter:description" content="A new paper presents a novel modeling approach to predict the adoption of carbon dioxide removal technologies like DACCS, outlining their potential impacts on meeting the 1.">
+<meta name="twitter:image" content="https://github.com/GCAM-KAIST/posts_publications\potst12\image_main.png">
+<meta name="twitter:image-height" content="392">
+<meta name="twitter:image-width" content="624">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">KAIST IAM Group</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html">Home</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html">About us</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../models.html">Models</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../publications.html">Publications</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../news.html">News</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../opportunities.html">Opportunities</a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/company/kaist-iam-group/"><i class="bi bi-linkedin" role="img" aria-label="Linkedin">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/GCAM-KAIST"><i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+ </a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Modeling direct air carbon capture and storage in a 1.5°C climate future using historical analogues</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">Publication</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>KAIST IAM Group </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">May 7, 2024</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
+<p><img src="./img/iam_kaist_logo.png" class="img-fluid"></p>
+</div></div>
+        
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<p><em>A new paper presents a novel modeling approach to predict the adoption of carbon dioxide removal technologies like DACCS, outlining their potential impacts on meeting the 1.5°C global temperature target and influencing climate policy effectiveness.</em></p>
+<p>“Modeling direct air carbon capture and storage in a 1.5°C climate future using historical analogues” recently published in Proceedings of the National Academy of Sciences , examines the integral role of carbon dioxide removal (CDR) technologies in achieving the 1.5°C global temperature target. The paper addresses the pressing need for advanced modeling techniques to accurately predict the adoption of these technologies, particularly direct air carbon capture and storage (DACCS), which are essential for mitigating climate change. This paper proposes a novel approach that utilizes empirical data from historical technology adoption and integrates these insights with advanced modeling to forecast different growth scenarios for DACCS.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image_main.png" class="img-fluid figure-img" width="698"></p>
+</figure>
+</div>
+<p>The paper begins by situating the significance of DACCS within the broader framework of international climate goals, emphasizing its necessity in scenarios aiming to limit global warming to 1.5°C. It then delves into the modeling methodology, employing the Global Change Analysis Model (GCAM) enhanced by historical technology analogues to simulate potential growth pathways for DACCS. The analysis reveals a wide range of outcomes, with DACCS’ potential contribution varying significantly depending on the analogues chosen, illustrating how different growth rates can impact the overall effectiveness of climate policies.</p>
+<p>Further, the paper discusses the implications of these findings for energy sector investments, stranded assets, and the phasing out of unabated fossil fuels. It highlights how varying growth scenarios for DACCS influence the dynamics of residual emissions and the urgency of transitioning to renewable energy sources. The paper concludes by calling for interdisciplinary collaboration to refine these models and develop tailored policies that enhance the scalability of DACCS, thereby ensuring robust strategies to meet stringent emission targets.</p>
+<p>The paper underscores the interdisciplinary nature of climate and energy research, suggesting that comprehensive modeling efforts are essential to understand the complex interactions between technology adoption, policy development, and environmental outcomes. It advocates for continuous refinement of models based on empirical data and stresses the importance of policy frameworks that can adapt to new insights into technology growth and adoption.</p>
+<p>“Net-zero pledges are counting on CO2 removal technologies to deliver at gigaton scale,” said KAIST visiting professor Haewon McJeon, who coauthored the study. “However, there is a lot of uncertainty surrounding how much CO2 removal is possible. This study sheds light on how to think about CO2 removal technology using historical analogues of technology scale-up.”</p>
+<p><strong>Read the full paper here:</strong> <a href="https://doi.org/10.1073/pnas.2215679121" class="uri">https://doi.org/10.1073/pnas.2215679121</a></p>
+<p>한국어 요약</p>
+<p><strong>1.5°C 기후 목표에 대응하는 직접 공기 이산화탄소 포집 및 저장 기술의 모델링</strong></p>
+<p>파리 협정과 관련하여 지구 온난화를 산업화 이후1.5°C이내로 줄이기 위한 노력이 이어지고 있다. 카이스트 녹색성장 지속가능대학원 전해원 방문 교수를 포함한 국제 연구진은 이러한 1.5°C 기후 목표에 대응하기 위한 하나의 방편으로서 직접 공기 이산화탄소 포집 및 저장 기술과 관련한 모델링 연구를 “Proceedings of the National Academy of Sciences (PNAS)”에 발간하였다.&nbsp;</p>
+<p>이 연구는 1.5°C 지구 온도 목표 달성을 위해 필수적인 이산화탄소 제거(CDR) 기술, 특히 직접 대기 중 탄소 포집 및 저장(DACCS)의 중요성을 다루며, 해당 기술 도입 예측을 위하여 모델링이 제시하는 기술적 가능성과 그 필요성에 대해 전하고 있다. 연구진은 역사적으로 채택된 기술 데이터를 토대로 다양한 DACCS의 시나리오를 제시하며, 이를 통해 향후 기후 정책 효과에 미치는 영향을 분석한다. 이 분석은 선택한 기술 경로(아날로그)에 따라 DACCS의 잠재적 기여도가 크게 달라지는 결과를 보여주며, 그에 따른 해당 기술의 성장 정도가 기후 정책의 전반적인 효과에 대해 분석한 것에 의의가 있다.</p>
+<p>논문 링크: <a href="https://doi.org/10.1073/pnas.2215679121" class="uri">https://doi.org/10.1073/pnas.2215679121</a></p>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
