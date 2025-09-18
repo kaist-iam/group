@@ -1,5 +1,5 @@
 ---
-title: "Publications"
+title: "News"
 listing:
   contents: posts_news
   sort: "date desc"

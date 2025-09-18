@@ -2,7 +2,7 @@
 title: "KAIST IAM Group at the 2024 IAMC Annual Meeting"
 author: "KAIST IAM Group"
 date: "2024-11-08"
-categories: [News ]
+categories: [News]
 fig-align: center
 image: "image_main.jpg"
 favicon: "image_main.jpg"
