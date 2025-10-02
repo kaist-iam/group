@@ -12,8 +12,8 @@ website:
   twitter-card: true
   site-url: https://github.com/GCAM-KAIST
   repo-url: https://github.com/GCAM-KAIST
-  navbar: 
-    left: 
+  navbar:
+    left:
       - href: index.qmd
         text: Home
       - href: about.qmd
@@ -26,7 +26,7 @@ website:
         text: News
       - href: opportunities.qmd
         text: Opportunities
-         
+
     right:
       - icon: linkedin
         href: https://www.linkedin.com/company/kaist-iam-group/
@@ -34,10 +34,25 @@ website:
       - icon: github
         href: https://github.com/GCAM-KAIST
         aria-label: GitHub
-      
 
-margin-header: |
-  ![](./img/iam_kaist_logo.png)  
-  
+format:
+  html:
+    theme: cosmo
+    css: style.css
+    toc: true
+    toc-depth: 3
+    code-copy: true
+    code-overflow: wrap
+    link-external-icon: true
+    link-external-newwindow: true
+  pdf:
+    documentclass: article
+    toc: true
+    number-sections: true
+    colorlinks: true
+
+# margin-header: |
+#   ![](./img/iam_kaist_logo.png)
+
 editor: visual
 

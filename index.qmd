@@ -1,38 +1,126 @@
 ---
 title: "KAIST IAM Group"
-#description: "IAM KAIST"
-date: '2023-10-10' # 날짜 설정: now, last-modified
+date: '2023-10-10'
 author:
   - name: KAIST IAM Group
-  #  url: 
     affiliation: Korea Advanced Institute of Science and Technology
-    #affiliation-url: 
 title-block-banner: false
-#title-block-banner: "#562457"
 format:
   html:
     code-fold: true
     toc: false
-    toc-depth: 2
-    toc-title: 목차
     number-sections: false
-    highlight-style: github    
+    highlight-style: github
     self-contained: false
 link-citation: true
 csl: apa-single-spaced.csl
 reference-location: margin
 ---
 
-The KAIST IAM group, within the Korea Advanced Institute of Science and Technology, employs state-of-the-art Integrated Assessment Modeling (IAM) tools to analyze and guide the transition to a carbon-neutral future. Their interdisciplinary approach combines environmental science, energy system engineering, economics, and policy expertise to simulate scenarios and propose effective solutions for achieving a sustainable, low-carbon economy.
+<div class="hero-section">
+<div class="hero-content">
+<div class="hero-logo">
+<img src="img/iam_kaist_logo.png" alt="KAIST IAM Logo" class="logo-image">
+</div>
+<h1 class="hero-title">KAIST IAM Group</h1>
+<p class="hero-subtitle">Shaping a Carbon-Neutral Future</p>
+<div class="hero-stats">
+<div class="stat-item">
+<div class="stat-icon">🔬</div>
+<div class="stat-number">IAM</div>
+<div class="stat-label">Modeling</div>
+</div>
+<div class="stat-item">
+<div class="stat-icon">🌱</div>
+<div class="stat-number">Net-Zero</div>
+<div class="stat-label">Solutions</div>
+</div>
+<div class="stat-item">
+<div class="stat-icon">🌏</div>
+<div class="stat-number">Global</div>
+<div class="stat-label">Impact</div>
+</div>
+</div>
+</div>
+</div>
 
-Through detailed analyses, they assist policymakers in making informed decisions on energy decarbonization pathways, contributing to a climate resilient and environmentally sustainable global future. The KAIST IAM group's impact extends far beyond academia, as they establish global partnerships with prominent institutions, resonating in national and global policy deliberations, and contributing to the formation of a collective vision for a sustainable world.
+<div class="content-section">
 
-### [Opportunities](https://kaist-iam.github.io/group/oppurtunities.html)
+## 🎯 About Us
 
-The KAIST IAM Group is actively recruiting talented PhD and master's students who are interested in Integrated Assessment Modeling (IAM) for a sustainable future. Our lab is located in the beautiful city of Daejeon, Korea, and offers graduate student opportunities that generally focus on developing IAM models, building decarbonization scenarios, and processing data to integrate new technologies into these models.
+<div class="info-cards">
+<div class="info-card card-blue">
+<div class="card-icon">🔬</div>
+<div class="card-content">
+<p>The KAIST IAM group, within the Korea Advanced Institute of Science and Technology, employs state-of-the-art Integrated Assessment Modeling (IAM) tools to analyze and guide the transition to a carbon-neutral future.</p>
+</div>
+</div>
 
-We are particularly interested in working with students who have a demonstrated passion for sustainability, especially those focused on the quantitative assessment of decarbonization pathways. While we do not expect incoming students to have prior experience with IAM models, we do expect candidates to have some experience in data processing or simulation using R, Python, or similar scientific programming languages.
+<div class="info-card card-purple">
+<div class="card-icon">🤝</div>
+<div class="card-content">
+<p>Their interdisciplinary approach combines environmental science, energy system engineering, economics, and policy expertise to simulate scenarios and propose effective solutions for achieving a sustainable, low-carbon economy.</p>
+</div>
+</div>
 
-If you're interested, please send your CV to
+<div class="info-card card-coral">
+<div class="card-icon">📊</div>
+<div class="card-content">
+<p>Through detailed analyses, they assist policymakers in making informed decisions on energy decarbonization pathways, contributing to a climate resilient and environmentally sustainable global future.</p>
+</div>
+</div>
+</div>
 
-![](email.png){fig-align="center"}
+</div>
+
+<div class="impact-section">
+<div class="impact-content">
+<h2>🚀 Global Impact</h2>
+<p class="impact-description">The KAIST IAM group's impact extends far beyond academia, as they establish global partnerships with prominent institutions, resonating in national and global policy deliberations, and contributing to the formation of a collective vision for a sustainable world.</p>
+</div>
+</div>
+
+<div class="cta-section">
+<div class="cta-content">
+<h2 class="cta-title">💼 Join Our Team</h2>
+<p class="cta-subtitle">We're Hiring!</p>
+
+<div class="requirements-grid">
+<div class="req-card">
+<div class="req-icon">🎓</div>
+<h4>PhD & Master's</h4>
+<p>Students</p>
+</div>
+<div class="req-card">
+<div class="req-icon">📍</div>
+<h4>Location</h4>
+<p>Daejeon, Korea</p>
+</div>
+<div class="req-card">
+<div class="req-icon">💻</div>
+<h4>Skills</h4>
+<p>R, Python</p>
+</div>
+<div class="req-card">
+<div class="req-icon">🌱</div>
+<h4>Passion</h4>
+<p>Sustainability</p>
+</div>
+</div>
+
+<div class="job-description">
+<h3>Opportunities</h3>
+<p>The KAIST IAM Group is actively recruiting talented PhD and master's students who are interested in Integrated Assessment Modeling (IAM) for a sustainable future. Our lab is located in the beautiful city of Daejeon, Korea, and offers graduate student opportunities that generally focus on developing IAM models, building decarbonization scenarios, and processing data to integrate new technologies into these models.</p>
+
+<p>We are particularly interested in working with students who have a demonstrated passion for sustainability, especially those focused on the quantitative assessment of decarbonization pathways. While we do not expect incoming students to have prior experience with IAM models, we do expect candidates to have some experience in data processing or simulation using R, Python, or similar scientific programming languages.</p>
+</div>
+
+<div class="apply-box">
+<p class="apply-label">📧 Apply Now</p>
+<p class="apply-text">If you're interested, please send your CV to</p>
+<div class="email-container">
+<img src="email.png" alt="Contact Email" class="email-image">
+</div>
+</div>
+</div>
+</div>
