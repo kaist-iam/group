@@ -1,5 +1,5 @@
 ---
-title: "High-ambition climate action in all sectors can achieve a 60% greenhouse gas emissions reduction in Korea by 2035"
+title: "High-ambition climate action in all sectors can achieve a 59% greenhouse gas emissions reduction in Korea by 2035"
 author: "KAIST IAM Group"
 date: "2026-03-18"
 categories: [Publication]
