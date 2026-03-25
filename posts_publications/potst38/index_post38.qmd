@@ -1,43 +1,46 @@
 ---
-title: "Korea’s “Tripling” Clean Energy Pledge: How Consistent Is It with Global Climate Pathways?"
+title: "High-ambition climate action in all sectors can achieve a 59% greenhouse gas emissions reduction in Korea by 2035"
 author: "KAIST IAM Group"
-date: "2026-03-25"
+date: "2026-03-18"
 categories: [Publication]
 fig-align: center
-image: "cover.jpg"
-favicon: "cover.jpg"
+image: "image_main.jpg"
+favicon: "image_main.jpg"
 ---
 
-*A new study published in iScience by researchers from KAIST and the Korea Institute of Energy Research investigates how Korea’s plan to triple renewable and nuclear energy capacity aligns with global decarbonization trajectories derived from the IPCC’s Sixth Assessment Report (AR6) scenario database.*
+*Current policies fall short of achieving the 2030 NDC.*
 
-![Projected power generation capacity for coal, gas, nuclear, solar, and wind under Korean national scenarios](/posts_publications/potst44/figure1.png){fig-align="center"}
+![](image_main.jpg){fig-align="center" width="650" height="420"}
 
-The research comes at a time of accelerating global momentum toward carbon neutrality, following the UNFCCC international agreement in which nearly 200 countries pledged to triple renewable energy capacity and double energy efficiency by 2030. Published in 2025, Korea’s 11th Basic Plan for Long-Term Electricity Supply and Demand (2024–2038) incorporates these targets into its national energy roadmap, emphasizing large-scale deployment of solar, wind, and next-generation nuclear technologies such as SMRs.
+Seoul National University (SNU) and KAIST have jointly released new research findings that provide a pathway for Korea’s 2035 nationally determined contribution (NDC). The study, conducted by Dr. Hyuntae Choi and Professor Sangin Park of SNU together with Professor Haewon McJeon of KAIST, concludes that while current policies make it unlikely to achieve the 2030 NDC, stronger measures could enable a 59 percent reduction in greenhouse gas emissions by 2035 compared to 2018 levels.
 
-To evaluate the consistency of Korea’s future energy mix with global mitigation pathways, the authors analyzed 198 quantitative scenarios that include Korea as a reporting region within the IPCC AR6 scenario database. These scenarios represent a wide range of long-term energy system transformations, from high-fossil pathways to deep-decarbonization trajectories consistent with the Paris Agreement.
+The first paper, published in the *Journal of Climate Change Research*, offers the first integrated assessment of the 11th Basic Plan for Long-term Electricity Supply and Demand, announced in March 2025. Using the Global Change Assessment Model (GCAM), the researchers compared the government’s Current Policy scenario with an alternative pathway that assumes a full coal phase-out and annual offshore wind expansion of 4 GW. Their analysis found that the 11th Basic Plan is insufficient to meet the 2030 power-sector target (45.9%), whereas the alternative scenario achieves an 82% reduction in emissions from the power sector by 2035 while still meeting projected electricity demand.
 
-The results reveal that Korea’s renewable energy expansion is broadly aligned with Paris-compliant pathways, confirming that the country’s policy direction is in line with international efforts to scale up clean renewable electricity. However, the study finds that the pace of fossil-fuel reduction and the planned expansion of nuclear power diverge from Paris-compliant scenarios’ projections. In particular, 29% of Paris-compliant scenarios achieve renewable capacity levels consistent with the tripling goal by 2030, compared to only 4% of Paris-compliant scenarios reach the nuclear tripling target by 2050, suggesting that large-scale nuclear expansion remains relatively rare across scenarios projections. Moreover, the interquartile range (IQR) of renewable capacity is notably higher in Paris-compliant scenarios than in non-compliant ones, reflecting a broader and more ambitious deployment range. In contrast, the IQR for nuclear capacity shows no significant difference between the two groups, suggesting a generally limited variation in nuclear expansion assumptions.
+Building on this analysis, the team extended their assessment to cover the economy-wide implications in the next paper “High-ambition climate action in all sectors can achieve a 59% greenhouse gas emissions reduction in Korea by 2035” published in *Scientific Reports*. The new research compares a Current Policies pathway with an Enhanced Ambition scenario that incorporates additional measures such as a complete coal phase-out by 2035, tripling solar PV capacity by 2030, a ban on extending blast furnace lifetimes, restrictions on the sale of internal combustion engine vehicles, zero-emission appliance mandate for buildings, and the introduction of methane and fluorinated gas taxes. The results show that under current policies, emissions decline by only 35% by 2035, whereas under the Enhanced Ambition pathway, Korea can reduce emissions by 59% (range 55-64%) without relying on international offsets.
 
-![Distributions relative to Korea’s nuclear and renewable capacity tripling targets](images/clipboard-1965740334.png){fig-align="center"}
+*“The international community is urging Korea to adopt an aggressive reduction target over the 60% range,” said Prof. Haewon McJeon of KAIST Graduate School of Green Growth and Sustainability. “Our research provides the first quantitative estimate of the gap between international expectations and what can be achieved domestically, and identifies realistic policy measures to help close that gap.”*
 
-The study concludes that Korea’s transition based on international clean energy pledges exhibits “partial consistency” with Paris-aligned trajectories—aligned in direction but slower in magnitude. To close this gap, the authors recommend accelerating the coal phaseout, limiting the expansion of gas-fired capacity, and strengthening policy coordination between renewable and nuclear energy strategies to ensure a more coherent and balanced clean energy transition.
+The findings offer timely insights as Korea’s newly submitted 2035 NDC target, now needs a implementation plan for emission reductions. According to the researchers, aligning the 2035 target with Korea’s 2050 carbon neutrality pledge will require not only a full coal phase-out and accelerated offshore wind deployment, but also stricter limits on extending blast furnace operations, large-scale green retrofitting of existing buildings, a zero-emission appliance mandate, and stronger carbon pricing through the national emissions trading system. The team expressed hope that their work will guide policymakers in setting an ambitious yet achievable 2035 NDC for Korea.
 
-“Tripling clean energy capacity is an ambitious and positive signal,” said Jiseok Ahn of KAIST School of Business and Technology Management. “Yet, achieving full alignment with Paris-consistent pathways requires faster reduction of fossil-fuel reliance, balanced expansion of clean energy technologies, stronger integration of science-based scenario modeling into national planning processes.”
+   An integrated assessment of the 11th basic plan for long-term electricity supply and demand and alternative power generation mix scenarios: <https://doi.org/10.15531/KSCCR.2025.16.3.459>
 
-The authors emphasize that future research should incorporate updated technologies and recent national policy developments to ensure that global scenario databases more accurately reflect evolving national energy strategies. Strengthening the link between global models and country-specific contexts will enhance the credibility, comparability, and policy relevance of international climate scenario analyses.
+   High-ambition climate action in all sectors can achieve a 59% greenhouse gas emissions reduction in Korea by 2035: <https://doi.org/10.1038/s41598-026-44130-2>
 
-Paper link: <http://doi.org/10.1016/j.isci.2026.115305>
+**KAIST-서울대 연구진 "모든 부문별 탈탄소 정책의 강화를 통해 2035년 NDC 59% 감축 가능하다"**\
+**-**현행정책만으로는 2030년 NDC 달성 어려워
 
-**한국의 ‘재생에너지·원전 3배 확대’ 목표, 파리협정 목표 달성을 위한 감축 경로와 정합도 분석**
+서울대학교와 카이스트가 협력하여 한국의 2035년 국가온실가스감축목표(NDC) 수립을 위한 연구 논문을 발표하였다. 서울대학교 행정대학원 최현태 박사와 박상인 교수, 카이스트 녹색성장지속가능대학원 전해원 교수가 공개한 통합평가모형 분석 결과에 따르면, 현행 정책만으로는 2030 NDC 달성이 어렵지만, 부문별로 진전된 조치를 정책에 적극 반영한다면 2035년까지 2018년 배출량 대비 59% 감축이 가능한 것으로 나타났다.
 
-한국과학기술원과 한국에너지연구원 공동연구팀은 국제학술지 iScience에 발표한 연구에서, 한국이 유엔기후변화협약 당사국총회에서 제시한 ‘재생에너지 2030년까지 3배 확대, 원전 2050년까지 3배 확대(tripling)’ 목표가 IPCC 제6차 평가보고서(AR6)에 포함된 감축 시나리오와 얼마나 정합성을 갖는지를 정량적으로 분석했다.
+한국기후변화학회지에 게재된 첫 논문 “제11차 전력수급기본계획과 대안적 전원 구성 시나리오의 통합평가에 관한 연구”는 2025년 3월 발표된 제11차 전력수급기본계획(이하 ‘기본계획’)을 통합평가모형을 통해 분석한 최초의 논문이다. 연구진은 통합평가모형 GCAM을 활용하여 제11차 기본계획의 발전량 전망을 바탕으로 한 현행 정책 시나리오(Current Policy)와 석탄 발전을 완전히 퇴출하고 해상풍력을 연간 4GW 확대하는 대안적 시나리오(CoalOut-HighRE)를 비교하여 분석했다. 분석 결과 현행 제11차 기본계획은 2030년 전력 부문 감축목표를 달성하기 어려운 것으로 나타났다. 반면 대안적 시나리오는 석탄 발전을 퇴출시켜 2035년까지 전력부문에서 약 82%의 온실가스 감축을 가져오면서도 연간 전력 수요를 충족시키기에 충분한 것으로 나타났다.
 
-이번 연구는 2050 탄소중립을 향한 글로벌 전환이 가속화되는 가운데, 한국의 탄소중립 정책이 글로벌 파리협정 정합 시나리오와 어떤 차이를 보이는지를 비교한 체계적 분석이다. 연구진은 IPCC AR6 시나리오 데이터베이스에 포함된 총 198개 시나리오를 활용하여 한국의 전력부문 발전설비 경로를 추출하고, 이를 온도상승 수준에 따라 파리협정 정합(Paris-compliant)과 비정합(non-compliant) 시나리오로 분류했다.
+동연구진은 경제 전 부문을 포괄하는 두번째 논문 “High-ambition climate action in all sectors can achieve a 59% greenhouse gas emissions reduction in Korea by 2035” 연구를 오픈 액세스 저널 사이언티픽 리포트 (Scientific Reports)에 게제하였다.
 
-분석 결과, 유엔기후변화협약의 재생에너지 3배 확대 목표는 파리협정 목표 달성을 위한 시나리오에서의 재생에너지 확대 경로와 대체로 유사한 추세를 보여 29% 정도의 시나리오가 확대 목표를 달성하였으나, 화석연료 감축 속도와 원전 확대 수준에서는 차이가 있었다. 특히 원전의 경우 3배 확대 목표를 달성하는 시나리오는 4% 정도로 매우 제한적이었다.
+이 연구는 GCAM을 활용하여 전력, 산업, 수송, 건물, 농업, 폐기물 등 모든 부문을 아울러, 현행 정책 시나리오(Current Policies)와 진전된 목표 시나리오(Enhanced Ambition)를 비교 분석했다. 진전된 목표 시나리오에는 첫 논문에서 반영한 2035년 석탄 발전 완전 퇴출, 해상풍력 연간 4GW 확대, 태양광 2030년까지 3배 확대와 더불어 고로 설비 수명연장 중단, 내연기관차 판매에 대한 규제, 메탄세 및 불화 온실가스세 도입 등이 포함된다. 분석 결과 현행 정책만으로는2035년까지 온실가스가 35% 감축되는 데 그쳐 이미 국제사회에 선언한 40% 감축에도 미치지 못하지만, 강화된 정책으로는 국외 감축 없이도 2035년에 2018년 대비 59% 감축(범위 55-64%)이 가능한 것으로 나타났다.
 
-연구진은 이를 두고 “부분적 정합성(partial consistency)”이라고 설명하며, 국내 에너지 정책이 방향성은 글로벌 감축목표와 일치하나 속도와 구조 측면에서 개선 여지가 있다고 분석했다. 향후 정책적 정합성을 높이기 위해서는 ▲탈석탄의 가속화, ▲가스 설비 의존도 완화, ▲재생에너지-원자력 발전의 균형 잡힌 확대 등을 통한 전력믹스 최적화 전략이 필요하다고 제안했다.
+이번 연구의 주저자로서 시나리오 개발을 주도한 서울대 최현태 박사는 "다가오는 기후위기에 대응하기 위해 세계 각국의 감축목표 상향을 요구받고 있으며, 국제사회는 한국에 60%를 상향하는 강화된 목표를 요구하고 있다. 이번 연구는 국제사회가 요구하는 감축 수준과 현실적으로 달성할 수 있는 최대 감축량 사이의 격차를 정량적으로 산정한 첫 번째 시도다. 실현할 수 있는 정책을 통해 국제적 요구와 국내 역량 간의 간극을 최대한 좁힐 방안을 제시했다"라고 설명했다.
 
-연구를 주도한 KAIST 기술경영학부 박사과정 안지석 연구원은“재생에너지와 원전의 3배 확대는 기후위기 대응 의지를 보여주는 긍정적 신호지만, 실질적으로 지구 온도 상승 억제를 위해서는 화석연료 의존에서 빠르게 벗어나는 동시에 균형 잡힌 청정에너지 보급과 확산, 과학적 시나리오 모델링 기반의 정책결정 체계를 강화할 필요가 있다”고 강조했다. 연구진은 기후위기에 과학적 대응을 위해서는 국가별 정책 변화와 기술 변화를 반영한 시나리오 체계의 확충이 필요하다고 제안하며, 이를 통해 글로벌–국가 간 정책 정합성 분석의 신뢰도를 높일 수 있을 것이라고 덧붙였다.
+이번 연구는 작년 제출된 한국의 2035년 NDC 목표를 달성하는데 중요한 정책적 시사점을 제공할 것으로 기대된다. 2050년 탄소중립 목표에 부합하게 2035년 온실가스를 감축하기 위해서는 전력 부문의 석탄 발전 완전히 퇴출하는 것과 해상풍력 확대, 고로 수명 연장에 대한 규제, 기존 건축물에 대한 그린리모델링과 제로배출 가전제품 도입확대, 온실가스 배출권 거래제 강화를 통한 탄소가격 현실화 등이 필수적이다. 연구진은 이번 성과가 실현 가능한 정책 시나리오 제시를 통해 한국의 효과적인 2035년 NDC 달성을 뒷받침하는데 활용될 것으로 기대한다고 밝혔다.
 
-논문 링크: <http://doi.org/10.1016/j.isci.2026.115305>
+   제11차 전력수급기본계획과 대안적 전원 구성 시나리오의 통합평가에 관한 연구: <https://doi.org/10.15531/KSCCR.2025.16.3.459>
+
+   High-ambition climate action in all sectors can achieve a 59% greenhouse gas emissions reduction in Korea by 2035: <https://doi.org/10.1038/s41598-026-44130-2>
