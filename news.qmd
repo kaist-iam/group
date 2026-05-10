@@ -4,9 +4,15 @@ listing:
   contents: posts_news
   sort: "date desc"
   type: default
-  categories: true
+  categories: false
   sort-ui: false
   filter-ui: false
 page-layout: full
-title-block-banner: true
+title-block-banner: false
 ---
+<div class="page-hero">
+  <div class="page-hero-content">
+    <p class="page-subtitle">KAIST IAM Group</p>
+    <h1>News</h1>
+  </div>
+</div>

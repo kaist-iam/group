@@ -1,0 +1,38 @@
+---
+title: "Jiyong Eom"
+format: html
+toc: false
+page-layout: full
+---
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+::: {=html}
+<div style="display:flex; gap:24px; align-items:center; margin-bottom:20px;">
+  <img src="photo/prof_Eom1.png" style="width:200px; border-radius:16px; object-fit:cover;">
+  <div>
+    <h1 style="margin:0;">Jiyong Eom</h1>
+    <p style="margin:6px 0 2px; color:#374151; font-weight:500;">Associate Professor</p>
+    <p style="margin:0 0 10px; color:#6b7280; font-size:0.95rem;">College of Business, KAIST</p>
+    <div style="display:flex; gap:8px; flex-wrap:wrap;">
+      <a href="https://scholar.google.com/citations?user=OE_gIOMAAAAJ&hl=en" target="_blank" style="display:inline-flex;align-items:center;gap:6px;padding:5px 12px;border-radius:999px;background:#f3f4f6;color:#374151;text-decoration:none;font-size:0.85rem;font-weight:600;">
+        <i class="ai ai-google-scholar" style="font-size:1rem;"></i> Google Scholar
+      </a>
+      <a href="https://www.linkedin.com/in/jiyong/" target="_blank" style="display:inline-flex;align-items:center;gap:6px;padding:5px 12px;border-radius:999px;background:#f3f4f6;color:#374151;text-decoration:none;font-size:0.85rem;font-weight:600;">
+        <i class="fab fa-linkedin" style="font-size:1rem;"></i> LinkedIn
+      </a>
+    </div>
+  </div>
+</div>
+:::
+
+Jiyong Eom is an Associate Professor at the KAIST College of Business and the Head of the Graduate School of Green Growth and Sustainability. His research interests include energy and environmental economics and management, integrated assessment modeling for climate policy analysis, demand-side management of electricity with ICT, and green information systems and energy informatics.
+
+His research has appeared in *Nature Energy*, *Global Environmental Change*, *Energy Economics*, *Energy Policy*, *Energy*, *Technological Forecasting and Social Change*, and *Climatic Change*. He served as a Contributing Author for Chapters 6 and 9 of the IPCC Fifth Assessment Report (Working Group III: Mitigation of Climate Change) and is recognized as a Highly Cited Researcher in the social science area.
+
+## Education
+
+- Ph.D. in Management Science & Engineering (Policy & Strategy), Stanford University
+- M.S. in Chemical and Biomolecular Engineering, KAIST
+- B.S. in Chemical Engineering, Yonsei University

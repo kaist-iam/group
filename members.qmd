@@ -1,0 +1,221 @@
+---
+title: "Members"
+page-layout: full
+toc: false
+from: markdown+raw_html
+format: html
+---
+
+::: {=html}
+<link rel="stylesheet" href="members1.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
+<script src="members1.js"></script>
+:::
+
+<div class="members-hero">
+  <div class="members-hero-content">
+    <p class="members-subtitle">KAIST IAM Group</p>
+    <h1>Members</h1>
+  </div>
+</div>
+
+## Professors
+
+::: {=html}
+<div class="members-section">
+  <div class="members-grid">
+
+  <!-- Professor 1 -->
+  <div class="member-card" onclick="window.location.href='eomjiyoung.html'">
+    <img src="photo/prof_Eom1.png" alt="Jiyong Eom" class="member-photo">
+    <h3 class="member-name">Jiyong Eom</h3>
+    <p class="member-role">Associate Professor</p>
+    <div class="member-tags">
+      <span>#Demand-side</span>
+      <span>#Energy Economics</span>
+      <span>#IAMs</span>
+    </div>
+  </div>
+
+  <!-- Professor 2 -->
+  <div class="member-card" onclick="window.location.href='hmcjeon.html'">
+    <img src="photo/prof_McJeon1.png" alt="Haewon McJeon" class="member-photo">
+    <h3 class="member-name">Haewon C. McJeon</h3>
+    <p class="member-role">Associate Professor</p>
+    <div class="member-tags">
+      <span>#Decarbonization</span>
+      <span>#AI-driven Modeling</span>
+      <span>#IAMs</span>
+    </div>
+  </div>
+
+  <!-- Professor 3 -->
+  <div class="member-card" onclick="window.location.href='sonhkim.html'">
+    <img src="photo/prof_Kim1.png" alt="Son H. Kim" class="member-photo">
+    <h3 class="member-name">Son H. Kim</h3>
+    <p class="member-role">Visiting Professor</p>
+    <div class="member-tags">
+      <span>#Energy Systems</span>
+      <span>#Model Architecture</span>
+      <span>#IAMs</span>
+    </div>
+  </div>
+</div>
+
+---
+
+## Postdoctoral Researchers
+
+::: {=html}
+<div class="members-section">
+  <div class="members-grid">
+
+  <!-- Hyuntae -->
+  <div class="member-card" onclick="openModal('hyuntae')">
+    <img src="photo/Hyuntae.jpg" alt="Hyuntae Choi" class="member-photo">
+    <h3 class="member-name">Hyuntae Choi</h3>
+    <p class="member-role">Postdoctoral Researcher</p>
+
+    <div class="member-tags">
+      <span>#Climate Policy</span>
+      <span>#Econometrics</span>
+      <span>#IAMs</span>
+    </div>
+  </div>
+</div>
+
+---
+
+## PhD Students
+
+::: {=html}
+<div class="members-section">
+  <div class="members-grid">
+
+  <!-- Ahmed -->
+  <div class="member-card" onclick="openModal('ahmed')">
+    <img src="photo/Ahmed.jpg" alt="Ahmed Sobhy Mahmoud" class="member-photo">
+    <h3 class="member-name">Ahmed Sobhy Mahmoud</h3>
+    <p class="member-role">PhD Candidate</p>
+    <div class="member-tags">
+      <span>#Energy Demand</span>
+      <span>#Transportation Modeling</span>
+      <span>#IAMs</span>
+    </div>
+  </div>
+
+  <!-- Jiseok -->
+  <div class="member-card" onclick="openModal('jiseok')">
+    <img src="photo/Jiseok.jpg" alt="Jiseok Ahn" class="member-photo">
+    <h3 class="member-name">Jiseok Ahn</h3>
+    <p class="member-role">PhD Candidate</p>
+    <div class="member-tags">
+      <span>#Energy Systems</span>
+      <span>#Energy & Environmental Policy</span>
+      <span>#IAMs</span>
+    </div>
+  </div>
+
+  <!-- Jiwon -->
+  <div class="member-card" onclick="openModal('jiwon')">
+    <img src="photo/Jiwon.jpg" alt="Jiwon Kwun" class="member-photo">
+    <h3 class="member-name">Jiwon Kwun</h3>
+    <p class="member-role">PhD Student</p>
+    <div class="member-tags">
+      <span>#Hydrogen</span>
+      <span>#Energy Security</span>
+      <span>#IAMs</span>
+    </div>
+  </div>
+
+  <!-- Sungeun -->
+  <div class="member-card" onclick="openModal('sungeun')">
+    <img src="photo/Sungeun.jpg" alt="Sungeun Kim" class="member-photo">
+    <h3 class="member-name">Sungeun (Rachel) Kim</h3>
+    <p class="member-role">PhD Student</p>
+    <div class="member-tags">
+      <span>#Iron & Steel</span>
+      <span>#Decarbonization</span>
+      <span>#IAMs</span>
+    </div>
+  </div>
+</div>
+
+---
+
+## Master's Students
+
+::: {=html}
+<div class="members-section">
+  <div class="members-grid">
+
+  <!-- Medina -->
+  <div class="member-card" onclick="openModal('medina')">
+    <img src="photo/Medina.jpg" alt="Medina Mukhamedina" class="member-photo">
+    <h3 class="member-name">Medina Mukhamedina</h3>
+    <p class="member-role">MS Student</p>
+    <div class="member-tags">
+      <span>#Climate Policy</span>
+      <span>#Energy Systems</span>
+      <span>#IAMs</span>
+    </div>
+  </div>
+
+  <!-- Jiheun -->
+  <div class="member-card" onclick="openModal('jiheun')">
+    <img src="photo/Jiheun.jpg" alt="Jiheun Ha" class="member-photo">
+    <h3 class="member-name">Jiheun Ha</h3>
+    <p class="member-role">MS Student</p>
+    <div class="member-tags">
+      <span>#Climate Policy</span>
+      <span>#Subnational Strategies</span>
+      <span>#IAMs</span>
+    </div>
+  </div>
+
+  <!-- Jin -->
+  <div class="member-card" onclick="openModal('jin')">
+    <img src="photo/Jin.jpg" alt="Jin Lee" class="member-photo">
+    <h3 class="member-name">Jin Lee</h3>
+    <p class="member-role">MS Student</p>
+    <div class="member-tags">
+      <span>#Climate Risk</span>
+      <span>#Carbon Neutrality</span>
+      <span>#IAMs</span>
+    </div>
+  </div>
+</div>
+
+---
+
+## Alumni
+
+::: {=html}
+<div class="members-section">
+  <div class="members-grid">
+
+  <!-- Jeongho -->
+  <div class="member-card" onclick="openModal('jeongho')">
+    <img src="photo/Jeongho.webp" alt="Jeongho Jo" class="member-photo">
+    <h3 class="member-name">Jeongho Jo</h3>
+    <p class="member-role">MS, GBP · 2024</p>
+    <p class="member-role" style="color:#2f7a5f; font-weight:600; font-size:0.82rem;">기후솔루션, Researcher</p>
+  </div>
+
+  <!-- Jungme -->
+  <div class="member-card" onclick="openModal('jungme')">
+    <img src="photo/Jungme.jpg" alt="Jungme Lee" class="member-photo">
+    <h3 class="member-name">Jungme Lee</h3>
+    <p class="member-role">MS, GGGS · 2026</p>
+    <p class="member-role" style="color:#2f7a5f; font-weight:600; font-size:0.82rem;">KIA</p>
+  </div>
+
+</div>
+
+<div id="memberModal" class="modal" onclick="closeModal(event)">
+  <div class="modal-content" onclick="event.stopPropagation()">
+    <span class="modal-close" onclick="closeModal()">&times;</span>
+    <div id="modalBody"></div>
+  </div>
+</div>

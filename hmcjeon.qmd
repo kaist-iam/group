@@ -1,34 +1,78 @@
 ---
+title: "Haewon C. McJeon"
 format: html
-about: 
-  template: marquee
-  links :
-    - icon: github
-      text: github
-      href: https://github.com/GCAM-KAIST
+toc: false
+page-layout: full
+---
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+---
+title: "Haewon C. McJeon"
+format: html
+toc: false
+page-layout: full
 ---
 
-# Haewon C. McJeon
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-------------------------------------------------------------------------
+::: {=html}
+<div style="display:flex; gap:24px; align-items:center; margin-bottom:20px;">
+  <img src="photo/prof_McJeon1.png" style="width:200px; border-radius:16px; object-fit:cover;">
+  <div>
+    <h1 style="margin:0;">Haewon C. McJeon</h1>
+    <p style="margin:6px 0 2px; color:#374151; font-weight:500;">Associate Professor</p>
+    <p style="margin:0 0 10px; color:#6b7280; font-size:0.95rem;">Graduate School of Green Growth and Sustainability, KAIST</p>
+    <div style="display:flex; gap:8px; flex-wrap:wrap;">
+      <a href="https://scholar.google.com/citations?user=KlbIffIuh5YC&hl=en&oi=ao" target="_blank" style="display:inline-flex;align-items:center;gap:6px;padding:5px 12px;border-radius:999px;background:#f3f4f6;color:#374151;text-decoration:none;font-size:0.85rem;font-weight:600;">
+        <i class="ai ai-google-scholar" style="font-size:1rem;"></i> Google Scholar
+      </a>
+      <a href="https://www.linkedin.com/in/hcm213/" target="_blank" style="display:inline-flex;align-items:center;gap:6px;padding:5px 12px;border-radius:999px;background:#f3f4f6;color:#374151;text-decoration:none;font-size:0.85rem;font-weight:600;">
+        <i class="fab fa-linkedin" style="font-size:1rem;"></i> LinkedIn
+      </a>
+    </div>
+  </div>
+</div>
+:::
 
-Haewon McJeon is an associate professor at KAIST Graduate School of Green Growth and Sustainability. His research primarily focuses on using Integrated Assessment Models (IAM) to formulate low-carbon, carbon-neutral, and carbon-negative pathways for mitigating climate change. At KAIST Graduate School of Green Growth & Sustainability, he is teaching the next generation of modelers how to use quantitative models to evaluate decarbonization strategies in Korea and developing Asia.
+Haewon McJeon is an Associate Professor at the KAIST Graduate School of Green Growth and Sustainability. His research primarily focuses on using Integrated Assessment Models (IAMs) to formulate low-carbon, carbon-neutral, and carbon-negative pathways for mitigating climate change. At KAIST, he teaches the next generation of modelers how to use quantitative models to evaluate decarbonization strategies in Korea and developing Asia.
 
-Previously, he held positions at the Joint Global Change Research Institute and the Center for Global Sustainability, where he played a pivotal role in developing the Global Change Assessment Model (GCAM). In that role, he has served as the lead Integrated Assessment Modeler for two White House reports on deep decarbonization pathways (Long-Term Strategy, 2021 and Mid-Century Strategy, 2016). He has published widely on topics such as the impact of fossil fuels on climate change, decarbonization technologies, and decision-making under uncertainties. He has published over 80 papers in peer-reviewed journals, including Nature, Science, Energy Economics, and Climatic Change.
+Previously, he held positions at the Joint Global Change Research Institute and the Center for Global Sustainability, where he played a pivotal role in developing the Global Change Assessment Model (GCAM). In that role, he served as the lead Integrated Assessment Modeler for two White House reports on deep decarbonization pathways: the Long-Term Strategy (2021) and the Mid-Century Strategy (2016). He has published widely on topics such as the impacts of fossil fuels on climate change, decarbonization technologies, and decision-making under uncertainty. He has published over 100 papers in academic journals, including *Nature*, *Science*, *Energy Economics*, and *Climatic Change*.
 
-Dr. McJeon holds a Ph.D. and a Master's degree in Environmental Policy from the University of Maryland, as well as a Bachelor's degree in Economics from Seoul National University.
+## Education
 
--   Graduate School of Green Growth & Sustainability, Korea Advanced Institute of Science and Technology
+- Ph.D. in Environmental Policy, University of Maryland
+- Master’s degree in Environmental Policy, University of Maryland
+- Bachelor’s degree in Economics, Seoul National University
 
-    -   Associate Professor (2024 -- Present)
-    -   Visiting Professor (2023 -- 2024)
+## Current Positions
 
--   Joint Global Change Research Institute, Pacific Northwest National Laboratory
+- **Associate Professor** (2024–Present)  
+  Graduate School of Green Growth and Sustainability, Korea Advanced Institute of Science and Technology
 
-    -   Senior Economist (2020 -- 2023); Research Scientist (2012 -- 2019); Research Assistant (2006 -- 2011)
+- **Graduate Program Chair** (2025–Present)  
+  Graduate School of Green Growth and Sustainability, Korea Advanced Institute of Science and Technology
 
--   Center for Global Sustainability, University of Maryland
+- **Associate Director** (2025–Present)  
+  KAIST Institute for Climate-Environment-Energy
 
-    -   Associate Research Scholar, Joint Appointment (2020 -- 2024)
+- **Associate Editor** (2025–Present)  
+  *Energy and Climate Change*
 
-------------------------------------------------------------------------
+## Previous Positions
+
+- **Visiting Professor** (2023–2024)  
+  Graduate School of Green Growth and Sustainability, Korea Advanced Institute of Science and Technology
+
+- **Senior Economist** (2020–2023)  
+  Joint Global Change Research Institute, Pacific Northwest National Laboratory
+
+- **Research Scientist** (2012–2019)  
+  Joint Global Change Research Institute, Pacific Northwest National Laboratory
+
+- **Research Assistant** (2006–2011)  
+  Joint Global Change Research Institute, Pacific Northwest National Laboratory
+
+- **Joint Affiliate** (2020–2024)  
+  Center for Global Sustainability, University of Maryland

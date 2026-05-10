@@ -1,38 +1,153 @@
 ---
 title: "KAIST IAM Group"
-#description: "IAM KAIST"
-date: '2023-10-10' # 날짜 설정: now, last-modified
-author:
-  - name: KAIST IAM Group
-  #  url: 
-    affiliation: Korea Advanced Institute of Science and Technology
-    #affiliation-url: 
-title-block-banner: false
-#title-block-banner: "#562457"
+title-block-style: none
+page-layout: full
+toc: false
 format:
   html:
-    code-fold: true
-    toc: false
-    toc-depth: 2
-    toc-title: 목차
-    number-sections: false
-    highlight-style: github    
-    self-contained: false
-link-citation: true
-csl: apa-single-spaced.csl
-reference-location: margin
+    theme: flatly
+    css: styles-home.css
+resources:
+- img/
+execute:
+  enabled: false
+listing:
+  - id: latest-news
+    contents: posts_news
+    sort: "date desc"
+    fields: [image, title, date]
+    max-items: 2
+    type: grid
+    grid-columns: 1
+
+  - id: latest-pubs
+    contents: posts_publications
+    sort: "date desc"
+    fields: [image, title, date]
+    max-items: 2
+    type: grid
+    grid-columns: 1
 ---
 
-The KAIST IAM group, within the Korea Advanced Institute of Science and Technology, employs state-of-the-art Integrated Assessment Modeling (IAM) tools to analyze and guide the transition to a carbon-neutral future. Their interdisciplinary approach combines environmental science, energy system engineering, economics, and policy expertise to simulate scenarios and propose effective solutions for achieving a sustainable, low-carbon economy.
+::: {=html}
+<!-- =========================
+     HERO SLIDER
+========================== -->
+<section class="hero-slider" aria-label="KAIST IAM Group highlights">
+  <div class="slides">
 
-Through detailed analyses, they assist policymakers in making informed decisions on energy decarbonization pathways, contributing to a climate resilient and environmentally sustainable global future. The KAIST IAM group's impact extends far beyond academia, as they establish global partnerships with prominent institutions, resonating in national and global policy deliberations, and contributing to the formation of a collective vision for a sustainable world.
+    <article class="slide is-active" style="background-image:url('img/kaist.jpg')"></article>
+    <article class="slide" style="background-image:url('img/slide2.png')"></article>
+    <article class="slide" style="background-image:url('img/kaist2.jpg')"></article>
 
-### [Opportunities](https://kaist-iam.github.io/group/oppurtunities.html)
+  </div>
 
-The KAIST IAM Group is actively recruiting talented PhD and master's students who are interested in Integrated Assessment Modeling (IAM) for a sustainable future. Our lab is located in the beautiful city of Daejeon, Korea, and offers graduate student opportunities that generally focus on developing IAM models, building decarbonization scenarios, and processing data to integrate new technologies into these models.
+  <!-- один общий оверлей с текстом -->
+  <div class="slide-overlay"></div>
 
-We are particularly interested in working with students who have a demonstrated passion for sustainability, especially those focused on the quantitative assessment of decarbonization pathways. While we do not expect incoming students to have prior experience with IAM models, we do expect candidates to have some experience in data processing or simulation using R, Python, or similar scientific programming languages.
+  <div class="slide-content">
+  <p class="slide-kicker">WELCOME TO THE</p>
+    <h1 class="slide-title">KAIST IAM Group</h1>
+    <p class="slide-lead">
+      We develop and apply Integrated Assessment Models (IAMs) to explore realistic net-zero pathways
+      and translate model insights into decision-ready evidence.
+    </p>
+    <div class="slide-actions">
+      <a class="btn btn-primary" href="models.qmd">Explore research</a>
+    </div>
+  </div>
 
-If you're interested, please send your CV to
+  <button class="slide-btn prev" type="button" aria-label="Previous slide">‹</button>
+  <button class="slide-btn next" type="button" aria-label="Next slide">›</button>
+  <div class="slide-dots" aria-label="Slide navigation"></div>
+</section>
+:::
 
-![](email.png){fig-align="center"}
+::: {=html}
+<!-- =========================
+     WHAT WE DO
+========================== -->
+<section class="section">
+  <h2>What we do</h2>
+  <p class="section-description">
+    The <strong>KAIST IAM Group</strong> develops and applies <strong>Integrated Assessment Models (IAMs)</strong>
+    to explore realistic net-zero pathways. Our work combines <strong>environmental science</strong>,
+    <strong>energy systems engineering</strong>, <strong>economics</strong>, and <strong>public policy</strong> 
+    to simulate scenarios &amp; strategies for climate-resilient development.
+  </p>
+
+  <div class="cards-row">
+    <div class="card">
+      <div class="card-icon">🧩</div>
+      <h3>Model building</h3>
+      <p>Advancing IAMs and energy-system modules tailored to Korea and global contexts.</p>
+    </div>
+
+    <div class="card">
+      <div class="card-icon">📊</div>
+      <h3>Policy analysis</h3>
+      <p>Evaluating mitigation options, technology deployment, and just transition routes.</p>
+    </div>
+
+    <div class="card">
+      <div class="card-icon">🤝</div>
+      <h3>Open collaboration</h3>
+      <p>Working with universities, institutes, and government to co-produce actionable insights.</p>
+    </div>
+  </div>
+</section>
+:::
+
+::: {.section .section-muted}
+## Latest updates
+
+::: {.two-col-updates}
+
+::: {.updates-col}
+::: {.section-subhead}
+### News
+[See all →](news.qmd){.link-more}
+:::
+
+::: {#latest-news}
+:::
+:::
+
+::: {.updates-col}
+::: {.section-subhead}
+### Recent publications
+[Full list →](publications.qmd){.link-more}
+:::
+
+::: {#latest-pubs}
+:::
+:::
+
+:::
+:::
+
+
+::: {=html}
+<!-- =========================
+     JOIN THE LAB
+========================== -->
+<section class="section section-accent"><div class="join-wrapper"><div class="join-main"><h2>Join the lab</h2><p>We are recruiting <strong>Ph.D.</strong> and <strong>Master's</strong> students passionate about climate, energy, and modeling.</p><ul class="bullets"><li>Engineering, economics, environmental backgrounds welcome</li><li>Skills in data analysis, simulation, or coding (<strong>R</strong>, <strong>Python</strong>)</li><li>No IAM experience required</li></ul><div class="cta-row"><a class="btn btn-primary" href="opportunities.qmd">See opportunities</a><a class="btn btn-outline" href="mailto:hmcjeon@kaist.ac.kr">Send your CV</a></div></div><div class="box-note"><div class="mascot-animation"><img src="https://giving.kaist.ac.kr/nubzuki/KAIST-hi.gif" alt="KAIST mascot waving"></div><p class="note-title">Why KAIST IAM Group?</p><p>Join a vibrant international team at KAIST, working at the interface of cutting-edge modeling and real-world climate and energy policy.</p></div></div></section>
+:::
+::: {=html}
+<!-- =========================
+     CONTACTS
+========================== -->
+<section class="section" id="contact"><h2>Connect with us</h2><p><strong>KAIST Main Campus</strong><br>291 Daehak-ro, Yuseong-gu, Daejeon, Republic of Korea</p><div class="chips contact-links">
+    <a class="chip" href="https://www.linkedin.com/company/kaist-iam-group/" target="_blank" rel="noopener">
+      🔗 LinkedIn
+    </a>
+    <a class="chip" href="https://github.com/GCAM-KAIST" target="_blank" rel="noopener">
+      💻 GitHub
+    </a>
+    <a class="chip" href="mailto:hmcjeon@kaist.ac.kr">
+      ✉️ Email
+    </a>
+  </div>
+</section>
+:::
+

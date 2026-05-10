@@ -3,9 +3,8 @@ title: "Bioenergy pathways within United States net-zero CO2 emissions scenarios
 author: "KAIST IAM Group"
 date: "2025-09-10"
 categories: [Publication]
-fig-align: center
+description: "A multi-model EMF-37 study on how bioenergy and BECCS/DACCS contribute to US net-zero pathways by 2050."
 image: "image_main.jpg"
-favicon: "image_main.jpg"
 ---
 
 *A new study published in Energy and Climate Change examines how bioenergy could contribute to achieving net-zero CO₂ emissions by 2050.*

@@ -15,9 +15,9 @@ website:
   navbar: 
     left: 
       - href: index.qmd
-        text: Home
-      - href: about.qmd
-        text: About us
+        text: Home  
+      - href: members.qmd
+        text: Members
       - href: models.qmd  # https://github.com/JGCRI/gcam-core
         text: Models
       - href: publications.qmd
@@ -35,9 +35,30 @@ website:
         href: https://github.com/GCAM-KAIST
         aria-label: GitHub
       
+    
 
 margin-header: |
-  ![](./img/iam_kaist_logo.png)  
+  <div class="iam-logo-block">
+  <div class="iam-logo-wrapper">
+  <img src="/img/iam_kaist_logo_r.png"
+       alt="KAIST IAM sectors"
+       class="iam-logo-ring">
+  <img src="/img/iam_kaist_logo_n.png"
+       alt="KAIST mascot"
+       class="iam-logo-mascot">
+  </div>
+  </div>
   
 editor: visual
+
+format:
+  html:
+    theme: flatly
+    css: 
+      - members1.css
+      - styles-home.css
+      - models.css
+    include-after-body:
+      - logo-rotate.html
+      - scripts-home.html
 

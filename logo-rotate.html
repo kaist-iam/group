@@ -1,0 +1,27 @@
+<script>
+  window.addEventListener("DOMContentLoaded", function () {
+    const ring = document.querySelector(".iam-logo-ring");
+    if (!ring) return;
+
+    function updateRotation() {
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+
+      if (docHeight <= 0) {
+        ring.style.transform = "translate(-50%, -50%) rotate(0deg)";
+        return;
+      }
+
+      const progress = scrollTop / docHeight;
+      const rotations = 2;
+      const angle = progress * 360 * rotations;
+
+      ring.style.transform =
+        "translate(-50%, -50%) rotate(" + angle + "deg)";
+    }
+
+    updateRotation();
+    window.addEventListener("scroll", updateRotation);
+  });
+</script>
+

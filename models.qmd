@@ -1,22 +1,36 @@
 ---
-title: "Models"
-date : "2023-10-10" # last-modified # now
-#author: 
-# - name: "KAIST IAM Group"
-title-block-banner: true
+title: "Models & Projects"
+title-block-banner: false
+toc: false
 format: 
   html:
     theme: flatly
-    code-fold: true
-    toc: true
-   # toc-depth: 2
-    toc-title: 목차
-    number-sections : true
-    #number-depth: 2
+    css:
+      - styles-home.css
+      - models.css
+    toc: false
+    number-sections: false
     highlight-style: github
     self-contained: false
 ---
 
--   [GCAM-core](https://github.com/JGCRI/gcam-core) : The Joint Global Change Research Institute (JGCRI) is the home and primary development institution for GCAM, an integrated assessment tool for exploring consequences and responses to global change. GCAM has been developed at PNNL for over 20 years and is now a freely available community model and documented online.
+<div class="page-hero">
+  <div class="page-hero-content">
+    <p class="page-subtitle">KAIST IAM Group</p>
+    <h1>Models & Projects</h1>
+  </div>
+</div>
 
--   GCAM-KAIST\[in preparation\] : KAIST IAM Group's efforts involve customizing GCAM7 to make it a more accurate and relevant tool for assessing and understanding the implications of global change within the specific context of Korea.
+Our group develops and applies integrated assessment and energy system models to explore decarbonization pathways, climate policy, and sustainability transitions. We also contribute to collaborative research projects that connect modeling innovation with real-world policy decision support.
+
+## Models
+
+<div class="info-grid"><div class="info-card"><h3><a href="https://github.com/JGCRI/gcam-core" target="_blank">GCAM-core</a></h3><p>GCAM-core is an open-source integrated assessment model developed by the Joint Global Change Research Institute (JGCRI). It represents interactions among energy, water, land, economy, and climate systems, and is widely used for long-term scenario analysis of global change mitigation and adaptation.</p></div><div class="info-card"><h3><a href="https://github.com/GCAM-KAIST/gcam-kaist7-release" target="_blank">GCAM-KAIST</a></h3><p>GCAM-KAIST is the KAIST IAM Group's customized modeling framework based on GCAM. Our work focuses on improving the model's relevance for Korea and globally connected systems by incorporating country-specific assumptions, sectoral detail, and policy-relevant scenario design for sustainability and net-zero analysis.</p></div></div>
+
+## Projects
+
+<div class="project-block"><div class="project-header"><h3>Net-Zero Korea (NZK)</h3><p class="project-subtitle">Accelerating Energy and Industrial Decarbonization</p></div><p>The Net-Zero Korea (NZK) project is a landmark collaboration between the KAIST Graduate School of Green Growth and Sustainability and the Andlinger Center for Energy and the Environment at Princeton University. Supported by seed funding from Google, the initiative aims to accelerate the Republic of Korea's energy and industrial decarbonization through high-resolution modeling and policy decision support.</p><div class="project-figure"><img src="img/NZK.png" alt="Net-Zero Korea" class="project-image"></div><div class="mini-grid"><div class="mini-card"><h4>Collaborative Modeling Innovation</h4><p>NZK adapts the pioneering modeling approach introduced in Princeton's <em>Net-Zero America</em> study, bringing greater granularity to the Korean context, including local land use, capital investment requirements, employment shifts, and air pollution health impacts.</p></div><div class="mini-card"><h4>Institutional Strengths</h4><ul><li><strong>Princeton expertise:</strong> high-resolution modeling frameworks for national and subnational planning.</li><li><strong>KAIST expertise:</strong> deep knowledge of the Korean socio-economic context, international trade, and global supply chains.</li></ul></div><div class="mini-card"><h4>Project Goals</h4><ul><li><strong>Inform decision-making:</strong> create effective, data-driven tools to guide Korea's sustainable energy and industrial future.</li><li><strong>Global scalability:</strong> develop modeling capabilities for trade-exposed economies with strong global supply chain integration.</li><li><strong>Achieve net zero:</strong> support broader net-zero efforts through rigorous scientific analysis and multi-sectoral collaboration.</li></ul></div></div></div>
+
+<div class="project-block"><div class="project-header"><h3>Geophysics-Human Interaction Model (GHIM)</h3><p class="project-subtitle">AI-Based Next-Generation Integrated Assessment Modeling</p></div><p>In collaboration with MetaEarth Lab, the GHIM project aims to advance the Integrated Assessment Modeling (IAM) paradigm by developing a next-generation framework that explicitly simulates bidirectional feedbacks between the Earth system and human society. By leveraging AI and machine learning, the project addresses limitations of traditional one-way climate impact assessments.</p><div class="project-figure"><img src="img/GHIM.png" alt="GHIM framework" class="project-image"></div><div class="mini-grid"><div class="mini-card"><h4>Key Innovations & Framework</h4><ul><li><strong>Bidirectional interaction:</strong> simulating how socio-economic responses such as policy, migration, and trade feed back into the climate system.</li><li><strong>AI-enhanced sector models:</strong> resolving high-resolution complexity in water, food, energy, and urban systems.</li><li><strong>Comprehensive socio-economic analysis:</strong> incorporating demographic change, legal frameworks, and financial risk.</li></ul></div><div class="mini-card"><h4>Our Objectives</h4><ul><li><strong>Technological leadership:</strong> develop IAM capabilities that strengthen climate research and policy support.</li><li><strong>Granular policy support:</strong> provide detailed analysis for water, food, and energy security.</li><li><strong>International contribution:</strong> contribute high-quality data to intercomparison exercises and IPCC-related efforts.</li></ul></div></div></div>
+
+<div class="project-block"><div class="project-header"><h3>NEWPATHWAYS</h3><p class="project-subtitle">Advancing Global and National Low-Emission Pathways</p></div><p>The KAIST IAM Group joined the NEWPATHWAYS project as an associate partner representing the Korean modeling team. Funded through the EU Horizon program, this 42-month initiative brings together 24 partner organizations across 18 countries to define next-generation transformation strategies for a sustainable future.</p><div class="project-figure"><img src="img/NEWPATHWAYS.png" alt="NEWPATHWAYS" class="project-image"></div><div class="mini-grid"><div class="mini-card"><h4>Our Mission within NEWPATHWAYS</h4><p>The project aims to develop a scientific and socio-economic roadmap to limit global warming to well below 2 K, with a primary target of 1.5 K. By integrating advanced modeling with social science and economic perspectives, NEWPATHWAYS supports a sustainable, equitable, and just transition.</p><p>As an associate partner, the KAIST IAM Group contributes a critical South Korean perspective, helping ensure that global pathways are grounded in regional realities, transparency, and equity.</p></div><div class="mini-card"><h4>Key Research Objectives</h4><ul><li><strong>Next-generation modeling:</strong> establish transformation pathways that minimize temperature overshoot while protecting biodiversity and nature.</li><li><strong>Accountability & transparency:</strong> improve the clarity and consistency of GHG reduction commitments across governance levels.</li><li><strong>Equity and finance:</strong> identify opportunities to leverage international finance and equity principles for stronger climate action.</li></ul></div></div><p class="learn-more">Learn more: <a href="https://newpathways.eu/" target="_blank">NEWPATHWAYS</a></p></div>
