@@ -4,13 +4,13 @@ author: "KAIST IAM Group"
 date: "2026-02-23"
 categories: [News]
 fig-align: center
-image: "img1.JPG"
-favicon: "img1.JPG"
+image: "img1.jpg"
+favicon: "img1.jpg"
 ---
 
 *KAIST IAM Group proudly congratulates our members Jungme, Jiwon, and Jiheun on their graduation. We thank them for their contributions to the group and wish them all the best in their next steps.*
 
-![](img1.JPG){fig-align="center" width="650"}
+![](img1.jpg){fig-align="center" width="650"}
 
 ### Jungme Lee
 
