@@ -8,7 +8,7 @@ const membersData = {
       "<b>MS</b> Public Policy — Seoul National University (2019)",
       "<b>BA</b> Economics — Seoul National University (2016)"
     ],
-    tags: ["#IAMs", "#Climate Policy", "#Econometrics", "#Policy Evaluation"],
+    tags: ["#IAM", "#Climate Policy", "#Econometrics", "#Policy Evaluation"],
     bio: "Dr. Hyuntae Choi's research focuses on evaluating the effectiveness of economy-wide mitigation policies for achieving Nationally Determined Contributions (NDCs) at the national level using the integrated assessment model GCAM. He also has broad interests in policy evaluation and forecasting using econometric methods and quasi-experimental research designs.",
     publications: [
       "Choi, H., McJeon, H., & Park, S. (2025). An integrated assessment of the 11th basic plan for long-term electricity supply and demand and alternative power generation mix scenarios. <i>Journal of Climate Change Research</i>, 16(3-1), 469–485.",
@@ -30,7 +30,7 @@ const membersData = {
       "<b>BS</b> Mechanical Power Engineering — Helwan University",
       "<b>Experience</b> Project Manager — GUPCO Joint Venture (British Petroleum)"
     ],
-    tags: ["#IAMs", "#Energy Demand", "#Human Behavior", "#Transportation Modeling", "#Demand-side Management", "#Machine Learning"],
+    tags: ["#IAM", "#Energy Demand", "#Human Behavior", "#Transportation Modeling", "#Demand-side Management", "#Machine Learning"],
     bio: "Ahmed's research examines how human behavior influences energy demand and decarbonization pathways. His work in the transportation sector focuses on data-driven analyses of electric vehicle charging and autonomous mobility, integrated with assessment modeling to evaluate demand-side flexibility, human behavior impact on climate, and inform effective policy design.",
     links: {
       scholar: "https://scholar.google.com/citations?user=Xng6JZcAAAAJ&hl=en",
@@ -47,7 +47,7 @@ const membersData = {
       "<b>BS</b> Industrial Engineering — Inha University",
       "<b>Experience</b> Senior Engineer — KIER"
     ],
-    tags: ["#IAMs", "#Energy Systems", "#Energy & Environmental Policy"],
+    tags: ["#IAM", "#Energy Systems", "#Energy & Environmental Policy"],
     bio: "Jiseok builds energy-system and IAM applications to evaluate policy options and technology deployment.",
     links: {
       linkedin: "https://www.linkedin.com/in/jiseok-ahn/"
@@ -62,7 +62,7 @@ const membersData = {
       "<b>MS</b> Business & Technology Management — KAIST (2025)",
       "<b>BS</b> Technology Management and Applied Mathematics & Statistics — State University of New York (2023)"
     ],
-    tags: ["#IAMs", "#Hydrogen", "#Energy Security"],
+    tags: ["#IAM", "#Hydrogen", "#Energy Security"],
     bio: "Jiwon is interested in energy transition scenarios using Integrated Assessment Models. She has been working on incorporating various hydrogen carriers into IAMs with the goal of designing Korea's carbon neutrality strategy through hydrogen trade.",
     links: {
       linkedin: "https://www.linkedin.com/in/jiwon-kwun-9358501b8/"
@@ -77,7 +77,7 @@ const membersData = {
       "<b>MS</b> Public Policy — Australian National University (2022)",
       "<b>BA</b> Economics — Keio University (2020)"
     ],
-    tags: ["#IAMs", "#Industrial Transitions", "#Iron & Steel", "#Decarbonization"],
+    tags: ["#IAM", "#Industrial Transitions", "#Iron & Steel", "#Decarbonization"],
     bio: "Sungeun has experience working on multilateral cooperation projects and policy analysis in the Asia-Pacific region. Her strong interest in decarbonization drives her doctoral research on decarbonization pathways for the steel industry — one of the most difficult sectors to transition. Through her work, she aims to present policy and technological implications that can contribute to the decarbonization of the steel industry and to South Korea's achievement of carbon neutrality.",
     links: {
       linkedin: "https://www.linkedin.com/in/sungeun-kim-26ab5211b/?locale=en"
@@ -91,7 +91,7 @@ const membersData = {
     education: [
       "<b>BS</b> Ecology & Environmental Management — Moscow State University"
     ],
-    tags: ["#IAMs", "#Climate Policy", "#Energy Systems"],
+    tags: ["#IAM", "#Climate Policy", "#Energy Systems"],
     bio: "Medina is interested in the role of nuclear energy in long-term global decarbonization pathways, with a focus on uranium supply dynamics and energy resource modeling using integrated assessment models. She also seeks to expand her research toward questions of sustainable resource management and the role of critical minerals in energy transitions.",
     links: {
         linkedin: "https://www.linkedin.com/in/medina-mukhamedina/"
@@ -105,7 +105,7 @@ const membersData = {
     education: [
       "<b>BS</b> Transdisciplinary Studies & Biological Sciences — KAIST (2025)"
     ],
-    tags: ["#IAMs", "#Climate Policy", "#Subnational Strategies", "#Climate Justice"],
+    tags: ["#IAM", "#Climate Policy", "#Subnational Strategies", "#Climate Justice"],
     bio: "Jiheun is interested in integrating local climate policy data into national climate targets, with a focus on assessing the feasibility of achieving the NDCs using integrated assessment models. She also seeks to expand her research toward questions of climate justice, exploring how mitigation policies can be aligned with equitable and inclusive transitions.",
     links: {
         linkedin: "https://www.linkedin.com/in/jiheun-ha/"
@@ -119,7 +119,7 @@ const membersData = {
     education: [
       "<b>BS</b> Climate and Energy Systems Engineering & Specialized Software (Double Major) — Ewha Womans University (2025)"
     ],
-    tags: ["#IAMs", "#Climate Risk", "#Carbon Neutrality"],
+    tags: ["#IAM", "#Climate Risk", "#Carbon Neutrality"],
     bio: "Jin is interested in analyzing climate change impacts and assessing climate risks using Integrated Assessment Models (IAMs). In particular, she seeks to explore sustainable carbon neutrality transition strategies through research that connects climate science with macroeconomics.",
     links: {
         linkedin: "https://www.linkedin.com/in/jin-lee-0b8a26202/"
@@ -134,7 +134,7 @@ const membersData = {
     "<b>BA</b> Business Administration — Yokohama National University (Magna Cum Laude)",
     "<b>Experience</b> Central Research Institute of Electric Power Industry (CRIEPI)"
   ],
-  tags: ["#IAMs", "#Energy Policy", "#Demand-side Management", "#ESG"],
+  tags: ["#IAM", "#Energy Policy", "#Demand-side Management", "#ESG"],
   bio: "Jeongho's research focused on energy and environmental policy, demand-side management, and green business models. He is currently an Energy Market & Policy Researcher at 기후솔루션 (Solutions for Our Climate).",
   links: {}
 },
@@ -147,7 +147,7 @@ jungme: {
     "<b>BS</b> Climate and Energy Systems Engineering — Ewha Womans University",
     "<b>BS</b> Management for Science and Technology — Ewha Womans University"
   ],
-  tags: ["#IAMs", "#Energy Systems", "#Energy & Environmental Policy"],
+  tags: ["#IAM", "#Energy Systems", "#Energy & Environmental Policy"],
   bio: "Jungme's research focused on energy system modeling and integrated assessment models for climate and energy policy analysis. She is currently working at KIA.",
   links: {}
 },
