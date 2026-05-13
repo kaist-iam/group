@@ -34,7 +34,7 @@ format: html
     <div class="member-tags">
       <span>#Demand-side</span>
       <span>#Energy Economics</span>
-      <span>#IAMs</span>
+      <span>#IAM</span>
     </div>
   </div>
 
@@ -46,7 +46,7 @@ format: html
     <div class="member-tags">
       <span>#Decarbonization</span>
       <span>#AI-driven Modeling</span>
-      <span>#IAMs</span>
+      <span>#IAM</span>
     </div>
   </div>
 
@@ -58,7 +58,7 @@ format: html
     <div class="member-tags">
       <span>#Energy Systems</span>
       <span>#Model Architecture</span>
-      <span>#IAMs</span>
+      <span>#IAM</span>
     </div>
   </div>
 </div>
@@ -80,7 +80,7 @@ format: html
     <div class="member-tags">
       <span>#Climate Policy</span>
       <span>#Econometrics</span>
-      <span>#IAMs</span>
+      <span>#IAM</span>
     </div>
   </div>
 </div>
@@ -101,7 +101,7 @@ format: html
     <div class="member-tags">
       <span>#Energy Demand</span>
       <span>#Transportation Modeling</span>
-      <span>#IAMs</span>
+      <span>#IAM</span>
     </div>
   </div>
 
@@ -113,7 +113,7 @@ format: html
     <div class="member-tags">
       <span>#Energy Systems</span>
       <span>#Energy & Environmental Policy</span>
-      <span>#IAMs</span>
+      <span>#IAM</span>
     </div>
   </div>
 
@@ -125,7 +125,7 @@ format: html
     <div class="member-tags">
       <span>#Hydrogen</span>
       <span>#Energy Security</span>
-      <span>#IAMs</span>
+      <span>#IAM</span>
     </div>
   </div>
 
@@ -137,7 +137,7 @@ format: html
     <div class="member-tags">
       <span>#Iron & Steel</span>
       <span>#Decarbonization</span>
-      <span>#IAMs</span>
+      <span>#IAM</span>
     </div>
   </div>
 </div>
@@ -158,7 +158,7 @@ format: html
     <div class="member-tags">
       <span>#Climate Policy</span>
       <span>#Energy Systems</span>
-      <span>#IAMs</span>
+      <span>#IAM</span>
     </div>
   </div>
 
@@ -170,7 +170,7 @@ format: html
     <div class="member-tags">
       <span>#Climate Policy</span>
       <span>#Subnational Strategies</span>
-      <span>#IAMs</span>
+      <span>#IAM</span>
     </div>
   </div>
 
@@ -182,7 +182,7 @@ format: html
     <div class="member-tags">
       <span>#Climate Risk</span>
       <span>#Carbon Neutrality</span>
-      <span>#IAMs</span>
+      <span>#IAM</span>
     </div>
   </div>
 </div>
