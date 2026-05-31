@@ -58,6 +58,7 @@ format:
       - members1.css
       - styles-home.css
       - models.css
+      - style.css
     include-after-body:
       - logo-rotate.html
       - scripts-home.html
