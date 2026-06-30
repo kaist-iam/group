@@ -19,7 +19,7 @@ This achievement reflects the dedication and innovative research of our group.
 - Lead Author: Hyuntae Choi
 Title: Sectoral net-zero roadmaps can resolve the twin burden of competitiveness erosion and trade regulation: an integrated assessment using GCAM-ROK (#133)
 
-- Lead Author: Rachel Kim, Hanwoong Kim (in collaboration with Princeton University)
+- Lead Author: Rachel Kim, Hanwoong Kim ([Princeton University](https://acee.princeton.edu/acee-news/kaist-andlinger-center-announce-net-zero-korea-study/))
 Title: Net Zero Korea: Coupling GCAM with MACRO energy system model for High-Resolution Analysis of Energy System Variability and Resilience (#211)
 
 - Lead Author: Jiheun Ha
