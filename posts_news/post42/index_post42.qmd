@@ -10,7 +10,7 @@ favicon: "IAMC2026_banner.png"
 
 *The KAIST IAM Group is proud to announce that seven abstracts from our members have been accepted for presentation at the 19th Annual Meeting of the Integrated Assessment Modeling Consortium (IAMC), to be held in November 2026 in Athens, Greece.*
 
-This achievement reflects the dedication and innovative research of our group.
+This achievement reflects the dedication and innovative research of our group members.
 
 ![](IAMC2026_banner_event-900x.png){fig-align="center"}
 
@@ -19,7 +19,7 @@ This achievement reflects the dedication and innovative research of our group.
 - Lead Author: Hyuntae Choi
 Title: Sectoral net-zero roadmaps can resolve the twin burden of competitiveness erosion and trade regulation: an integrated assessment using GCAM-ROK (#133)
 
-- Lead Author: Rachel Kim, Hanwoong Kim ([Princeton University](https://acee.princeton.edu/acee-news/kaist-andlinger-center-announce-net-zero-korea-study/))
+- Lead Author: Rachel Kim and Hanwoong Kim ([Princeton University](https://acee.princeton.edu/acee-news/kaist-andlinger-center-announce-net-zero-korea-study/))
 Title: Net Zero Korea: Coupling GCAM with MACRO energy system model for High-Resolution Analysis of Energy System Variability and Resilience (#211)
 
 - Lead Author: Jiheun Ha
