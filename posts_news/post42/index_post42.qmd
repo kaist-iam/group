@@ -25,7 +25,7 @@ Title: Net Zero Korea: Coupling GCAM with MACRO energy system model for High-Res
 - Lead Author: Jiheun Ha
 Title: Estimating the Emission Impact of Subnational Climate Actions in Korea's 17 Provinces using GCAM (#273)
 
-- Lead Author: Yen Shin ([U&I Lab at KAIST](https://uilab.kr/)), with Jiheun Ha and Haewon McJeon (KAIST IAM Group) as co-author and corresponding author
+- Lead Author: Yen Shin ([U&I Lab at KAIST](https://uilab.kr/)) with Jiheun Ha and Haewon McJeon (KAIST IAM Group) 
 Title: ML-IAM v1.0: Emulating Integrated Assessment Models With Machine Learning (#280)
 
 **Poster Presentations:**
