@@ -1,0 +1,6 @@
+freeze: true
+
+format:
+  html:
+    css:
+      - ../../posts.css
