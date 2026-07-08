@@ -12,9 +12,9 @@ favicon: "image_main1.jpg"
 
 As net-zero planning increasingly turns to carbon dioxide removal, a new study published in Nature Climate Change asks an important question: what happens to air pollutants when carbon removal is used to offset emissions instead of eliminating them at the source?
 
-![](image_main1.jpg){fig-align="center"}
-
 Using a suite of integrated assessment model, air-quality model, and health impact model, the study shows that the scale of CDR can shape not only how much air pollution is emitted, but also how equitably those emissions are shared across U.S. communities.
+
+![](image_main1.jpg){fig-align="center"}
 
 The paper compares a reference scenario with two U.S. net-zero pathways that both reach net-zero greenhouse gas emissions by 2050, but differ in how much they rely on CDR. In the high-CDR pathway, 2.4 GtCO₂ is removed in 2050, while the low-CDR pathway removes 1.3 GtCO₂.
 
