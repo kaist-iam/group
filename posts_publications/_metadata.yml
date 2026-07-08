@@ -4,7 +4,9 @@ title-block-style: default
 format:
   html:
     theme: flatly
-    css: ../../styles-home.css
+    css: 
+      - ../../styles-home.css
+      - ../../posts.css
     include-after-body:
       - ../../logo-rotate.html
       - ../../scripts-home.html

@@ -1,0 +1,5 @@
+/* Restore default Quarto title on post pages */
+#title-block-header h1.title,
+#title-block-header .quarto-title h1 {
+  display: block !important;
+}
