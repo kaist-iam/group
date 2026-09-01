@@ -1,0 +1,40 @@
+---
+title: "Resources"
+title-block-banner: false
+toc: false
+format: 
+  html:
+    theme: flatly
+    css:
+      - styles-home.css
+      - models.css
+    toc: false
+    number-sections: false
+    self-contained: false
+---
+
+<div class="page-hero">
+  <div class="page-hero-content">
+    <p class="page-subtitle">KAIST IAM Group</p>
+    <h1>Resources</h1>
+  </div>
+</div>
+
+Journals and conferences central to our work in integrated assessment modeling, energy systems, and climate policy.
+
+## Journals
+
+Our group publishes in leading journals on climate, energy, and integrated assessment.
+
+- [Nature](https://www.nature.com/) — including [Nature Climate Change](https://www.nature.com/nclimate/), [Nature Energy](https://www.nature.com/nenergy/), and [Nature Communications](https://www.nature.com/ncomms/)
+- [Science](https://www.science.org/)
+- [Energy Economics](https://www.elsevier.com/journals/energy-economics/0140-9883)
+- [Climatic Change](https://link.springer.com/journal/10584)
+- [Environmental Research Letters](https://iopscience.iop.org/journal/1748-9326)
+- [Energy and Climate Change](https://www.elsevier.com/journals/energy-and-climate-change/2666-2787)
+
+## Conferences
+
+Our group regularly presents at international conferences on integrated assessment modeling, energy systems, and global economic analysis.
+
+<div class="info-grid"><a href="https://www.iamconsortium.org/" target="_blank" class="info-card" style="display:block; text-align:center; text-decoration:none; color:inherit;"><img src="img/conf/IAMC.jpeg" alt="IAMC" style="height:55px; object-fit:contain; margin-bottom:12px;"><h3 style="margin:0 0 6px; font-size:1rem;">IAMC</h3><p style="margin:0; font-size:0.85rem; color:#6b7280;">Integrated Assessment Modeling Consortium</p></a><a href="https://scenariosforum.org/" target="_blank" class="info-card" style="display:block; text-align:center; text-decoration:none; color:inherit;"><img src="img/conf/scenariosforum.png" alt="Scenarios Forum" style="height:55px; object-fit:contain; margin-bottom:12px;"><h3 style="margin:0 0 6px; font-size:1rem;">Scenarios Forum</h3><p style="margin:0; font-size:0.85rem; color:#6b7280;">Forum on Scenarios for Climate and Societal Futures</p></a><a href="https://www.internationalenergyworkshop.org/" target="_blank" class="info-card" style="display:block; text-align:center; text-decoration:none; color:inherit;"><img src="img/conf/iew.png" alt="IEW" style="height:55px; object-fit:contain; margin-bottom:12px;"><h3 style="margin:0 0 6px; font-size:1rem;">IEW</h3><p style="margin:0; font-size:0.85rem; color:#6b7280;">International Energy Workshop</p></a><a href="https://www.gtap.agecon.purdue.edu/" target="_blank" class="info-card" style="display:block; text-align:center; text-decoration:none; color:inherit;"><img src="img/conf/gtap.png" alt="GTAP" style="height:55px; object-fit:contain; margin-bottom:12px;"><h3 style="margin:0 0 6px; font-size:1rem;">GTAP</h3><p style="margin:0; font-size:0.85rem; color:#6b7280;">Annual Conference on Global Economic Analysis</p></a></div>

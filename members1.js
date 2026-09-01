@@ -21,7 +21,7 @@ const membersData = {
   },
   
   ahmed: {
-    name: "Ahmed Sobhy Mahmoud",
+    name: "Ahmed SM Sobhy",
     role: "PhD Candidate",
     photo: "photo/Ahmed.jpg",
     education: [
@@ -34,7 +34,8 @@ const membersData = {
     bio: "Ahmed's research examines how human behavior influences energy demand and decarbonization pathways. His work in the transportation sector focuses on data-driven analyses of electric vehicle charging and autonomous mobility, integrated with assessment modeling to evaluate demand-side flexibility, human behavior impact on climate, and inform effective policy design.",
     links: {
       scholar: "https://scholar.google.com/citations?user=Xng6JZcAAAAJ&hl=en",
-      linkedin: "https://www.linkedin.com/in/ahmedsmsobhy/"
+      linkedin: "https://www.linkedin.com/in/ahmedsmsobhy/",
+      website: "https://ahmedsmsobhy.com/"
     }
   },
 
@@ -56,7 +57,7 @@ const membersData = {
 
   jiwon: {
     name: "Jiwon Kwun",
-    role: "PhD Student",
+    role: "PhD Candidate",
     photo: "photo/Jiwon.jpg",
     education: [
       "<b>MS</b> Business & Technology Management — KAIST (2025)",

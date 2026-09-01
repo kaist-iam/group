@@ -10,23 +10,9 @@ listing:
 page-layout: full
 title-block-banner: false
 ---
-
-:::: page-hero
- 
-
-::: page-hero-content
-   
-
-<p class="page-subtitle">
-
-KAIST IAM Group
-
-</p>
-
-   
-
-<h1>Publications</h1>
-
- 
-:::
-::::
+<div class="page-hero">
+  <div class="page-hero-content">
+    <p class="page-subtitle">KAIST IAM Group</p>
+    <h1>Publications</h1>
+  </div>
+</div>
