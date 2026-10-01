@@ -1,0 +1,53 @@
+# Render the Quarto site and publish it to GitHub Pages
+# whenever main-homepage is updated (push or merged PR).
+# Contributors only need to add .qmd files and images; no local render needed.
+#
+# One-time setup by a repo admin:
+#   Settings -> Pages -> Build and deployment -> Source: "GitHub Actions"
+#
+# Note: gcam_transportation.qmd uses `freeze: true`, so its saved results in
+# _freeze/ are used and R is not needed here. If you change that page's R code,
+# render it locally once and commit the updated _freeze/ folder.
+
+name: Publish website
+
+on:
+  push:
+    branches: [main-homepage]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: 1.7.32
+
+      - name: Render site
+        run: quarto render
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
