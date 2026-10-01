@@ -45,8 +45,8 @@ format: html
     <p class="member-role">Associate Professor</p>
     <div class="member-tags">
       <span>#Decarbonization</span>
-      <span>#AI-driven Modeling</span>
-      <span>#IAM</span>
+      <span>#AI4IAM</span>
+      <span>#IPCC Scenarios</span>
     </div>
   </div>
 
