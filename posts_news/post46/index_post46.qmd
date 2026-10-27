@@ -18,6 +18,6 @@ The KAIST team presented ongoing progress in developing Korea’s net-zero pathw
 
 Funded by the EU Horizon, NEWPATHWAYS explores where the world is heading without additional climate action and what pathways aligned with the Paris Agreement’s 1.5°C goal could look like. The project seeks to strengthen fairness and regional representation by integrating insights from national modeling teams and highlighting development needs.
 
-![](img3.JPG){fig-align="center" width="1500"}
+![](img3.jpg){fig-align="center" width="1500"}
 
 We look forward to continued collaboration through NEWPATHWAYS to connect national perspectives with global climate goals.
