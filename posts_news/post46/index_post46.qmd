@@ -10,7 +10,7 @@ favicon: "img1.jpg"
 
 *Prof. Cheolhung Cho of the KAIST Center for Sustainable Development and PhD candidate Jiwon Kwun of the KAIST IAM Group participated in the third NEWPATHWAYS Project Meeting, held from 5 to 7 October 2026 in Laxenburg, Austria.*
 
-![](img2.JPG){fig-align="center" width="2000"}
+![](img1.jpg){fig-align="center" width="1500"}
 
 Hosted by the International Institute for Applied Systems Analysis (IIASA), the meeting brought together researchers, modelers and policy experts from around the world to advance collaboration on the next generation of climate scenarios.Within the project, WP5 (Development of National and EU pathways) develops Paris-aligned national and EU decarbonization pathways through integrated modeling, sectoral deep dives, feasibility assessments, and just transition analyses, ensuring that climate mitigation strategies are not only ambitious but also realistic and implementable.
 
@@ -18,6 +18,6 @@ The KAIST team presented ongoing progress in developing Korea’s net-zero pathw
 
 Funded by the EU Horizon, NEWPATHWAYS explores where the world is heading without additional climate action and what pathways aligned with the Paris Agreement’s 1.5°C goal could look like. The project seeks to strengthen fairness and regional representation by integrating insights from national modeling teams and highlighting development needs.
 
-![](img3.JPG){fig-align="center" width="2000"}
+![](img3.JPG){fig-align="center" width="1500"}
 
 We look forward to continued collaboration through NEWPATHWAYS to connect national perspectives with global climate goals.
