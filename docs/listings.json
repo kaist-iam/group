@@ -31,6 +31,7 @@
       "/posts_news/post28/index_post28.html",
       "/posts_news/post23/index_post23.html",
       "/posts_news/post2/index.html",
+      "/posts_publications/potst51/index_post51.html",
       "/posts_publications/potst50/index_post50.html",
       "/posts_publications/potst49/index_post49.html",
       "/posts_publications/potst47/index_post47.html",
@@ -79,6 +80,7 @@
   {
     "listing": "/publications.html",
     "items": [
+      "/posts_publications/potst51/index_post51.html",
       "/posts_publications/potst50/index_post50.html",
       "/posts_publications/potst49/index_post49.html",
       "/posts_publications/potst47/index_post47.html",
